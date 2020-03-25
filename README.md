@@ -1,6 +1,6 @@
 # QuickScreen Translations
 
-Translation files for QuickScreen: https://CheckForCorona.com
+Translation files for QuickScreen at https://CheckForCorona.com
 
 ## What is all this about?
 
@@ -41,6 +41,9 @@ Since these are medical questions, the integrity of the translation is important
 and we must use exactly the official translation from the documents (where
 applicable).
 
+Things are changing rapidly as we develop the product, so there may be new
+requirements as we progress.
+
 ## Technology
 
 We are using [tempura] for [i18n] and storing translation dictionaries in simple
@@ -68,8 +71,8 @@ Commons CC0 1.0 Universal] license:
 
 > You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.
 
-Please note that the QuickScreen product by [Luminare] is **not** released under
-an open source license. CC0 is only for the translation files.
+Please note that the QuickScreen product by Luminare is **not** released under
+an open source license. CC0 is only for the translation files in this repo.
 
 [Creative Commons CC0 1.0 Universal]:https://creativecommons.org/publicdomain/zero/1.0/
 [Luminare]:https://www.luminaremed.com/
