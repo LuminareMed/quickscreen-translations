@@ -1,6 +1,6 @@
-# QuickScreen Translations - https://CheckForCorona.com
+# QuickScreen Translations
 
-Translation files for QuickScreen - https://CheckForCorona.com
+Translation files for QuickScreen: https://CheckForCorona.com
 
 ## What is all this about?
 
@@ -16,7 +16,7 @@ We have a contract with [Harris County Public Health] and [City of Houston Healt
 Department] to provide this service free of cost. We have been working closely
 with political leaders and epidemiologists to design the screening criteria and
 instructions for testing protocols for public use. As of 24 Mar 2020, the service
-is live and currently "in use" serving many millions of people!
+is live and currently "in use" serving many millions of people! https://www.checkforcorona.com/harris-county
 
 If you know of a hospital or public health organization that could benefit from
 QuickScreen please [get in touch](mailto:alex.fernandez@luminaremed.com). We are
@@ -47,14 +47,19 @@ We are using [tempura] for [i18n] and storing translation dictionaries in simple
 [EDN files] (very similar to JSON).
 
 The English dictionary file will always reflect the latest version of the
-product.
+product. The QuickScreen development team has a bit of Spanish translating
+capability, but otherwise we all work in English.
 
 We welcome all Pull Requests to this repo to help us keep the other languages "in
 sync" with English.
 
+Please note that any contributions to this repo will be licensed under [CC0]. We
+greatly appreciate all community contributions!
+
 [tempura]:https://github.com/ptaoussanis/tempura
 [i18n]:https://en.wikipedia.org/wiki/Internationalization_and_localization
 [EDN files]:https://github.com/edn-format/edn
+[CC0]:https://creativecommons.org/publicdomain/zero/1.0/
 
 ## License
 
