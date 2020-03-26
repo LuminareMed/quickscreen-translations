@@ -161,7 +161,7 @@
  :factor-question/in-person-close-contact "1. ¿Ha tenido contacto cercano con una persona diagnosticada con enfermedad de coronavirus (COVID-19)?"
  :factor-question/recent-international-travel "2. ¿Ha viajado internacionalmente a alguno de los siguientes destinos en los últimos 14 días?"
  :factor-question/how-are-you-feeling "3. ¿Cómo se siente hoy?"
- :factor-question/what-is-your-temp-harris "4. ¿Cual es tu temperatura?"
+ :factor-question/what-is-your-temp-harris "4. ¿Cuál es su temperatura?"
  :factor-question/any-of-the-following "5. ¿Tiene alguno de estos síntomas?"
  :factor-question/allergies "6. ¿Tiene alguno de estos síntomas?"
  :factor-question/do-any-of-the-following-apply "7. ¿Tiene alguna de las siguientes condiciones médicas?"
