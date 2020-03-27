@@ -34,7 +34,8 @@
  :check-result/form-submit-button "Submit"
 
  ;; Landing Page
- :landing-page/title "Welcome to the Harris County/Houston Coronavirus Disease (COVID-19) self-assessment tool"
+ :harris-county.landing-page/title "Welcome to the Harris County/Houston Coronavirus Disease (COVID-19) self-assessment tool"
+ :fort-bend-county.landing-page/title "Welcome to the Fort Bend County Coronavirus Disease (COVID-19) self-assessment tool"
  :landing-page/who-should-be-tested "Who should be tested for COVID-19?"
  :landing-page/people-with-fever "People with fever* above 100.4°F (38°C) and respiratory symptoms who:"
  :landing-page/have-had-close-contact "Have had close contact** with someone diagnosed with COVID-19"
@@ -48,7 +49,8 @@
  :landing-page/anyone-who-is-sick "Anyone who is sick needs to stay home. "
  :landing-page/to-protect-yourself [:<> "To protect yourself, wash your hands frequently with soap and water, cover your cough/sneeze with a tissue or inside elbow and maintain a distance of about from 6 feet or more from others. This is only an assessment tool and **does not replace medical advice** from a healthcare provider."]
  :landing-page/if-emergency-call "If you are experiencing a life-threatening emergency, please call 911"
- :landing-page/if-other-health-concerns "If you have other health concerns, please call your healthcare provider. Residents without access to healthcare can call the Harris Health Ask My Nurse line for COVID-19-related questions at 713-634-1110 from 9am-7pm, 7 days a week. For more information on COVID-19, please go to "
+ :harris-county.landing-page/if-other-health-concerns "If you have other health concerns, please call your healthcare provider. Residents without access to healthcare can call the Harris Health Ask My Nurse line for COVID-19-related questions at 713-634-1110 from 9am-7pm, 7 days a week. For more information on COVID-19, please go to "
+ :fort-bend-county.landing-page/if-other-health-concerns "If you have other health concerns, please call your healthcare provider. For more information on COVID-19, please go to "
  :or " or "
  :landing-page/older-than-65 "*Older than 65 and temperature above 99.6F"
  :landing-page/close-contact-defined "**Close contact is defined as:"
@@ -67,6 +69,8 @@
  :location-panel/opt-out-of-location-sharing "I want to opt out of sharing location"
  :location-panel/epidemiology-is-helpful "Knowing when and where outbreaks happen is incredibly helpful for local health authorities for tracking the disease and advising a community response."
  :location-panel/your-location-is-protected [:<> "We will **only** use your location for epidemiological purposes. No protected health information (PHI) is stored."]
+ :location-panel/unable-to-use-location "Unable to collect your location. Please enter your ZIP code."
+ :location-panel/please-enter-valid-zip "Please enter a valid ZIP code."
 
  ;; Outcome Panels Harris
  :outcome-panel/covid-self-assessment-results "Coronavirus disease (COVID-19) SELF ASSESSMENT RESULTS"
@@ -175,8 +179,8 @@
  :result-bar/possible-infection "Possible Infection"
  :result-bar/screened-negative "Screened Negative"
 
- ;; everything below this point is not used in the Harris Instance as far as I can tell - G. Klein, 24 Mar 2020
- ;; G. Klein, 24 Mar 2020
+ ;; everything below this point is not used in the Harris Instance as far as I can tell
+ ;; - G. Klein, 24 Mar 2020
 
  ;; outcome panels
  :outcome-panel/you-have-screened "You have screened "
@@ -213,7 +217,7 @@
  :outcome-panel/you-should-discuss-plan "You should discuss your plan with your Primary care provider or any healthcare provider if there are household members who may be at increased risk of complications from COVID-19 infection (.e.g., people >65 years old, young children, pregnant women, people who are immunocompromised or who have chronic heart, lung, or kidney conditions)."
  :outcome-panel/call-pcp-for-test "Please call your primary care provider to be tested for COVID-19."
  :outcome-panel/results-isolation-testing "Based on your results you need a medical evaluation that needs to be done in a specific type of isolation room."
- :outcome-panel/outpatient-clinics-cant "Outpatient clinics are not not properly equiped to do your examination."
+ :outcome-panel/outpatient-clinics-cant "Outpatient clinics are not properly equipped to do your examination."
  :outcome-panel/please-call-er-prior "Please call the ER prior to presentation."
  :outcome-panel/before-entering-facility "Before entering the facility, we will bring you a mask."
  :outcome-panel/you-will-be-escorted "You will then be escorted to the proper location."
