@@ -5,13 +5,13 @@
  :header/from "从"
 
  ;; Footer
- :footer/restart-screening "重新开始评估"
+ :footer/restart-screening "重新筛查"
  :footer/about "关于我们"
  :footer/hospital-signup "注册（医院）"
- :footer/check-previous-result "检查结果"
+ :footer/check-previous-result "查看筛查结果"
  :footer/legal-disclaimer "司法声明"
  :footer/disclaimer "此工具是评估流程的一部分，用于帮助人们确定是否需要进一步评估，或者是否需要接受冠状病毒的测试。我们会尽全力根据美国疾病控制与预防中心的检测建议来更新。这并不是要与有执照的独立执业医师的医学意见相抵触或替代。"
- :footer/life-threatening-emergency "如果您遇到危及生命的紧急情况，请拨打 911"
+ :footer/life-threatening-emergency "如果您遇到危及生命的紧急情况，请拨打 911。"
  :footer/please-review-disclaimer "请查看完整的隐私政策和使用政策。"
 
  ;; Modal
@@ -76,35 +76,35 @@
  :outcome-panel/your-screening-id "您的筛查ID是: "
  :outcome-panel/health-recommendations-title "健康建议"
  :outcome-panel/at-this-time-we-recommend "目前我们建议您做以下事情:"
- :outcome-panel/stay-home-and-quarantine "在家呆 14 天并自我隔离。这段时间不要去上班、上课、参加体育活动或其他社交或宗教 聚会。"
+ :outcome-panel/stay-home-and-quarantine "在家待14天并自我隔离。这段时间不要去上班、上课、参加体育活动或其他社交或宗教聚会。"
  :outcome-panel/limit-contact-with-people "限制与其他人的接触。这包括尽可能让自己和您同住的人隔离。"
  :outcome-panel/wash-your-hands-with-soap "经常用肥皂和水洗手，或使用含酒精的洗手液，特别是在咳嗽、打喷嚏或把用过的纸巾扔
 进垃圾后一定要洗手。"
  :outcome-panel/avoid-touching-face "没洗手不要用手接触自己的眼睛、鼻子和嘴巴。"
  :outcome-panel/cover-coughs-and-sneezes "用臂弯衣袖遮住咳嗽和喷嚏。不要对着他人咳嗽。"
  :outcome-panel/do-not-share "在您不再被要求自我隔离之前，不要与他人共用水杯、毛巾、餐具、寝具或任何其他物品。"
- :outcome-panel/keep-surroundings-clean "保持周围环境清洁。用标准的家用消毒剂，如 Clorox(高乐氏)湿巾，清洁您与他人共用 的经常接触的表面，如门把手、电话和浴室表面(或可能暴露于您喷嚏或咳嗽的任何物体)。"
- :outcome-panel/if-you-are-sick-stay-home "如果您生病了，请呆在家里，不要接触人。"
+ :outcome-panel/keep-surroundings-clean "保持周围环境清洁。用标准的家用消毒剂，如Clorox(高乐氏)湿巾，清洁您与他人共用的经常接触的表面，比如，门把手、电话和浴室表面(或可能暴露于您喷嚏或咳嗽的任何物体)。"
+ :outcome-panel/if-you-are-sick-stay-home "如果您生病了，请待在家里，不要接触人。"
  :outcome-panel/remember-to-avoid-gatherings "记住要避免聚会，因为聚会将导致病毒在我们的社区传播。"
- :outcome-panel/stay-informed "了解最新消息。您可以信赖的卫生当局的指导信息经常更新。"
+ :outcome-panel/stay-informed "了解最新消息。值得信赖的卫生当局的指导信息经常更新。"
  :outcome-panel/visit "访问 "
- :outcome-panel/for-frequent-updates " 了解频繁更新的信息。"
+ :outcome-panel/for-frequent-updates "了解频繁更新的信息。"
  :outcome-panel/feeling-stressed-title "感到有压力或焦虑?"
  :outcome-panel/fear-and-anxiety "对疾病的恐惧和焦虑可以压倒一切，并在成人和儿童中引发强烈的情绪波动。"
- :outcome-panel/people-with-preexisting-mental "有心理健康问题的人应该继续治疗方案，与他们的医疗服务提供者保持联系，并监测 任何新的症状。"
+ :outcome-panel/people-with-preexisting-mental "有心理健康问题的人应该继续治疗方案，与他们的医疗服务提供者保持联系，并监测任何新的症状。"
  :outcome-panel/stay-connected-with-friends "通过电话、视频电话、电子邮件等与朋友和家人保持联系，特别是老年人。"
  :outcome-panel/use-other-ways "用其他方式来放松自己，比如运动、舒展和冥想。"
  :outcome-panel/call-healthcare-provider "如果压力反应干扰您的日常生活，电话联系您的医疗提供方。"
  :outcome-panel/for-additional-support "要获得额外的支持，请联系:"
- :outcome-panel/harris-center-mental-support "Harris 中心冠状病毒病 (COVID-19) 心理健康支持热线:"
- :outcome-panel/disaster-distress-helpline "或灾害 苦难解助热线:"
- :outcome-panel/r100-wash-hands "经常用肥皂和水洗手，洗手时间至少为 20 秒，或在没有水和肥皂的情况下使用含酒 精的洗手液，特别是在咳嗽、打喷嚏或把用过的纸巾扔进垃圾后。 "
+ :outcome-panel/harris-center-mental-support "Harris中心冠状病毒病(COVID-19)心理健康支持热线:"
+ :outcome-panel/disaster-distress-helpline "或灾害帮助热线:"
+ :outcome-panel/r100-wash-hands "经常用肥皂和水洗手，洗手时间至少为20秒，或在没有水和肥皂的情况下使用含酒精的洗手液，特别是在咳嗽、打喷嚏或把用过的纸巾扔进垃圾后。"
  :outcome-panel/r100-avoid-touching-face "没洗手不要用手接触自己的眼睛、鼻子和嘴巴。"
  :outcome-panel/r100-cover-cough "用臂弯衣袖遮住咳嗽和喷嚏。不要对着他人咳嗽。"
- :outcome-panel/r100-avoid-close-contact "避免密切接触生病的人员，尤其在您属于冠状病毒 (COVID-19) 高风险易感人群的情 况下更要如此。"
+ :outcome-panel/r100-avoid-close-contact "避免密切接触生病的人员，尤其在您属于冠状病毒 (COVID-19) 高风险易感人群的情况下更要如此。"
  :outcome-panel/r100-get-plenty-of-rest "充分休息、多喝水、吃健康的食物，控制自身的压力来增强免疫力。"
- :outcome-panel/r100-keep-surroundings-clean "保持周围环境清洁。用标准的家用消毒剂，如 Clorox(高乐氏)湿巾，清洁您与他人 共用的经常接触的表面，如门把手、电话和浴室表面(或可能暴露于您喷嚏或咳嗽的 任何物体)。"
- :outcome-panel/r100-if-you-are-sick "如果您生病了，请呆在家里，不要接触人"
+ :outcome-panel/r100-keep-surroundings-clean "保持周围环境清洁。用标准的家用消毒剂，如Clorox(高乐氏)湿巾，清洁您与他人共用的经常接触的表面，如门把手、电话和浴室表面(或可能暴露于您喷嚏或咳嗽的任何物体)。"
+ :outcome-panel/r100-if-you-are-sick "如果您生病了，请待在家里，不要接触人"
  :outcome-panel/r100-stay-informed "了解最新消息。您可以信赖的卫生当局的指导信息经常更新。"
  :outcome-panel/contact-local-health-dept "请联系您的当地卫生部门进行进一步检测。"
 
@@ -115,7 +115,7 @@
  :outcome-panel/based-on-your-results [:<> "根据您的检测结果，您**不需要**去急诊室。"]
 
  ;; r300
- :outcome-panel/based-on-results-you-have [:<> "根据您的结果，您目前没有可能感染冠状病毒病 (COVID-19) 的症状。我们建议您留在家里并联系您当地的卫生部门。"]
+ :outcome-panel/based-on-results-you-have [:<> "根据您的结果，您目前没有感染冠状病毒病 (COVID-19) 的症状。我们建议您留在家里并联系您当地的卫生部门。"]
 
  ;; r400
  :outcome-panel/based-on-answers-higher-risk "根据您的回答，您可能有更高的风险患有冠状病毒病(COVID-19) 。 "
