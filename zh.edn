@@ -34,23 +34,23 @@
  :check-result/form-submit-button "提交"
 
  ;; Landing Page
- :landing-page/title "欢迎使用 Harris County(海瑞斯郡)/ Houston(修士敦)冠状病毒病 (COVID-19) 自我评估工具"
+ :harris-county.landing-page/title "欢迎使用 Harris County(海瑞斯郡)/ Houston(修士敦)冠状病毒病 (COVID-19) 自我评估工具"
+ ;; FIXME: fort-bend-county.landing-page/title
  :landing-page/who-should-be-tested "谁应该得到冠状病毒病 (COVID-19) 测试?"
  :landing-page/people-with-fever "体温在* 100.4°F(38°C) 以上并且有呼吸道疾病症状并符合以下条件的人:"
  :landing-page/have-had-close-contact "曾与冠状病毒病 (COVID-19) 测试结果为阳性的患者有过密切接触"
  :landing-page/have-other-conditions "有其他健康问题(糖尿病、肺病、心脏病及怀孕)"
  :landing-page/are-older "年龄为 60 或以上"
  :landing-page/nursing-homes "居住在养老院"
- :landing-page/part-of-investigation "属于病毒聚集或爆发区调查的一部分
-"
+ :landing-page/part-of-investigation "属于病毒聚集或爆发区调查的一部分"
  :landing-page/healthcare-worker-first-responder "是医护工作人员/急救人员。"
  :landing-page/who-does-not-test "哪些人无需进行冠状病毒病 (COVID-19) 测试?"
  :landing-page/people-without-symptoms "没有冠状病毒相关症状的人"
  :landing-page/anyone-who-is-sick "Anyone who is sick needs to stay home. "
  :landing-page/to-protect-yourself [:<> "任何人生病了都应该留在家里。为了您保护好自己，请您经常用肥皂和水洗手，打喷嚏 时用纸巾或臂弯衣袖内侧遮住，与他人保持约 6 英尺的距离。这只是一个评估工具，并不 能取代医疗服务提供者的医疗建议。"]
- :landing-page/if-emergency-call "如果您遇到危及生命的紧急情况，请拨打 911
-"
- :landing-page/if-other-health-concerns "如果您有其他健康问题，请致电您的医疗服务提供者。无法获得医疗服务的居民可以拨打 热线 713-634-1110 询问与冠状病毒病 (COVID-19) 相关的问题，服务时间为每周 7 天每天 上午 9 点至晚上 7 点。要了解有关冠状病毒病 (COVID-19) 的更多信息，请访问"
+ :landing-page/if-emergency-call "如果您遇到危及生命的紧急情况，请拨打 911"
+ :harris-county.landing-page/if-other-health-concerns "如果您有其他健康问题，请致电您的医疗服务提供者。无法获得医疗服务的居民可以拨打 热线 713-634-1110 询问与冠状病毒病 (COVID-19) 相关的问题，服务时间为每周 7 天每天 上午 9 点至晚上 7 点。要了解有关冠状病毒病 (COVID-19) 的更多信息，请访问"
+ ;; FIXME: fort-bend-county.landing-page/if-other-health-concerns
  :or " 或 "
  :landing-page/older-than-65 "*65 以上并且体温高于 99.6F"
  :landing-page/close-contact-defined "**密切接触的定义为:"
@@ -69,6 +69,8 @@
  :location-panel/opt-out-of-location-sharing "我选择不分享我的地址信息"
  :location-panel/epidemiology-is-helpful "了解爆发是何时，何地发生的，对于当地卫生部门追踪病情和做出社区应对建议非常有帮助。"
  :location-panel/your-location-is-protected [:<> "我们 **只会** 将您的地址用于传染病追踪用途. 我们不储存受保护的健康信息。"]
+ ; FIXME :location-panel/unable-to-use-location "Unable to collect your location. Please enter your ZIP code."
+ ; FIXME :location-panel/please-enter-valid-zip "Please enter a valid ZIP code."
 
  ;; Outcome Panels Harris
  :outcome-panel/covid-self-assessment-results "冠状病毒病 (COVID-19) 自我评估结果"
@@ -78,8 +80,7 @@
  :outcome-panel/at-this-time-we-recommend "目前我们建议您做以下事情:"
  :outcome-panel/stay-home-and-quarantine "在家待14天并自我隔离。这段时间不要去上班、上课、参加体育活动或其他社交或宗教聚会。"
  :outcome-panel/limit-contact-with-people "限制与其他人的接触。这包括尽可能让自己和您同住的人隔离。"
- :outcome-panel/wash-your-hands-with-soap "经常用肥皂和水洗手，或使用含酒精的洗手液，特别是在咳嗽、打喷嚏或把用过的纸巾扔
-进垃圾后一定要洗手。"
+ :outcome-panel/wash-your-hands-with-soap "经常用肥皂和水洗手，或使用含酒精的洗手液，特别是在咳嗽、打喷嚏或把用过的纸巾扔进垃圾后一定要洗手。"
  :outcome-panel/avoid-touching-face "没洗手不要用手接触自己的眼睛、鼻子和嘴巴。"
  :outcome-panel/cover-coughs-and-sneezes "用臂弯衣袖遮住咳嗽和喷嚏。不要对着他人咳嗽。"
  :outcome-panel/do-not-share "在您不再被要求自我隔离之前，不要与他人共用水杯、毛巾、餐具、寝具或任何其他物品。"
@@ -178,8 +179,8 @@
  :result-bar/possible-infection "可能感染"
  :result-bar/screened-negative "已筛查为阴性"
 
- ;; everything below this point is not used in the Harris Instance as far as I can tell - G. Klein, 24 Mar 2020
- ;; G. Klein, 24 Mar 2020
+ ;; everything below this point is not used in the Harris Instance as far as I can tell
+ ;; - G. Klein, 24 Mar 2020
 
  ;; outcome panels
  :outcome-panel/you-have-screened "You have screened "
