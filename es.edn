@@ -109,6 +109,7 @@
  :outcome-panel/based-on-your-results-r100 [:<> "De acuerdo con sus resultados, en este momento usted **NO** necesita más evaluaciones o pruebas."]
  :outcome-panel/please-feel-free-to-repeat "No dude en repetir esta evaluación en 24 horas o incluso antes si presenta algún cambio en su salud."
  :outcome-panel/please-follow-guidelines "Continúe siguiendo las recomendaciones del Departamento de Salud de su localidad. Si tiene alguna inquietud o pregunta sobre el cuidado de la salud, comuníquese con el proveedor de atención médica de su localidad."
+ :outcome-panel/based-on-your-results [:<> "Based on your results you do **NOT** need to go to the ER"]
 
  ;; r300
  :outcome-panel/based-on-results-you-have [:<> "De acuerdo con sus resultados, en este momento usted **NO** tiene síntomas relacionados con el virus COVID-19. Le recomendamos que se quede en casa y se comunique con el Departamento de Salud de su localidad. "]
