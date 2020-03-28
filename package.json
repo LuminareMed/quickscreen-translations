@@ -1,0 +1,12 @@
+{
+  "name": "@luminaremed/quickscreen-translations",
+  "version": "1.0.0",
+  "description": "Translation dictionary files for QuickScreen - https://checkforcorona.com",
+  "repository": "git@github.com:LuminareMed/quickscreen-translations.git",
+  "author": "Chris Oakman <chris@oakmac.com>",
+  "license": "CC0-1.0",
+  "dependencies": {
+    "edn-to-js": "^0.1.2",
+    "glob": "^7.1.6"
+  }
+}
