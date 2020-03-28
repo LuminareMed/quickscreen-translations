@@ -71,6 +71,9 @@ for (const langKey in dictionaryFileContents) {
   }
 }
 
+console.log('[INFO] all dictionary files line up with en.edn - great job!')
+process.exit(0)
+
 // -----------------------------------------------------------------------------
 // Helpers
 
