@@ -1,5 +1,7 @@
 # QuickScreen Translations
 
+# QuickScreen Translations [![Actions Status](https://github.com/LuminareMed/quickscreen-translations/workflows/sanity-check-ci/badge.svg)](https://github.com/LuminareMed/quickscreen-translations/actions)
+
 Translation files for QuickScreen at https://CheckForCorona.com
 
 ## What is all this about?
