@@ -35,7 +35,7 @@
 
  ;; Landing Page
  :harris-county.landing-page/title "欢迎使用 Harris County(海瑞斯郡)/ Houston(修士敦)冠状病毒病 (COVID-19) 自我评估工具"
- ;; FIXME: fort-bend-county.landing-page/title
+ ;; FIXME: :fort-bend-county.landing-page/title
  :landing-page/who-should-be-tested "谁应该得到冠状病毒病 (COVID-19) 测试?"
  :landing-page/people-with-fever "体温在* 100.4°F(38°C) 以上并且有呼吸道疾病症状并符合以下条件的人:"
  :landing-page/have-had-close-contact "曾与冠状病毒病 (COVID-19) 测试结果为阳性的患者有过密切接触"
@@ -50,7 +50,7 @@
  :landing-page/to-protect-yourself [:<> "任何人生病了都应该留在家里。为了您保护好自己，请您经常用肥皂和水洗手，打喷嚏 时用纸巾或臂弯衣袖内侧遮住，与他人保持约 6 英尺的距离。这只是一个评估工具，并不 能取代医疗服务提供者的医疗建议。"]
  :landing-page/if-emergency-call "如果您遇到危及生命的紧急情况，请拨打 911"
  :harris-county.landing-page/if-other-health-concerns "如果您有其他健康问题，请致电您的医疗服务提供者。无法获得医疗服务的居民可以拨打 热线 713-634-1110 询问与冠状病毒病 (COVID-19) 相关的问题，服务时间为每周 7 天每天 上午 9 点至晚上 7 点。要了解有关冠状病毒病 (COVID-19) 的更多信息，请访问"
- ;; FIXME: fort-bend-county.landing-page/if-other-health-concerns
+ ;; FIXME: :fort-bend-county.landing-page/if-other-health-concerns
  :or " 或 "
  :landing-page/older-than-65 "*65 以上并且体温高于 99.6F"
  :landing-page/close-contact-defined "**密切接触的定义为:"

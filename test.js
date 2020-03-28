@@ -91,20 +91,4 @@ assert(getResourceIdFromLine('    :landing-page  ') === ':landing-page')
 assert(getResourceIdFromLine('    :landing-page "Las personas enfermas deben quedarse en casa. "   ') === ':landing-page')
 assert(getResourceIdFromLine('    :landing-page/anyone-who-is-sick "Las personas enfermas deben quedarse en casa. "   ') === ':landing-page/anyone-who-is-sick')
 assert(getResourceIdFromLine('   ;; FIXME :location-panel/please-enter-valid-zip "Please enter a valid ZIP code."   ') === ':location-panel/please-enter-valid-zip')
-
-// function getMappingOfResourceIdsPerLine (fileContents) {
-//   const lines = fileContents.split('\n')
-//   const resourceLines = {}
-//   for (let i = 0; i < lines.length; i++) {
-//     const lineNum = i + 1
-//     const lineKey = 'line-' + lineNum
-//     const line = lines[i]
-//     const resourceId = getResourceIdFromLine(line)
-//
-//     if (resourceId) {
-//       resourceLines[lineKey] = resourceId
-//     }
-//   }
-//
-//   return resourceLines
-// }
+assert(getResourceIdFromLine('  :fort-bend-county.landing-page/title "Welcome to the ') === ':fort-bend-county.landing-page/title')
