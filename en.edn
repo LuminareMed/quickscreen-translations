@@ -1,4 +1,5 @@
 {
+ ;; Misc
  :infected-locations "Any of the following locations: China, Italy, Iran, South Korea, Japan, Hong Kong, or any areas within the United States with a known COVID-19 outbreak"
 
  ;; Header

@@ -64,6 +64,16 @@ greatly appreciate all community contributions!
 [EDN files]:https://github.com/edn-format/edn
 [CC0]:https://creativecommons.org/publicdomain/zero/1.0/
 
+## Development Notes
+
+Some notes for contributors and developers:
+
+- We want to keep "one line, one translation" convention and have the lines in all
+  of the language files match-up 1-for-1
+- There is a lightweight [test script](test.js) to verify the format (also runs via a GitHub Action on every commit and PR)
+- The translations always fall back to the english resource-id, so please no english text in the language files.
+- In general, if you see a `FIXME` comment in a language file, then that is an opportunity for a translation  
+
 ## License
 
 This git repository and all translation files are licensed under the [Creative
