@@ -76,6 +76,7 @@
  :outcome-panel/covid-self-assessment-results "冠状病毒病 (COVID-19) 自我评估结果"
  :outcome-panel/if-experiencing-call "如果您遇到危及生命的紧急情况，请拨打 "
  :outcome-panel/your-screening-id "您的筛查ID是: "
+ :outcome-panel/no-more-test-kits "遗憾的是我们今天的测试盒已经用完。请从明天早上8点开始重试并重复自我评估。如果您有危急生命的紧急情况，请拨打911。否则，请留在家里并确保采取谨慎的保护措施（洗手、挡住咳嗽/喷嚏、消毒共用物体的表面并保持社交疏离）。"
  :outcome-panel/health-recommendations-title "健康建议"
  :outcome-panel/at-this-time-we-recommend "目前我们建议您做以下事情:"
  :outcome-panel/stay-home-and-quarantine "在家待14天并自我隔离。这段时间不要去上班、上课、参加体育活动或其他社交或宗教聚会。"

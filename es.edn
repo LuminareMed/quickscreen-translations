@@ -76,6 +76,7 @@
  :outcome-panel/covid-self-assessment-results "RESULTADOS DE LA AUTOEVALUACIÓN PARA LA ENFERMEDAD POR CORONAVIRUS (COVID-19)"
  :outcome-panel/if-experiencing-call "Si usted tiene una emergencia con riesgo de vida, por favor llame al "
  :outcome-panel/your-screening-id "Su identificación de detección es: "
+ :outcome-panel/no-more-test-kits "Desafortunadamente por hoy, ya no tenemos cupo para pruebas.  Favor de hacer el examen de autoevaluación mañana a partir de las 8AM.  Si tiene una emergencia de vida o muerte, favor de llamar al 9-1-1.  De otra forma, por favor permanezca en su casa y asegúrese de tomar las medidas de prevención (lavarse las manos, cubrirse al toser/estornudar, desinfectar superficies comunes y mantener distancia social)."
  :outcome-panel/health-recommendations-title "Recomendaciones para la salud"
  :outcome-panel/at-this-time-we-recommend "En este momento, le recomendamos hacer lo siguiente: "
  :outcome-panel/stay-home-and-quarantine "Quedarse en su casa durante 14 días y respetar la cuarentena. No ir al trabajo, a clases, a eventos deportivos u otras reuniones sociales o religiosas durante todo ese tiempo. "
