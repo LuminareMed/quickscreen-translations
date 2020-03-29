@@ -90,8 +90,10 @@
  :outcome-panel/if-you-are-sick-stay-home "If you are sick, stay at home and away from others."
  :outcome-panel/remember-to-avoid-gatherings "Remember to avoid gatherings as it can lead to increased spread in our community."
  :outcome-panel/stay-informed "Stay informed. Guidance from trusted health authorities are updated frequently."
- :outcome-panel/visit "Visit "
- :outcome-panel/for-frequent-updates " for frequent updates."
+ ;; REMOVED :outcome-panel/visit "Visit "
+ ;; REMOVED :outcome-panel/for-frequent-updates " for frequent updates."
+ :outcome-panel/visit-url-for-updates [:<> "Visit %1 for frequent updates."]
+ :harris-county.outcome-panel/visit-urls-for-updates [:<> "Visit %1, %2, and %3 for frequent updates."]
  :outcome-panel/feeling-stressed-title "Feeling stressed or anxious?"
  :outcome-panel/fear-and-anxiety "Fear and anxiety about a disease can be overwhelming and cause strong emotions in adults and children. "
  :outcome-panel/people-with-preexisting-mental "People with preexisting mental health conditions should continue with their treatment plans, stay connected with their healthcare provider, and monitor for any new symptoms."
@@ -122,8 +124,9 @@
 
  ;; r400
  :outcome-panel/based-on-answers-higher-risk "Based on your answers, you may be at a higher risk for Coronavirus disease (COVID-19). "
- :outcome-panel/contact-nurse-triage "Contact the COVID-19 Nurse Triage Call Center at "
- :outcome-panel/for-further-evaluation " for further evaluation."
+ ;; REMOVED :outcome-panel/contact-nurse-triage "Contact the COVID-19 Nurse Triage Call Center at "
+ ;; REMOVED :outcome-panel/for-further-evaluation " for further evaluation."
+ :outcome-panel/contact-nurse-triage2 [:<> "Contact the COVID-19 Nurse Triage Call Center at %1 for further evaluation."]
 
  ;; disclaimer
  :outcome-panel/disclaimer-title "Disclaimer:"
@@ -183,11 +186,10 @@
 
  ;; Outcome Panels Fort Bend - G. Klein, 28 Mar 2020
  ;; R400
- :fort-bend-county.outcome-panel/call-center-contact-at "Contact the COVID-19 Health Professional Triage Call Center at "
- :fort-bend-county.outcome-panel/further-evaluation " for further evaluation. "
- :fort-bend-county.outcome-panel/provide-code "Please provide this code to call the health professional triage center. "
- :fort-bend-county.outcome-panel/code-is-for-speaking "Please know this code is only applicable to speak to the professional and does not guarantee testing. "
- :fort-bend-county.outcome-panel/if-approved "If you are approved to for testing, you will get another unique code to bring to the site. "
+ :fort-bend-county.outcome-panel/contact-call-center [:<> "Contact the COVID-19 Health Professional Triage Call Center at %1 for further evaluation."]
+ :fort-bend-county.outcome-panel/provide-code "Please provide this code to call the health professional triage center."
+ :fort-bend-county.outcome-panel/code-is-for-speaking "Please know this code is only applicable to speak to the professional and does not guarantee testing."
+ :fort-bend-county.outcome-panel/if-approved "If you are approved for testing, you will get another unique code to bring to the site."
  :fort-bend-county.outcome-panel/please-dont-come "Please do not come to the site with this code as it won’t apply."
 
  ;; R300
@@ -269,5 +271,5 @@
  :factor-question/what-is-your-age "What is your age? (optional)"
 
  ;; Result Table
- :resultsTableLabel/comorbidities "Comorbidities"
- :resultsTableLabel/age-risk "Age Risk"}
+ :results-table/comorbidities "Comorbidities"
+ :results-table/age-risk "Age Risk"}

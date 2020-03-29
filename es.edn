@@ -90,8 +90,10 @@
  :outcome-panel/if-you-are-sick-stay-home "Si está enfermo, quédese en su casa, alejado de los demás."
  :outcome-panel/remember-to-avoid-gatherings "Recuerde evitar las reuniones, ya que pueden resultar en una mayor propagación en nuestra comunidad."
  :outcome-panel/stay-informed "Mantenerse informado. Las recomendaciones de las autoridades sanitarias se actualizan frecuentemente."
- :outcome-panel/visit "Visite "
- :outcome-panel/for-frequent-updates " donde encontrará actualizaciones frecuentes."
+ ;; REMOVED :outcome-panel/visit "Visite "
+ ;; REMOVED :outcome-panel/for-frequent-updates " donde encontrará actualizaciones frecuentes."
+ :outcome-panel/visit-url-for-updates [:<> "Visite %1 donde encontrará actualizaciones frecuentes."]
+ :harris-county.outcome-panel/visit-urls-for-updates [:<> "Visite %1, %2, y %3 donde encontrará actualizaciones frecuentes."]
  :outcome-panel/feeling-stressed-title "¿Se siente estresado o ansioso?"
  :outcome-panel/fear-and-anxiety "El miedo y la ansiedad por una enfermedad pueden ser abrumadores y causar emociones fuertes en adultos y niños. "
  :outcome-panel/people-with-preexisting-mental "Las personas con condiciones de salud mental preexistentes deben continuar sus planes de tratamiento, mantenerse en contacto con sus proveedores de atención médica y estar atentas a la aparición de cualquier síntoma nuevo."
@@ -122,8 +124,9 @@
 
  ;; r400
  :outcome-panel/based-on-answers-higher-risk "Según sus respuestas, usted tiene un mayor riesgo de contraer la enfermedad por Coronavirus (COVID-19). "
- :outcome-panel/contact-nurse-triage "Comuníquese con el Centro de Llamadas de orientación atendido por enfermeras, "
- :outcome-panel/for-further-evaluation " para una evaluación adicional."
+ ;; REMOVED :outcome-panel/contact-nurse-triage "Comuníquese con el Centro de Llamadas de orientación atendido por enfermeras, "
+ ;; REMOVED :outcome-panel/for-further-evaluation " para una evaluación adicional."
+ :outcome-panel/contact-nurse-triage2 [:<> "Comuníquese con el Centro de Llamadas de orientación atendido por enfermeras, %1 para una evaluación adicional."]
 
  ;; disclaimer
  :outcome-panel/disclaimer-title "Descargo de responsabilidad:"
@@ -183,11 +186,10 @@
 
  ;; Outcome Panels Fort Bend - G. Klein, 28 Mar 2020
  ;; R400
- :fort-bend-county.outcome-panel/call-center-contact-at "Comuniquese con el Centro de Llamadas de Triage Profesional de Salud COVID-19 al "
- :fort-bend-county.outcome-panel/further-evaluation " para una evaluacion adicional."
- :fort-bend-county.outcome-panel/provide-code "Una vez que obtenga su codigo unico, proporcione este codigo para llamar al centro de triaje profesional de la salud. "
- :fort-bend-county.outcome-panel/code-is-for-speaking "Por favor, sepa que este codigo solo es aplicable para hablar con el profesional y no garantiza las pruebas. "
- :fort-bend-county.outcome-panel/if-approved "Si se le aprueba para las pruebas, obtendra otro codigo unico para llevar al sitio. "
+ :fort-bend-county.outcome-panel/contact-call-center [:<> "Comuniquese con el Centro de Llamadas de Triage Profesional de Salud COVID-19 al %1 para una evaluacion adicional."]
+ :fort-bend-county.outcome-panel/provide-code "Una vez que obtenga su codigo unico, proporcione este codigo para llamar al centro de triaje profesional de la salud."
+ :fort-bend-county.outcome-panel/code-is-for-speaking "Por favor, sepa que este codigo solo es aplicable para hablar con el profesional y no garantiza las pruebas."
+ :fort-bend-county.outcome-panel/if-approved "Si se le aprueba para las pruebas, obtendra otro codigo unico para llevar al sitio."
  :fort-bend-county.outcome-panel/please-dont-come "Por favor, no venga al sitio con este codigo, ya que no se aplicara."
 
  ;; R300
@@ -269,5 +271,5 @@
  ;; FIXME :factor-question/what-is-your-age "What is your age? (optional)"
 
  ;; Result Table
- ;; FIXME :resultsTableLabel/comorbidities "Comorbidities"
- ;; FIXME :resultsTableLabel/age-risk "Age Risk"}
+ ;; FIXME :results-table/comorbidities
+ ;; FIXME :results-table/age-risk

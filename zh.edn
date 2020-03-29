@@ -90,8 +90,10 @@
  :outcome-panel/if-you-are-sick-stay-home "如果您生病了，请待在家里，不要接触人。"
  :outcome-panel/remember-to-avoid-gatherings "记住要避免聚会，因为聚会将导致病毒在我们的社区传播。"
  :outcome-panel/stay-informed "了解最新消息。值得信赖的卫生当局的指导信息经常更新。"
- :outcome-panel/visit "访问 "
- :outcome-panel/for-frequent-updates "了解频繁更新的信息。"
+ ;; REMOVED :outcome-panel/visit "访问 "
+ ;; REMOVED :outcome-panel/for-frequent-updates "了解频繁更新的信息。"
+ ;; FIXME :outcome-panel/visit-url-for-updates [:<> "Visit %1 for frequent updates."]
+ ;; FIXME :harris-county.outcome-panel/visit-urls-for-updates [:<> "Visit %1, %2, and %3 for frequent updates."]
  :outcome-panel/feeling-stressed-title "感到有压力或焦虑?"
  :outcome-panel/fear-and-anxiety "对疾病的恐惧和焦虑可以压倒一切，并在成人和儿童中引发强烈的情绪波动。"
  :outcome-panel/people-with-preexisting-mental "有心理健康问题的人应该继续治疗方案，与他们的医疗服务提供者保持联系，并监测任何新的症状。"
@@ -122,8 +124,9 @@
 
  ;; r400
  :outcome-panel/based-on-answers-higher-risk "根据您的回答，您可能有更高的风险患有冠状病毒病(COVID-19) 。 "
- :outcome-panel/contact-nurse-triage "请联系冠状病毒病 (COVID-19) 护士分诊呼叫中心，电话号码为"
- :outcome-panel/for-further-evaluation "，以便进一步评估您的情况。"
+ ;; REMOVED :outcome-panel/contact-nurse-triage "请联系冠状病毒病 (COVID-19) 护士分诊呼叫中心，电话号码为"
+ ;; REMOVED :outcome-panel/for-further-evaluation "，以便进一步评估您的情况。"
+ :outcome-panel/contact-nurse-triage2 [:<> "请联系冠状病毒病 (COVID-19) 护士分诊呼叫中心，电话号码为 %1 ，以便进一步评估您的情况。"]
 
  ;; disclaimer
  :outcome-panel/disclaimer-title "声明:"
@@ -183,8 +186,7 @@
 
  ;; Outcome Panels Fort Bend - G. Klein, 28 Mar 2020
  ;; R400
- ;; FIXME :fort-bend-county.outcome-panel/call-center-contact-at
- ;; FIXME :fort-bend-county.outcome-panel/further-evaluation
+ ;; FIXME :fort-bend-county.outcome-panel/contact-call-center [:<> "Contact the COVID-19 Health Professional Triage Call Center at %1 for further evaluation."]
  ;; FIXME :fort-bend-county.outcome-panel/provide-code
  ;; FIXME :fort-bend-county.outcome-panel/code-is-for-speaking
  ;; FIXME :fort-bend-county.outcome-panel/if-approved
@@ -269,5 +271,5 @@
  ;; FIXME :factor-question/what-is-your-age "What is your age? (optional)"
 
  ;; Result Table
- ;; FIXME :resultsTableLabel/comorbidities "Comorbidities"
- ;; FIXME :resultsTableLabel/age-risk "Age Risk"}
+ ;; FIXME :results-table/comorbidities
+ ;; FIXME :results-table/age-risk
