@@ -68,11 +68,11 @@ greatly appreciate all community contributions!
 
 Some notes for contributors and developers:
 
-- We want to keep "one line, one translation" convention and have the lines in all
-  of the language files match-up 1-for-1
-- There is a lightweight [test script](test.js) to verify the format (also runs via a GitHub Action on every commit and PR)
+- We want to keep a "one line, one translation" convention
+- All of the lines in the dictionary files should match 1-for-1
+- There is a lightweight [test script](test.js) to verify this format (also runs via a GitHub Action on every commit and PR)
 - The translations always fall back to the english resource-id, so please no english text in the language files.
-- In general, if you see a `FIXME` comment in a language file, then that is an opportunity for a translation  
+- In general, if you see a `FIXME` comment in a language file, then that is an opportunity for a translation
 
 ## License
 
