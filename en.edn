@@ -51,7 +51,7 @@
  :landing-page/to-protect-yourself [:<> "To protect yourself, wash your hands frequently with soap and water, cover your cough/sneeze with a tissue or inside elbow and maintain a distance of about from 6 feet or more from others. This is only an assessment tool and **does not replace medical advice** from a healthcare provider."]
  :landing-page/if-emergency-call "If you are experiencing a life-threatening emergency, please call 911"
  :harris-county.landing-page/if-other-health-concerns "If you have other health concerns, please call your healthcare provider. Residents without access to healthcare can call the Harris Health Ask My Nurse line for COVID-19-related questions at 713-634-1110 from 9am-7pm, 7 days a week. For more information on COVID-19, please go to "
- :fort-bend-county.landing-page/if-other-health-concerns "If you have other health concerns, please call your healthcare provider. For more information on COVID-19, please go to "
+ :fort-bend-county.landing-page/if-other-health-concerns "If you have other health concerns, please call your healthcare provider. Residents without access to healthcare can call the Harris Health Ask My Nurse line for COVID-19-related questions at 713-634-1110 from 9am-7pm, 7 days a week. For more information on COVID-19, please go to "
  :or " or "
  :landing-page/older-than-65 "*Older than 65 and temperature above 99.6F"
  :landing-page/close-contact-defined "**Close contact is defined as:"
@@ -180,6 +180,18 @@
  :result-bar/please-complete-all-fields "Please complete all fields"
  :result-bar/possible-infection "Possible Infection"
  :result-bar/screened-negative "Screened Negative"
+
+ ;; Outcome Panels Fort Bend - G. Klein, 28 Mar 2020
+ ;; R400
+ :fort-bend-county.outcome-panel/call-center-contact-at "Contact the COVID-19 Health Professional Triage Call Center at "
+ :fort-bend-county.outcome-panel/further-evaluation " for further evaluation. "
+ :fort-bend-county.outcome-panel/provide-code "Please provide this code to call the health professional triage center. "
+ :fort-bend-county.outcome-panel/code-is-for-speaking "Please know this code is only applicable to speak to the professional and does not guarantee testing. "
+ :fort-bend-county.outcome-panel/if-approved "If you are approved to for testing, you will get another unique code to bring to the site. "
+ :fort-bend-county.outcome-panel/please-dont-come "Please do not come to the site with this code as it won’t apply."
+
+ ;; R300
+ :fort-bend-county.outcome-panel/contact-health-pro-triage "Contact the COVID-19 Health Professional Triage Call Center at 281-238-2363 for further evaluation"
 
  ;; everything below this point is not used in the Harris Instance as far as I can tell
  ;; - G. Klein, 24 Mar 2020

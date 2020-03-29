@@ -51,7 +51,7 @@
  :landing-page/to-protect-yourself [:<> "Para protegerse, lávese a menudo las manos con agua y jabón. Si tose o estornuda, cúbrase la cara con un pañuelo desechable o con el pliegue del codo. Mantenga una distancia de unos 6 pies con las demás personas. Esta es simplemente una herramienta de evaluación y **no reemplaza el consejo** de un proveedor de atención médica."]
  :landing-page/if-emergency-call "Si usted tiene una emergencia con riesgo de vida, por favor llame al 9-1-1"
  :harris-county.landing-page/if-other-health-concerns "Si tiene otros problemas de salud, llame a su proveedor de atención médica. Los residentes sin acceso a atención médica pueden llamar a la línea de orientación para sus preguntas relacionadas con el virus COVID-19 al 713-634-1110 de 9 a.m. a 7 p.m., los 7 días de la semana. Para obtener más información sobre el virus COVID-19, visite "
- ;; FIXME :fort-bend-county.landing-page/if-other-health-concerns "If you have other health concerns, please call your healthcare provider. For more information on COVID-19, please go to "
+ :fort-bend-county.landing-page/if-other-health-concerns "Si tiene otros problemas de saludsalud, llame a su proveedor de atencion médica. Los residentes sin acceso a la atencion médica pueden llamar a la linea Harris Health Ask My Nurse para preguntas relacionadas con COVID-19 al 713-634-1110 de 9am-7pm, los 7 dias de la semana. Para obtener mas informacion sobre COVID-19, vaya a "
  :or " o "
  :landing-page/older-than-65 "* Personas mayores de 65 años con temperatura superior a 99.6 °F"
  :landing-page/close-contact-defined "** Se define como contacto cercano:"
@@ -179,7 +179,19 @@
  :result-bar/click-to-proceed "Presione para Continuar con la Evaluación"
  :result-bar/please-complete-all-fields "Por favor complete todas las preguntas"
  :result-bar/possible-infection "Posible Infección"
- :result-bar/screened-negative "Proyectado negativo"}
+ :result-bar/screened-negative "Proyectado negativo"
+
+ ;; Outcome Panels Fort Bend - G. Klein, 28 Mar 2020
+ ;; R400
+ :fort-bend-county.outcome-panel/call-center-contact-at "Comuniquese con el Centro de Llamadas de Triage Profesional de Salud COVID-19 al "
+ :fort-bend-county.outcome-panel/further-evaluation " para una evaluacion adicional."
+ :fort-bend-county.outcome-panel/provide-code "Una vez que obtenga su codigo unico, proporcione este codigo para llamar al centro de triaje profesional de la salud. "
+ :fort-bend-county.outcome-panel/code-is-for-speaking "Por favor, sepa que este codigo solo es aplicable para hablar con el profesional y no garantiza las pruebas. "
+ :fort-bend-county.outcome-panel/if-approved "Si se le aprueba para las pruebas, obtendra otro codigo unico para llevar al sitio. "
+ :fort-bend-county.outcome-panel/please-dont-come "Por favor, no venga al sitio con este codigo, ya que no se aplicara."
+
+ ;; R300
+ :fort-bend-county.outcome-panel/contact-health-pro-triage "Comuniquese con el Centro de Llamadas de Triage Profesional de Salud COVID-19 al 281-238-2363 para una evaluacion adicional."}
 
  ;; everything below this point is not used in the Harris Instance as far as I can tell
  ;; - G. Klein, 24 Mar 2020

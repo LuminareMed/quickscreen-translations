@@ -181,6 +181,18 @@
  :result-bar/possible-infection "可能感染"
  :result-bar/screened-negative "已筛查为阴性"}
 
+ ;; Outcome Panels Fort Bend - G. Klein, 28 Mar 2020
+ ;; R400
+ ;; FIXME :fort-bend-county.outcome-panel/call-center-contact-at
+ ;; FIXME :fort-bend-county.outcome-panel/further-evaluation
+ ;; FIXME :fort-bend-county.outcome-panel/provide-code
+ ;; FIXME :fort-bend-county.outcome-panel/code-is-for-speaking
+ ;; FIXME :fort-bend-county.outcome-panel/if-approved
+ ;; FIXME :fort-bend-county.outcome-panel/please-dont-come
+
+ ;; R300
+ ;; FIXME :fort-bend-county.outcome-panel/contact-health-pro-triage
+
  ;; everything below this point is not used in the Harris Instance as far as I can tell
  ;; - G. Klein, 24 Mar 2020
 

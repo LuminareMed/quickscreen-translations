@@ -176,10 +176,22 @@
  :factor-question/first-responder-or-healthcare "9. 귀하는 현장응급처치요원 또는 의료 종사자입니까?"}
 
  ;; Result Bars
- ;; FIXME :result-bar/click-to-proceed "Click to Proceed with Screen"
- ;; FIXME :result-bar/please-complete-all-fields "Please complete all fields"
- ;; FIXME :result-bar/possible-infection "Possible Infection"
- ;; FIXME :result-bar/screened-negative "Screened Negative"
+ ;; FIXME :result-bar/click-to-proceed
+ ;; FIXME :result-bar/please-complete-all-fields
+ ;; FIXME :result-bar/possible-infection
+ ;; FIXME :result-bar/screened-negative
+
+ ;; Outcome Panels Fort Bend - G. Klein, 28 Mar 2020
+ ;; R400
+ ;; FIXME :fort-bend-county.outcome-panel/call-center-contact-at
+ ;; FIXME :fort-bend-county.outcome-panel/further-evaluation
+ ;; FIXME :fort-bend-county.outcome-panel/provide-code
+ ;; FIXME :fort-bend-county.outcome-panel/code-is-for-speaking
+ ;; FIXME :fort-bend-county.outcome-panel/if-approved
+ ;; FIXME :fort-bend-county.outcome-panel/please-dont-come
+
+ ;; R300
+ ;; FIXME :fort-bend-county.outcome-panel/contact-health-pro-triage
 
  ;; everything below this point is not used in the Harris Instance as far as I can tell
  ;; - G. Klein, 24 Mar 2020
