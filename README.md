@@ -72,7 +72,8 @@ Some notes for contributors and developers:
 - All of the lines in the dictionary files should match 1-for-1
 - There is a lightweight [test script](test.js) to verify this format (also runs via a GitHub Action on every commit and PR)
 - The translations always fall back to the english resource-id, so please no english text in the language files.
-- In general, if you see a `FIXME` comment in a language file, then that is an opportunity for a translation
+- A `FIXME` comment in a language file means a missing translation, and an opportunity for a Pull Request :)
+- A line with a `REMOVED` comment means that translation string is no longer referenced and will be removed eventually. They are left in the files temporarily for context, usually similar to translation strings nearby.
 
 ## License
 
