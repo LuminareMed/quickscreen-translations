@@ -28,6 +28,8 @@ organizations.
 
 ## How can I help?
 
+> Please [see here](https://gist.github.com/oakmac/4ea7e93d595826993a5843f1d40dd397) for instructions for non-technical users to contribute!
+
 Harris County / City of Houston have provided us with officially translated
 documents for the 1) screening questions and answers and 2) outcome panels /
 result screens at the end of the screening process.
