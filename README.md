@@ -76,7 +76,7 @@ Some notes for contributors and developers:
 - A `FIXME` comment in a language file means a missing translation, and an opportunity for a Pull Request :)
 - A line with a `REMOVED` comment means that translation string is no longer referenced and will be removed eventually. They are left in the files temporarily for context, usually similar to translation strings nearby.
 
-## License
+## License [![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/)
 
 This git repository and all translation files are licensed under the [Creative
 Commons CC0 1.0 Universal] license:
