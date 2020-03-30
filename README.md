@@ -70,7 +70,8 @@ greatly appreciate all community contributions!
 Some notes for contributors and developers:
 
 - We want to keep a "one line, one translation" convention
-- All of the lines in the dictionary files should match 1-for-1
+- All of the resource ids should be on the same line in each file
+  - ie: if resource id `:foo` is defined on line 37 in `en.edn`, then line 37 in `zh.edn` should also be for `:foo`
 - There is a lightweight [test script](test.js) to verify this format (also runs via a GitHub Action on every commit and PR)
 - The translations always fall back to the english resource-id, so please no english text in the language files.
 - A `FIXME` comment in a language file means a missing translation, and an opportunity for a Pull Request :)
