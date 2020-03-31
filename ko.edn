@@ -90,10 +90,8 @@
  :outcome-panel/if-you-are-sick-stay-home "몸이 좋지 않으면, 집에 머물고 다른 사람들과 간격을 두고 떨어져 지냅니다."
  :outcome-panel/remember-to-avoid-gatherings "집회로 인하여 우리 지역사회의 확산 속도가 높아지는 상황으로 이어질 수 있으므로 집회는 피할 것을 명심하십시오."
  :outcome-panel/stay-informed "계속 정보를 얻습니다. 신뢰 받는 보건당국으로부터 받은 지침의 업데이트를 자주 받습니다."
- ;; REMOVED :outcome-panel/visit "방문하여"
- ;; REMOVED :outcome-panel/for-frequent-updates "업데이트를 자주 받습니다."
- ;; FIXME :outcome-panel/visit-url-for-updates [:<> "Visit %1 for frequent updates."]
- ;; FIXME :harris-county.outcome-panel/visit-urls-for-updates [:<> "Visit %1, %2, and %3 for frequent updates."]
+ :outcome-panel/visit-url-for-updates [:<> "%1를 방문하여 업데이트를 자주 받습니다."]
+ :harris-county.outcome-panel/visit-urls-for-updates [:<> "%1, %2, 또는 %3 를 방문하여 업데이트를 자주 받습니다."]
  :outcome-panel/feeling-stressed-title "스트레스를 느끼거나 불안하십니까?"
  :outcome-panel/fear-and-anxiety "질병에 관한 두려움과 불안감에 압도되어 성인과 어린이들의 감정이 격해지는 결과를 초래할 가능성이 있습니다. "
  :outcome-panel/people-with-preexisting-mental "이전부터 있었던 정신건강문제가 있는 사람들은 치료계획을 계속 추진하고, 담당 의료 관계자와 항상 연락을 취하며, 또한 일체의 새로운 증상들을 추적 관찰해야 합니다."
@@ -124,9 +122,7 @@
 
  ;; r400
  :outcome-panel/based-on-answers-higher-risk "귀하의 응답에 기초하여 보면, 코로나바이러스 감염증(COVID-19)에 대하여 큰 위험에 처할 수도 있습니다."
- ;; REMOVED :outcome-panel/contact-nurse-triage "COVID-19 Nurse Triage Call Center(간호사 환자분류 콜센터) 전화 713-814-4501번을 이용하십시오"
- ;; REMOVED :outcome-panel/for-further-evaluation "추가 평가 정보는 "
- :outcome-panel/contact-nurse-triage2 [:<> "COVID-19 Nurse Triage Call Center(간호사 환자분류 콜센터) 전화 %1번을 이용하십시오 추가 평가 정보는"]
+ :outcome-panel/contact-nurse-triage2 [:<> "추가 평가 정보는 COVID-19 Nurse Triage Call Center(간호사 환자분류 콜센터) 전화 %1번을 이용하십시오"]
 
  ;; disclaimer
  ;; FIXME :outcome-panel/disclaimer-title "Disclaimer:"
