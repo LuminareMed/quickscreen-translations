@@ -1,7 +1,6 @@
 {
  ;; Misc
- :infected-locations "
-Aşağıdaki konumlardan herhangi biri: Çin, İtalya, İran, Güney Kore, Japonya, Hong Kong veya ABD içinde bilinen bir COVID-19 salgını olan bölgeler"
+ :infected-locations "Aşağıdaki konumlardan herhangi biri: Çin, İtalya, İran, Güney Kore, Japonya, Hong Kong veya ABD içinde bilinen bir COVID-19 salgını olan bölgeler"
 
  ;; Header
  :header/from "'dan"
