@@ -6,19 +6,19 @@
  ;; FIXME :header/from "from"
 
  ;; Footer
- ;; FIXME :footer/restart-screening "Restart Screening"
+ :footer/restart-screening "검진 재시작"
  ;; FIXME :footer/about "About this project"
  ;; FIXME :footer/hospital-signup "Hospital Signup"
- ;; FIXME :footer/check-previous-result "Check a Previous Result"
+ :footer/check-previous-result "이전 결과 확인"
  :footer/legal-disclaimer "법적 면책조항:"
  :footer/disclaimer "본 도구는 귀하의 편의를 위하여 제공하며, COVID-19 검진에 대한 미국 질병통제예방센터(CDC) 지침에 일치하도록 저희가 할 수 있는 한, 최선을 다하여 업데이트합니다. 이는 의료 관계자로부터 받은 의료 자문을 대체하는 용도가 아닙니다. "
  :footer/life-threatening-emergency "생명을 위협하는 응급상황에 처할 경우, 911을 호출하시기 바랍니다. "
  :footer/please-review-disclaimer "개인정보보호정책 및 사용정책 전문을 검토하시기 바랍니다."
 
  ;; Modal
- ;; FIXME :modal/enter-your-zip-code "Enter your ZIP code:"
- ;; FIXME :ok "OK"
- ;; FIXME :cancel "Cancel"
+ :modal/enter-your-zip-code "우편번호를 입력합니다:"
+ :ok "확인"
+ :cancel "취소"
 
  ;; About Page
  ;; FIXME :about/what-is-this "We have created our free COVID-19 screening tool out of public necessity in accordance with CDC and WHO guidelines to help the public complete a safe, comprehensive, at-home self assessment of COVID-19. Our goal is to help decrease potential exposure to healthcare workers, avoid ER overcrowding, and allow efficient communication with your community."
@@ -30,9 +30,9 @@
  ;; FIXME :about/subtitle-who-are-we "Who are we?"
 
  ;; Check Result Page
- ;; FIXME :check-result/title "Check A Previous Result"
- ;; FIXME :check-result/form-label "Please enter your Screening ID:"
- ;; FIXME :check-result/form-submit-button "Submit"
+ :check-result/title "이전 결과 확인"
+ :check-result/form-label "귀하의 검진 ID를 입력하십시오:"
+ :check-result/form-submit-button "제출"
 
  ;; Landing Page
  :harris-county.landing-page/title "Harris County/Houston(해리스 카운티/휴스턴) 코로나바이러스 감염증(COVID-19) 자가진단 도구편에 찾아 오신 것을 환영합니다"
@@ -60,14 +60,14 @@
  :landing-page/having-direct-contact "b) COVID-19 환자의 전염성 분비물에 직접 접촉함(예: 기침에 노출됨)"
  :landing-page/this-tool-will-help "본 도구는 COVID-19에 대한 추가 진단 또는 검사가 필요할 가능성이 있는지 여부를 결정하는 데 도움이 될 것입니다."
  :landing-page/please-help-answer "몇 가지 문항에 응답하셔서(또는 다른 사람을 대신하여 문항 작성) 저희를 도와 주시기 바랍니다."
- ;; FIXME :landing-page/begin-self-assessment-button "Click to Begin Self-Assessment"
+ :landing-page/begin-self-assessment-button "자가 진단 시작"
 
  ;; Location Panel
  :location-panel/share-location-for-epidemiology "역학(전염병학)조사 목적으로 귀하의 소재 위치를 공유하십니까?"
- ;; FIXME :location-panel/requesting-location-spinner  "Requesting Location …"
- ;; FIXME :location-panel/enter-zip-code "Enter ZIP Code"
+ :location-panel/requesting-location-spinner  "소재 위치 요청중…"
+ :location-panel/enter-zip-code "우편번호를 입력합니다."
  :location-panel/click-to-use-location "클릭하여 소재 위치를 활용합니다 "
- ;; FIXME :location-panel/opt-out-of-location-sharing "I want to opt out of sharing location"
+ :location-panel/opt-out-of-location-sharing "위치 공유를 선택 해제하고 싶습니다"
  :location-panel/epidemiology-is-helpful "발병 시기와 장소를 알면, 지역 보건당국들이 질병의 추적 및 지역사회 대응조치를 권고하는 데에 대단히 유익합니다."
  :location-panel/your-location-is-protected [:<> "귀하의 소재지 위치는 역학 조사 목적에만 한하여 활용할 것입니다. 보호대상 건강정보(PHI)는 보관하지 않습니다."]
  :location-panel/unable-to-use-location "Unable to collect your location. 우편번호를 입력합니다."
@@ -111,13 +111,13 @@
  :outcome-panel/r100-keep-surroundings-clean "주변을 깨끗한 상태로 정화합니다. 문 손잡이, 전화기, 및 화장실 비품의 곁면(또는 기타 재채기나 기침을 한 물품 일체)과 같이 다른 사람들과 함께 사용하면서 자주 만지는 물품의 겉면을 Clorox 물 티슈와 같은 가정용 표준 소독제로 닦습니다."
  :outcome-panel/r100-if-you-are-sick "몸이 좋지 않으면, 집에 머물고 다른 사람들과 간격을 두고 떨어져 지냅니다."
  :outcome-panel/r100-stay-informed "계속 정보를 얻습니다. 신뢰 받는 보건당국으로부터 받은 지침의 업데이트를 자주 받습니다."
- ;; FIXME :outcome-panel/contact-local-health-dept "Contact your local health department for further evaluation."
+ :outcome-panel/contact-local-health-dept "추가 평가 정보는 지역 보건부서에 연락하십시오."
 
  ;; r100
  :outcome-panel/based-on-your-results-r100 [:<> "귀하의 결과에 따르면, 귀하는 현 시점에 추가 평가나 검사가 필요하지 않다는 것입니다."]
  :outcome-panel/please-feel-free-to-repeat "귀하의 건강상태에 변화가 있으실 경우에는 24시간 후나 그 전에 주저하지 마시고 이 진단을 반복하시기 바랍니다."
  :outcome-panel/please-follow-guidelines "지속적으로 귀하의 지역 보건부서의 지침을 따르고, 담당 의료 관계자에게 연락하여 계속 가질 수도 있는 보건상 우려되는 문제나 문의사항을 제기하시기 바랍니다."
- ;; FIXME :outcome-panel/based-on-your-results [:<> "Based on your results you do **NOT** need to go to the ER"]
+ :outcome-panel/based-on-your-results [:<> "귀하의 결과에 따르면, 귀하는 응급실에 갈 필요가 없습니다."]
 
  ;; r300
  :outcome-panel/based-on-results-you-have [:<> "귀하의 결과에 따르면, 귀하에게는 현 시점에 COVID-19를 가리키게 될 우려되는 증상은 없습니다. 저희의 권고사항은 집에 머물며 지역 보건부서와 연락을 취하시는 것입니다."]
@@ -148,7 +148,7 @@
  :option/older-than-65-and-temp-above-99 "*65세 초과 연령 및 99.6 °F(37.5 °C) 초과 체온"
  :option/i-feel-feverish "열이 납니다"
  :option/i-dont-know "모름"
- :option/normal "정"
+ :option/normal "정상"
  :option/cough-dry "기침 - 건성 기침(객담 배출 없음)"
  :option/cough-wet "기침 - 습성 기침(객담 배출)"
  :option/shortness-of-breath "호흡곤란"
