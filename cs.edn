@@ -44,7 +44,7 @@
  :landing-page/are-older "Jsou ve věku 60 a více let"
  :landing-page/nursing-homes "Bydlí v domě s pečovatelskou službou"
  :landing-page/part-of-investigation "Jsou součástí vyšetřování ohniska názazy"
- :landing-page/healthcare-worker-first-responder "Jsou zdravotnickými pracovníky nebo záchranáři" "Are Healthcare workers/First responders"
+ :landing-page/healthcare-worker-first-responder "Jsou zdravotnickými pracovníky nebo záchranáři"
  :landing-page/who-does-not-test "Kdo se nemusí testovat na COVID-19?"
  :landing-page/people-without-symptoms "Lidé bez příznaků nákazy koronavirem"
  :landing-page/anyone-who-is-sick "Nemocní by měli zůstat doma."
