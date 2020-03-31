@@ -1,0 +1,276 @@
+{
+ ;; Misc
+ :infected-locations "
+Aşağıdaki konumlardan herhangi biri: Çin, İtalya, İran, Güney Kore, Japonya, Hong Kong veya ABD içinde bilinen bir COVID-19 salgını olan bölgeler"
+
+ ;; Header
+ :header/from "'dan"
+
+ ;; Footer
+ :footer/restart-screening "Taramayı yeniden başlat"
+ :footer/about "Bu proje hakkında"
+ :footer/hospital-signup "Hastane kaydı"
+ :footer/check-previous-result "Önceki bir sonuçu kontrol et"
+ :footer/legal-disclaimer "Yasal feragat"
+ :footer/disclaimer "Bu araç taramanın bir parçası olarak yapılmıştır,böylece insanlar test edilmelerinin gerekip gerekmediğini görebilir. Covıd-19 taraması için CDC.gov yönelgelerine uyacak en iyi şekilde güncellendi.Lisanslı bağımsız bir hekimin tıbbi tavsiyesiyle çelişmek veya değiştirilmek amacı gütmemektedir."
+ :footer/life-threatening-emergency "Eğer hayatınızı  tehlikeye atan bir acil durum yaşıyorsanız lütfen 911'i arayın."
+ :footer/please-review-disclaimer "Lütfen tüm gizlilik politakısını ve kullanım politikasını gözden geçirin."
+
+ ;; Modal
+ :modal/enter-your-zip-code "ZIP kodunuzu giriniz:"
+ :ok "TAMAM"
+ :cancel "İptal"
+
+ ;; About Page
+ :about/what-is-this "Ücretsiz COVID-19 tarama aracımızı, halkın COVID-19'un güvenli, kapsamlı, evde kendi kendine değerlendirmesini tamamlamasına yardımcı olmak için CDC ve WHO yönergelerine uygun olarak kamusal ihtiyaçtan yarattık.Amacımız sağlık çalışanlarının maruz kalma potansiyellerini düşürmeye yardımcı olmak,acil durum odalarındaki kalabalığı azaltmak ve topluluk ile iletişim imkanı tanımaktır."
+ :about/website "website"
+ :about/who-are-we-part-one "Luminare, sağlık hizmetlerine özgü protokollerin ve karmaşık iş akışı yollarının sayısallaştırılmasında uzmanlaşmıştır, böylece hastalar zamanında ve uygun bakım alırlar. Sepsis'ten COVID-19'a kadar ekibimiz hastalara en iyi bakımı sunmaya yardımcı olmak için verileri kullanabilir ve tıbbi iş akışları ile kontrol listelerini eyleme geçirilebilir araçlara dönüştürebilir.Buradan"
+ :about/who-are-we-part-two " hakkımızda daha fazlasını öğrnebilirsiniz."
+ :about/title "CheckForCorona.com Projesi hakkında"
+ :about/subtitle-what-is-this "Bu ne?"
+ :about/subtitle-who-are-we "Biz kimiz?"
+
+ ;; Check Result Page
+ :check-result/title "Bir Önceki Sonucu Kontrol Et"
+ :check-result/form-label "Lütfen tarama ID'nizi girin:"
+ :check-result/form-submit-button "Teslim et"
+
+ ;; Landing Page
+ :harris-county.landing-page/title "Harris County/Houston Coronavirus Hastalığı (COVID-19) öz değerlendirme aracına hoşgeldiniz"
+ :fort-bend-county.landing-page/title "Fort Bent County Coronavirus Hastalığı (COVID-19) öz değerlendirme aracına hoşgeldiniz"
+ :landing-page/who-should-be-tested "Kimler COVID-19 için test olmalı?"
+ :landing-page/people-with-fever "Ateşi* 100.4°F (38°C) üzeri olanlar ve solunum semptomu olan şu kişiler:"
+ :landing-page/have-had-close-contact "COVID-19 teşhisi konmuş biri ile etkileşime geçmiş**"
+ :landing-page/have-other-conditions "Diğer sağlık sorunları olanlar (diabet, akciğer hastalığı, kalp hastalığı, hamilelik)"
+ :landing-page/are-older "60 yaş ve üstü"
+ :landing-page/nursing-homes "Huzur evi sakinleri"
+ :landing-page/part-of-investigation "Salgın veya kümelenme araştırmasının parçası olan"
+ :landing-page/healthcare-worker-first-responder "Sağlık çalışanları/birincil temastakiler"
+ :landing-page/who-does-not-test "Kimlerin COVID-19 için test edilmesine ihtiyaç yok?"
+ :landing-page/people-without-symptoms "Coronavirüs hastalığının semptomları görünmeyen kişiler"
+ :landing-page/anyone-who-is-sick "Hasta olduğu için evde kalması gerek kişiler."
+ :landing-page/to-protect-yourself [:<> "Kendinizi korumak için, ellerinizi sık sık sabun ve suyla yıkayın, öksürük / hapşırığınızı bir mendil veya dirsek ile örtün ve diğerlerinden yaklaşık 6 feet(2 metre) veya daha fazla bir mesafe bırakın. Bu sadece bir değerlendirme aracıdır ve ** bir sağlık uzmanının tıbbi tavsiyelerinin yerine geçmez **."]
+ :landing-page/if-emergency-call "Eğer hayatınızı tehlikeye atacak bir acil durum yaşamaktaysanız lütfen 911'i arayın"
+ :harris-county.landing-page/if-other-health-concerns "Eğer başka sağlık endişeleriniz varsa lütfen doktorunuza(aile hekiminize) danışın.Sağlık hizmetlerine erişimi olmayan sakinler Harris Health Ask My Nurse hattını haftada 7 gün, sabah 9'dan akşam 7'ye kadar 713-634-1110 numaralı telefondan COVID-19 ile ilgili sorular için arayabilirler. COVID-19 hakkında daha fazla bilgi için lütfen şuraya gidin "
+ :fort-bend-county.landing-page/if-other-health-concerns "Eğer başka sağlık endişeleriniz varsa lütfen doktorunuza(aile hekiminize) danışın.Sağlık hizmetlerine erişimi olmayan sakinler Harris Health Ask My Nurse hattını haftada 7 gün, sabah 9'dan akşam 7'ye kadar 713-634-1110 numaralı telefondan COVID-19 ile ilgili sorular için arayabilirler. COVID-19 hakkında daha fazla bilgi için lütfen şuraya gidin"
+ :or " veya "
+ :landing-page/older-than-65 "*65 yaşından büyük ve ateşi 99.6F üzerinde"
+ :landing-page/close-contact-defined "**Yakın temas şu şekilde tanımlanmıştır:"
+ :landing-page/being-within-6-feet "a) uzun bir süre boyunca bir COVID-19 vakasına yaklaşık 6 feet (2 metre) içinde olmak; Bir COVID-19 vakası ile bir sağlık hizmeti bekleme alanı veya odasındayken, birlikte yaşarken, ziyaret ederken yakın temas olabilir."
+ :landing-page/footnote-or "– veya –"
+ :landing-page/having-direct-contact "b) bir COVID-19 vakasının bulaşıcı sekresyonları ile doğrudan temas etmesi (örn. öksürmek) "
+ :landing-page/this-tool-will-help "This tool will help determine whether you may need further assessment or need to be tested for COVID-19."
+ :landing-page/please-help-answer "Lütfen kendiniz(veya bir başkası)için birkaç soruyu yanıtlamamıza yardımcı olun"
+ :landing-page/begin-self-assessment-button "Özdeğerlendirmeye Başlamak için Tıklayın"
+
+ ;; Location Panel
+ :location-panel/share-location-for-epidemiology "Epidemioloji için konumunu paylaş?"
+ :location-panel/requesting-location-spinner  "Konumunuz isteniyor …"
+ :location-panel/enter-zip-code "ZIP kodunuzu girin"
+ :location-panel/click-to-use-location "Konumu Kullanmak İçin Tıklayın"
+ :location-panel/opt-out-of-location-sharing "Konumumu paylaşmaktan vazgeçmek istiyorum"
+ :location-panel/epidemiology-is-helpful "Salgınların ne zaman ve nerede meydana geldiğini bilmek, yerel sağlık yetkilileri için hastalığı izlemek ve topluluma önerilerde bulunmak için inanılmaz derecede faydalıdır."
+ :location-panel/your-location-is-protected [:<> "Biz **yalnızca** konumunuzu epidemolojik amaçla kullanacağız.Korumalı sağlık bilgisi (PHI) saklanmayacaktır."]
+ :location-panel/unable-to-use-location "Yeriniz algılanamıyor. Lütfen ZIP kodu girin."
+ :location-panel/please-enter-valid-zip "Lütfen geçerli bir ZIP kodu girin."
+
+ ;; Outcome Panels Harris
+ :outcome-panel/covid-self-assessment-results "Coronavirus hastalığı (COVID-19) KENDİ KENDİNE DEĞERLENDİRME SONUÇLARI"
+ :outcome-panel/if-experiencing-call "Eğer hayati bir tehlike yaşıyorsanız lütfen arayın:"
+ :outcome-panel/your-screening-id "Tarama ID'niz: "
+ :outcome-panel/no-more-test-kits "Malesef, bugünlük test limitimizi aştık. Lütfen yarın deneyin ve özdeğerlendirmenizi sabah 8'de yapın.Eğer hayati bir tehlike yaşıyorsanız lütfen 9-1-1'i arayın. Aksi takdirde, lütfen evde kalın ve önleyici koruma önlemleri aldığınızdan emin olun (ellerinizi yıkayın, öksürüğünüzü ve hapşururken ağzınızı kapatın, ortak kullanım alanlarını dezenfekte edin ve insanlarla aranıza mesafe koyun )."
+ :outcome-panel/health-recommendations-title "Sağlık Önerileri"
+ :outcome-panel/at-this-time-we-recommend "Bu zamana kadar şunları yapmanızı öneriyoruz:"
+ :outcome-panel/stay-home-and-quarantine "14 gün evde kalın, kendinizi karantinaya alın. Bu zamanlarda işe, sınıfa, spor faliyetlerine , veya diper sosyal ve dini toplanmalara gitmeyin."
+ :outcome-panel/limit-contact-with-people "İnsanlarla temaslarınızı olabildiğince sınırlandırın.Buna kendinizi evinizde olabildiğince izole etmek de dahil."
+ :outcome-panel/wash-your-hands-with-soap "Özellikle öksürdüğünüzde, hapşurduğunuzda, kullanılmış bir peçeteyi çöpe attıktan sonra ellerinizi su ve sabunla yıkayın veya sık sık alkollü el dezenfektanları kullanın."
+ :outcome-panel/avoid-touching-face "Göz burun ve ağzınıza yıkanmamış eller ile dokunmayın."
+ :outcome-panel/cover-coughs-and-sneezes "Öksürük ve hapşuruğunuzu ön kolunuzla veya bir peçete ile kapayın. Asla birine doğru öksürmeyin."
+ :outcome-panel/do-not-share "Artık kendi kendine karantinaya almanız istenmedikçe, içme bardaklarını, havluları, yemek kaplarını, yatak takımlarını veya diğer eşyaları paylaşmayın.."
+ :outcome-panel/keep-surroundings-clean "Çevrenizi temiz tutun. Kapı kolları, telefonlar ve banyo yüzeyleri (veya hapşırdığınız veya öksürdüğünüz herhangi bir nesne) gibi başkalarıyla paylaştığınız sık dokunduğu yüzeyleri Clorox mendil gibi standart bir ev dezenfektanıyla temizleyin."
+ :outcome-panel/if-you-are-sick-stay-home "Eğer hastaysanız evde ve başkalarından uzak bir biçimde durun."
+ :outcome-panel/remember-to-avoid-gatherings "Topluluğumuzda yayılmanın artmasına neden olabileceğinden toplantılardan kaçınmayı unutmayın."
+ :outcome-panel/stay-informed "Haberdar olun. Güvenilir sağlık yetkililerinden gelen rehberler sık sık güncellenmektedir."
+ ;; REMOVED :outcome-panel/visit "Ziyaret et "
+ ;; REMOVED :outcome-panel/for-frequent-updates " sık güncellemeler için."
+ :outcome-panel/visit-url-for-updates [:<> "Sık güncellemeler için % 1 adresini ziyaret edin."]
+ :harris-county.outcome-panel/visit-urls-for-updates [:<> "Sık güncellemeler için %1, %2 ve %3 adreslerini ziyaret edin."]
+ :outcome-panel/feeling-stressed-title "Stresli veya endişeli mi hissediyorsunuz?"
+ :outcome-panel/fear-and-anxiety "Bir hastalık hakkındaki korku ve endişe bunaltıcı olabilir ve yetişkinlerde ve çocuklarda güçlü duygulara neden olabilir. "
+ :outcome-panel/people-with-preexisting-mental "Önceden zihinsel sağlık sorunları olan kişiler tedavi planlarına devam etmeli, sağlık uzmanlarıyla bağlantıda kalmalı ve yeni semptomları izlemelidir."
+ :outcome-panel/stay-connected-with-friends "Cep telefonunu, görüntülü aramayı, e-postayı, kullanarak ailenizle ve özellikle de yaşlılar ile bağlantıda kalın."
+ :outcome-panel/use-other-ways "Egzersiz, esneme ve meditasyon gibi rahatlamak için başka yolları deneyin."
+ :outcome-panel/call-healthcare-provider "Stres günlük aktivitelerinizi etkilerse sağlık uzmanınızı arayın."
+ :outcome-panel/for-additional-support "Ek destek için lütfen iletişime geçin:"
+ :outcome-panel/harris-center-mental-support "Harris Center COVID-19 Ruh Sağlığı Destek Hattı: "
+ :outcome-panel/disaster-distress-helpline "Afet Sakinleştirme Yardım Hattı: "
+ :outcome-panel/r100-wash-hands "Ellerinizi sık sık sabun ve suyla en az 20 saniye yıkayın veya ellerinizi yıkayamadığınızda, özellikle öksürdüğünüzde, hapşırdığınızda veya kullanılmış bir peçeteyi çöp kutusuna attıktan sonra alkol bazlı el dezenfektanı kullanın."
+ :outcome-panel/r100-avoid-touching-face "Gözlerinize, burnunuza ve ağzınıza yıkanmamış ellerle dokunmaktan kaçının."
+ :outcome-panel/r100-cover-cough "Öksürüğünüzü ve hapşırığınızı üst kolunuz veya bir mendille kapatın. Asla başkasına doğru öksürmeyin."
+ :outcome-panel/r100-avoid-close-contact "Özellikle COVID-19 için daha yüksek risk altındaysanız, hasta olan insanlarla yakın temastan kaçının."
+ :outcome-panel/r100-get-plenty-of-rest "Bol dinlenin, bol sıvı tüketin, sağlıklı yiyecekler yiyin ve bağışıklığınızı güçlü tutmak için stresinizi yönetin."
+ :outcome-panel/r100-keep-surroundings-clean "Çevrenizi temiz tutun. Kapı kolları, telefonlar ve banyo yüzeyleri (veya hapşırdığınız veya öksürdüğünüz herhangi bir nesne) gibi başkalarıyla paylaştığınız sık dokunduğu yüzeyleri Clorox mendil gibi standart bir ev dezenfektanıyla temizleyin"
+ :outcome-panel/r100-if-you-are-sick "Hastaysanız, evde ve insanlardan uzak durun."
+ :outcome-panel/r100-stay-informed "Haberdar olun. Güvenilir sağlık yetkililerinden gelen rehberler sık sık güncellenmektedir."
+ :outcome-panel/contact-local-health-dept "Daha fazla değerlendirme için yerel sağlık departmanınıza başvurun."
+
+ ;; r100
+ :outcome-panel/based-on-your-results-r100 [:<> "Sonuçlarınıza dayanarak şu anda daha fazla değerlendirme veya teste ihtiyacınız **YOK**. "]
+ :outcome-panel/please-feel-free-to-repeat "Sağlığınızla ilgili herhangi bir değişiklik olursa lütfen bu değerlendirmeyi 24 saat içinde veya daha erken tekrarlayın.."
+ :outcome-panel/please-follow-guidelines "Lütfen yerel sağlık departmanınızın yönergelerini takip etmeye devam edin ve sağlığınızla ilgili endişeleriniz veya sorularınız için yerel sağlık uzmanınızla iletişime geçin.."
+ :outcome-panel/based-on-your-results [:<> "Sonuçlarınıza dayanarak acil servise gitmenize gerek **YOKTUR**."]
+
+ ;; r300
+ :outcome-panel/based-on-results-you-have [:<> "Sonuçlarınıza dayanarak, şu anda COVID-19'u olduğunuzu gösteren endişelenmenizi gerekterecek bir durum **yoktur**. Evde kalmanızı ve yerel sağlık departmanınızla iletişime geçmenizi öneririz.."]
+
+ ;; r400
+ :outcome-panel/based-on-answers-higher-risk "Cevaplarınıza dayanarak, Coronavirus hastalığı (COVID-19) için yüksek risk altında olabilirsiniz. "
+ ;; REMOVED :outcome-panel/contact-nurse-triage "COVID-19 Hemşire Triyaj Çağrı Merkezi ile iletişim kurun "
+ ;; REMOVED :outcome-panel/for-further-evaluation " daha fazla değerlendirme için."
+ :outcome-panel/contact-nurse-triage2 [:<> " Daha fazla değerlendirme için %1 'deki COVID-19 Hemşire Triyaj Çağrı Merkezi ile iletişim kurun."]
+
+ ;; disclaimer
+ :outcome-panel/disclaimer-title "Yasal Uyarı:"
+ :outcome-panel/not-a-diagnosis "Bu tıbbi bir teşhis değildir."
+
+ ;; Harris factors
+ :option/yes "Evet"
+ :option/no "Hayır"
+ :option/unknown "Bilinmeyen"
+ :question/africa "Afrika"
+ :question/asia "Asya"
+ :question/australia "Avustralya"
+ :question/europe "Avrupa"
+ :question/south-america "Güney Amerika"
+ :question/no-travel "Seyahat yok"
+ :option/feeling-sick "Hasta hissediyorum"
+ :option/feeling-fine "İyi hissediyorum"
+ :option/temp-above-104 "Ateş  100.4 °F (38 °C)'nin üzerinde"
+ :option/older-than-65-and-temp-above-99 "65 yaşından büyük ve ateşi 99.6 °F (37.5 °C)'nin üzerinde"
+ :option/i-feel-feverish "Ateşim varmış gibi hissediyorum"
+ :option/i-dont-know "Bilmiyorum"
+ :option/normal "Normal"
+ :option/cough-dry "Öksürük - kuru (üretken değil)"
+ :option/cough-wet "Cough - ıslak (üretken)"
+ :option/shortness-of-breath "Nefes almada darlık"
+ :option/wheezing "Hırıltı"
+ :option/none-of-the-above "Yukarıdakilerden hiçbiri"
+ :option/headache "Baş ağrısı"
+ :option/runny-nose "Burun akıntısı"
+ :option/itchy-eyes "Kaşıntılı gözler"
+ :option/watery-eyes "Sulanmış gözler"
+ :option/sneezing "Hapşurmak"
+ :option/hypertension "Yüksek kan basıncı / Hipertansiyon"
+ :option/heart-disease "Kalp Hastalığı"
+ :option/lung-disease "Akciğer Hastalığı"
+ :option/diabetes "Diabet"
+ :option/immunosuppressed-by-meds "İlaç veya HIV ile bağışıklık sistemi baskılanmış"
+ :option/nursing-home-resident "Huzurevi veya Kronik Bakım Tesisi Sakini"
+ :option/pregnant "Hamile veya doğum yapalı 2 hafta olmuş"
+ :option/younger-than-20 "20 yaşından genç"
+ :option/over-80 "80 yaşından yaşlı"
+ :factor-question/in-person-close-contact "1. Koronavirüs hastalığı (COVID-19) tanısı konmuş bir kişiyle yüz yüze yakın temasınız oldu mu?"
+ :factor-question/recent-international-travel "2. Son 14 gün içinde bu ülkelerden herhangi birine uluslararası seyahat ettiniz mi?"
+ :factor-question/how-are-you-feeling "3. Bugün nasıl hissediyorsunuz?"
+ :factor-question/what-is-your-temp-harris "4. Ateşiniz kaç?"
+ :factor-question/any-of-the-following "5. Bunlardan herhangi birine sahip misiniz?"
+ :factor-question/allergies "6. Bunlardan herhangi birine sahip misiniz??"
+ :factor-question/do-any-of-the-following-apply "7. Bunlardan herhangi biri sizin için geçerli mi?:"
+ :factor-question/what-is-your-age-harris "8. Yaşınız nedir?"
+ :factor-question/first-responder-or-healthcare "9. Sağlık çalışanı veya birincil temasta mısınız? "
+
+ ;; Result Bars
+ :result-bar/click-to-proceed "Ekrana Devam Etmek İçin Tıklayınn"
+ :result-bar/please-complete-all-fields "Lütfen tüm alanları doldurun"
+ :result-bar/possible-infection "Muhtemel Enfekte"
+ :result-bar/screened-negative "Tarama sonucu Negatif"
+
+ ;; Outcome Panels Fort Bend - G. Klein, 28 Mar 2020
+ ;; R400
+ :fort-bend-county.outcome-panel/contact-call-center [:<> "Daha fazla değerlendirme için COVID-19 Sağlık Profesyonel Triyaj Çağrı Merkezi ile %1 'den irtibata geçin."]
+ :fort-bend-county.outcome-panel/provide-code " Lütfen sağlık uzmanı triyaj merkezini aramak için bu kodu kullanın."
+ :fort-bend-county.outcome-panel/code-is-for-speaking "Bu kodun yalnızca uzmanlarla konuşmak için geçerli olduğunu ve test olma garantisi vermediğini lütfen unutmayın."
+ :fort-bend-county.outcome-panel/if-approved "Test için onaylanırsanız, test yerine getirmek için başka bir benzersiz kod alırsınız."
+ :fort-bend-county.outcome-panel/please-dont-come "Lütfen test yerine bu kodla gelmeyin çünkü geçerli değildir."
+
+ ;; R300
+ :fort-bend-county.outcome-panel/contact-health-pro-triage "Daha fazla değerlendirme için 281-238-2363 numaralı telefondan COVID-19 Sağlık Profesyonel Triyaj Çağrı Merkezi ile iletişim kurun"
+
+ ;; everything below this point is not used in the Harris Instance as far as I can tell
+ ;; - G. Klein, 24 Mar 2020
+
+ ;; outcome panels
+ :outcome-panel/you-have-screened "You have screened "
+ :outcome-panel/on-the " on the "
+ :outcome-panel/strong-covid19-assessment "COVID-19 Assessment"
+ :outcome-panel/but-you-do-not ", but you do not have concerning symptoms at this time."
+ :outcome-panel/minimal-symptoms " and have minimal symptoms."
+ :outcome-panel/strong-negative "NEGATIVE"
+ :outcome-panel/strong-positive "POSITIVE"
+ :outcome-panel/symptoms-should-be-evaluated " and have symptoms that should be evaluated by a healthcare professional."
+ :outcome-panel/have-concerning-medical-symptoms ", but have concerning medical symptoms."
+ :outcome-panel/not-in-harris "Your location or zip code does not belong to Harris County. Please contact your local health department."
+ :outcome-panel/call-arkansas-dept-of-health "Call the Arkansas Department of Health at "
+ :outcome-panel/during-business-hours " during business hours "
+ :outcome-panel/strong-if "IF"
+ :outcome-panel/you-have-indicated " you have indicated that you have:"
+ :outcome-panel/known-exposure "A known exposure to COVID-19"
+ :outcome-panel/have-travelled-from "Have travelled from a place with a known COVID-19 outbreak."
+ :outcome-panel/call "Call "
+ :outcome-panel/white-county-medical " for White County Medical Center Emergency Room, Searcy"
+ :outcome-panel/harris-medical-center " for Harris Medical Center Emergency Room, Newport"
+ :outcome-panel/r400h-click-link "Please click on this link and fill out the form to schedule COVID-19 testing."
+ :outcome-panel/please-contact-local-hd "Please contact your local health department."
+ :outcome-panel/call-local-health-dept "Call your local health department if you have either a known exposure to Coronavirus disease (COVID-19) or have traveled from a place with a known COVID-19 outbreak."
+ :outcome-panel/please-call-pcp "Please call your primary care provider if you continue to have health concerns."
+ :outcome-panel/need-further-evaluation-or-testing " need further evaluation or testing at this time."
+ :outcome-panel/please-repeat-4-hours "Please repeat this assessment in 4 hours or if you feel worse."
+ :outcome-panel/implement-home-care "You may implement a home care plan if:"
+ :outcome-panel/feel-well-home-care "You feel well enough to receive care at home."
+ :outcome-panel/appropriate-caregivers "Appropriate caregivers are available at home."
+ :outcome-panel/seperate-bedroom "There is a separate bedroom where you can recover without sharing immediate space with others."
+ :outcome-panel/resources-for-food-and-water "Resources for access to food and other necessities are available."
+ :outcome-panel/you-have-access-ppe "You and other household members have access to appropriate, recommended personal protective equipment (at a minimum, gloves and facemask) and are capable of adhering to precautions recommended as part of home care or isolation (e.g., respiratory hygiene and cough etiquette, hand hygiene)"
+ :outcome-panel/you-should-discuss-plan "You should discuss your plan with your Primary care provider or any healthcare provider if there are household members who may be at increased risk of complications from COVID-19 infection (.e.g., people >65 years old, young children, pregnant women, people who are immunocompromised or who have chronic heart, lung, or kidney conditions)."
+ :outcome-panel/call-pcp-for-test "Please call your primary care provider to be tested for COVID-19."
+ :outcome-panel/results-isolation-testing "Based on your results you need a medical evaluation that needs to be done in a specific type of isolation room."
+ :outcome-panel/outpatient-clinics-cant "Outpatient clinics are not properly equipped to do your examination."
+ :outcome-panel/please-call-er-prior "Please call the ER prior to presentation."
+ :outcome-panel/before-entering-facility "Before entering the facility, we will bring you a mask."
+ :outcome-panel/you-will-be-escorted "You will then be escorted to the proper location."
+ :outcome-panel/results-require-attention "Based on your results you have symptoms that require medical attention."
+ :outcome-panel/please-call-to-discuss "Please call your primary care provider or the nearest healthcare provider and discuss these symptoms."
+ :outcome-panel/please-share-screening "Please share your screening results below."
+ :outcome-panel/questions "Questions"
+ :outcome-panel/answers "Your Answers"
+ :outcome-panel/assessment-results "Assessment Results:"
+
+ ;; PANEL_C300_COMORBIDITIES
+ :not-limited-immunosuppressant-meds "not limited to prednisone, biologics, and antirejection meds"
+
+ ;; Questions
+ :option/i-feel-fine "I feel fine"
+ :option/i-feel-sick "I feel sick"
+ :option/i-feel-very-sick "I feel very sick / Considering hospitalization"
+ :option/temp-above "Temperature above 100.4 °F"
+ :option/temp-below "Temperature below 96.8 °F"
+ :option/normal-temp "Normal temperature / I don't know"
+ :option/cough "Cough"
+ :option/i-am-breathing-very-fast "I am breathing very fast"
+ :option/high-blood-pressure "High blood pressure"
+ :option/cancer-diagnosis "Cancer diagnosis"
+ :option/taking-immunosuppressant-medication "Taking immunosuppressant medication *"
+ :option/kidney-failure-on-dialysis "Kidney failure on dialysis"
+ :option/other-chronic-health-condition "Other Chronic health condition"
+ :factor-question/feeling-sick-today "Are you feeling sick today?"
+ :factor-question/been-in-contact-with-covid19 "Have you been in contact with someone with COVID-19?"
+ :factor-question/recently-traveled "Have you recently traveled to a location with known COVID-19 outbreak? *"
+ :factor-question/have-been-exposed "Have you been exposed to COVID-19?"
+ :factor-question/what-is-your-temp "What is your temperature?"
+ :factor-question/do-you-have-the-following "Do you have any of the following?"
+ :factor-question/lower-respiratory-distress "Do you have any lower respiratory distress?"
+ :factor-question/what-is-your-age "What is your age? (optional)"
+
+ ;; Result Table
+ :results-table/comorbidities "Comorbidities"
+ :results-table/age-risk "Age Risk"}
