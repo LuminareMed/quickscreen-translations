@@ -1,0 +1,275 @@
+{
+ ;; Misc
+ :infected-locations "Kterákoliv z následujících lokací: Čína, Itálie, Írán, Jižní Korea, Japonsko, Hong Kong, nebo jakákoliv oblast ve Spojených Státech se známým výskytem COVID-19"
+
+ ;; Header
+ :header/from "od"
+
+ ;; Footer
+ :footer/restart-screening "Spustit screening znovu"
+ :footer/about "O tomto projektu"
+ :footer/hospital-signup "Registrace do nemocnice"
+ :footer/check-previous-result "Zkontrolovat předchozí výsledek"
+ :footer/legal-disclaimer "Právní zřeknutí se odpovědnosti"
+ :footer/disclaimer "Tento nástroj je poskytován jako součást screeningu proto, aby si lidé mohli ověřit, zda se potřebují nechat otestovat či nikoliv. Snažíme se ho v rámci možností aktualizovat tak, aby odpovídal směrnicím CDC.gov pro screening na COVID-19. Naším záměrem není rozporovat ani nahrazovat doporučení lékaře."
+ :footer/life-threatening-emergency "Pokud jste v ohrožení života, volejte, prosím, linku 911"
+ :footer/please-review-disclaimer "Přečtěte si, prosím, plné znění Zásad ochrany osobních údajů a Zásad užívání."
+
+ ;; Modal
+ :modal/enter-your-zip-code "Zadejde své PSČ:"
+ :ok "Potvrdit"
+ :cancel "Zrušit"
+
+ ;; About Page
+ :about/what-is-this "Ve veřejném zájmu a v souladu se směrnicemi CDC a WHO jsme vytvořili volně dostupný nástroj pro screening na COVID-19, jehož účelem je umožnit každému udělat si v domácím prostředí bezpečný a zevrubný test na COVID-19. Naším cílem je snížit kontakt se zdravotnickým personálem, zamezit přetížení lékařských pohotovostí a umožnit efektivní komunikaci s vaším okolím."
+ :about/website "webové stránky"
+ :about/who-are-we-part-one "Luminare se specializuje na automatizaci zdravotnických protokolů a komplexních postupů tak, aby se pacientům dostalo včasné a adekvátní zdravotní péče. Ať už jde o otravu či COVID-19, náš tým dokáže s využitím dostupných dat proměnit zdravotnické postupy a kontrolní seznamy v praktické nástroje, které pomáhají tomu, aby se pacientům dostalo té nejlepší péče. Navštivte naše "
+ :about/who-are-we-part-two ", pokud se o nás chcete dozvědět více."
+ :about/title "O projektu CheckForCorona.com"
+ :about/subtitle-what-is-this "Co to je?"
+ :about/subtitle-who-are-we "Kdo jsme?"
+
+ ;; Check Result Page
+ :check-result/title "Zkontrolovat předchozí výsledek"
+ :check-result/form-label "Prosím, zadejte svoje Screening ID:"
+ :check-result/form-submit-button "Potvrdit"
+
+ ;; Landing Page
+ :harris-county.landing-page/title "Vítá vás nástroj pro předběžné samovyšetření na nákazu koronavirem (COVID-19) v okresech Harris a Houston"
+ :fort-bend-county.landing-page/title "Vítá vás nástroj pro předběžné samovyšetření na nákazu koronavirem (COVID-19) v okrese Fort Bend"
+ :landing-page/who-should-be-tested "Kdo by se měl testovat na COVID-19?"
+ :landing-page/people-with-fever "Lidé s horečkou* nad (38°C) a dýchacími obtížemi, kteří:"
+ :landing-page/have-had-close-contact "Byli v blízkém kontaktu** s někým s pozitivním nálezem COVID-19"
+ :landing-page/have-other-conditions "Mají další zdravotní komplikace (cukrovka, plicní onemocnění, srdeční onemocnění, těhotenství)"
+ :landing-page/are-older "Jsou ve věku 60 a více let"
+ :landing-page/nursing-homes "Bydlí v domě s pečovatelskou službou"
+ :landing-page/part-of-investigation "Jsou součástí vyšetřování ohniska názazy"
+ :landing-page/healthcare-worker-first-responder "Jsou zdravotnickými pracovníky nebo záchranáři"
+ :landing-page/who-does-not-test "Kdo se nemusí testovat na COVID-19?"
+ :landing-page/people-without-symptoms "Lidé bez příznaků nákazy koronavirem"
+ :landing-page/anyone-who-is-sick "Nemocní by měli zůstat doma."
+ :landing-page/to-protect-yourself [:<> "V zájmu svého zdraví si často myjte ruce vodou a mýdlem, kašlejte a kýchejte do kapesníku nebo rukávu a udržujte si odstup alespoň 2 metrů od ostatních. Toto je pouze nástroj pro předběžné posouzení, který **nenahrazuje doporučení lékaře**."]
+ :landing-page/if-emergency-call "Pokud jste v ohrožení života, volejte, prosím, linku 911"
+ :harris-county.landing-page/if-other-health-concerns "Pokud vás trápí něco jiného ohledně vašeho zdravotního stavu, volejte, prosím, svému poskytovateli zdravotní péče. Obyvatelé bez přístupu ke zdravotní péči se mohou denně mezi 9:00 a 19:00 obracet s dotazy ohledně COVID-19 na Harris Health Ask My Nurse, linka 713-634-1110. Pro více informací navštivte "
+ :fort-bend-county.landing-page/if-other-health-concerns "Pokud vás trápí něco jiného ohledně vašeho zdravotního stavu, volejte, prosím, svému poskytovateli zdravotní péče. Obyvatelé bez přístupu ke zdravotní péči se mohou denně mezi 9:00 a 19:00 obracet s dotazy ohledně COVID-19 na Harris Health Ask My Nurse, linka 713-634-1110. Pro více informací navštivte "
+ :or " nebo "
+ :landing-page/older-than-65 "*Starší 65 let s teplotou nad 37.5°C"
+ :landing-page/close-contact-defined "**Být v blízkém kontaktu znamená:"
+ :landing-page/being-within-6-feet "a) být delší dobu ve vzdálenosti menší než přibližně 2 metry od nakaženého virem COVID-19. K blízkému kontaktu může dojít při péči o nemocného, soužití s ním, návštěvě, nebo společném pobytu v čekárně"
+ :landing-page/footnote-or "– nebo –"
+ :landing-page/having-direct-contact "b) být v přímém kontaktu s infekčními výměšky nakaženého virem COVID-19 (např. když na vás zakašle) "
+ :landing-page/this-tool-will-help "Tento nástroj vám pomůže určit, zda potřebujete další posouzení nebo byste se měli nechat otestovat na COVID-19."
+ :landing-page/please-help-answer "Prosím, pomozte nám odpovědět na několik otázek (případně vyplňte odpovědi za někoho jiného)."
+ :landing-page/begin-self-assessment-button "Klikněte pro spuštění samovyšetření"
+
+ ;; Location Panel
+ :location-panel/share-location-for-epidemiology "Sdílet vaši polohu pro epidemiologické účely?"
+ :location-panel/requesting-location-spinner "Zjišťujeme vaši polohu …"
+ :location-panel/enter-zip-code "Zadejte PSČ"
+ :location-panel/click-to-use-location "Klikněte pro použití polohy"
+ :location-panel/opt-out-of-location-sharing "Už nechci dále sdílet svoji polohu"
+ :location-panel/epidemiology-is-helpful "Pro trasování nákazy a plánování ochranných opatření je pro místní úřady nesmírně důležité vědět kdy a kde dochází k propuknutí nákazy."
+ :location-panel/your-location-is-protected [:<> "We will **only** use your location for epidemiological purposes. No protected health information (PHI) is stored."]
+ :location-panel/unable-to-use-location "Nepodařilo se určit vaši polohu. Prosím, zadejte svoje PSČ."
+ :location-panel/please-enter-valid-zip "Prosím, zadejte platné PSČ."
+
+ ;; Outcome Panels Harris
+ :outcome-panel/covid-self-assessment-results "VÝSLEDKY SAMOVYŠETŘENÍ na nákazu koronavirem (COVID-19)"
+ :outcome-panel/if-experiencing-call "Pokud jste v ohrožení života, volejte, prosím, "
+ :outcome-panel/your-screening-id "Vaše screening ID je: "
+ :outcome-panel/no-more-test-kits "Pro dnešek je už, bohužel, limit testů vyčerpán. Prosím, zkuste to znovu zítra a po 8. hodině ranní si zopakujte samovyšetření. Pokud jste v ohrožení života, volejte, prosím, 9-1-1. Jinak zůstaňte, prosím, doma a dodržujte preventivní opatření (myjte si ruce, kryjte si ústa při kašlání a kýchání, dezinfikujte frekventované povrchy a ve společnosti si udržujte odstup)."
+ :outcome-panel/health-recommendations-title "Zdravotní doporučení"
+ :outcome-panel/at-this-time-we-recommend "Momentálně doporučujeme:"
+ :outcome-panel/stay-home-and-quarantine "Zůstaňte 14 dní doma v karanténě. Po tuto dobu nechoďte do práce ani do školy a nezůčastňujte se atletických událostí ani jiných společenských a náboženských shromáždění."
+ :outcome-panel/limit-contact-with-people "Omezte kontakt s jinými lidmi na nezbytné minimum. To zahrnuje i maximální možnou izolaci od vašich spolubydlících."
+ :outcome-panel/wash-your-hands-with-soap "Často, zvláště po kašlání, kýchání nebo vyhazování použitého kapesníku do koše, si myjte ruce vodou a mýdlem nebo používejte dezinfekční prostředek na bázi alkoholu."
+ :outcome-panel/avoid-touching-face "Nedotýkejte se očí, nosu a úst neumytýma rukama."
+ :outcome-panel/cover-coughs-and-sneezes "Kašlejte a kýchejte do rukávu nebo kapesníku. Nikdy nekašlejte ve směru, kde se nachází jiný člověk."
+ :outcome-panel/do-not-share "Po dobu trvání domácí karantény s nikým nesdílejte sklenice, ručníky, příbory, povlečení ani jiné věci."
+ :outcome-panel/keep-surroundings-clean "Udržujte své okolí v čistotě. Čistěte povrchy, kterých se často dotýkáte vy a někdo jiný, např. kliky u dveří, telefony, povrchy v koupelně (a další předměty, na které kýcháte nebo kašlete), pomocí standardních domácích dezinfekčních prostředků, např. ubrousků Clorox."
+ :outcome-panel/if-you-are-sick-stay-home "Pokud jste nemocní, zůstaňte doma a dál od ostatních."
+ :outcome-panel/remember-to-avoid-gatherings "Pamatujte na to vyhýbat se shromážděním většího počtu lidí, protože to může vést k rychlejšímu šíření nákazy ve společnosti."
+ :outcome-panel/stay-informed "Mějte aktuální informace. Nařízení místních úřadů se často aktualizují."
+ ;; REMOVED :outcome-panel/visit "Visit "
+ ;; REMOVED :outcome-panel/for-frequent-updates " for frequent updates."
+ :outcome-panel/visit-url-for-updates [:<> "Navštivte %1 pro aktuální informace."]
+ :harris-county.outcome-panel/visit-urls-for-updates [:<> "Navštivte %1, %2, a %3 pro aktuální informace."]
+ :outcome-panel/feeling-stressed-title "Pociťujete stres nebo úzkost?"
+ :outcome-panel/fear-and-anxiety "Strach a úzkost spojené s nákazou může být zdrcující a může u dospělých i dětí vyvolat silné emoce."
+ :outcome-panel/people-with-preexisting-mental "Lidé s psychickými komplikacemi by měli pokračovat v léčbě, měli by zůstat v kontaktu se svým poskytovatelem zdravotní péče a také by si měli všímat nových příznaků."
+ :outcome-panel/stay-connected-with-friends "Zůstaňte v kontaktu s přáteli a příbuznými, zvláště seniory, ať už přes telefon, videokonference nebo email."
+ :outcome-panel/use-other-ways "Využívejte alternativních prostředů relaxace jako cvičení, protahování a meditace."
+ :outcome-panel/call-healthcare-provider "Pokud vaše reakce na stres mají negativní dopad na vaše denní aktivity, zavolejte svému lákaři."
+ :outcome-panel/for-additional-support "Potřebujete-li další podporu, kontaktujte:"
+ :outcome-panel/harris-center-mental-support "The Harris Center COVID-19 Mental Health Support Line: "
+ :outcome-panel/disaster-distress-helpline "Disaster Distress Helpline: "
+ :outcome-panel/r100-wash-hands "Často, zvláště po kašlání, kýchání nebo vyhazování použitého kapesníku do koše, si myjte ruce mýdlem a vodou, a to alespoň 20 vteřin, nebo, pokud si nemůžete ruce umýt, použijte dezinfekční prostředek na bázi alkoholu."
+ :outcome-panel/r100-avoid-touching-face "Nedotýkejte se očí, nosu a úst neumytýma rukama."
+ :outcome-panel/r100-cover-cough "Kašlejte a kýchejte do rukávu nebo kapesníku. Nikdy nekašlejte ve směru, kde se nachází někdo jiný."
+ :outcome-panel/r100-avoid-close-contact "Zamezte kontaktu s jinými lidmi, zvláště pokud jste v rizikové skupině pro COVID-19."
+ :outcome-panel/r100-get-plenty-of-rest "Pro udržení silné imunity hodně odpočívejte, přijímejte dostatečné množství tekutin, zdravě jezte a vyhýbejte se stresu."
+ :outcome-panel/r100-keep-surroundings-clean "Udržujte své okolí v čistotě. Čistěte povrchy, kterých se často dotýkáte vy a někdo jiný, např. kliky u dveří, telefony a povrchy v koupelně (a další předměty na které kašlete nebo kýcháte), pomocí standardních domácích dezinfekčních prostředků, např. ubrousků Clorox."
+ :outcome-panel/r100-if-you-are-sick "Pokud jste nemocní, zůstaňte doma, dál od ostatních."
+ :outcome-panel/r100-stay-informed "Mějte aktuální informace. Nařízení místních úřadů se často aktualizují."
+ :outcome-panel/contact-local-health-dept "Pro další vyšetření kontaktujte svého poskytovatele zdravotní péče."
+
+ ;; r100
+ :outcome-panel/based-on-your-results-r100 [:<> "Na základě vašich výsledků momentálně **NENÍ** nutné další vyšetření ani testování."]
+ :outcome-panel/please-feel-free-to-repeat "Pokud se ohledně vašeho zdravotního stavu něco změní, neváhejte tento test zopakovat za 24 hodin nebo dříve."
+ :outcome-panel/please-follow-guidelines "Prosím, nadále se řiďte doporučeními vašeho ministerstva zdravotnictví a pokud vás trápí váš zdravotní stav nebo máte další dotazy, kontaktujte svého poskytovatele zdravotní péče."
+ :outcome-panel/based-on-your-results [:<> "Na základě vašich výsledků **NEMUSÍTE** na pohotovost."]
+
+ ;; r300
+ :outcome-panel/based-on-results-you-have [:<> "Na základě vašich výsledků momentálně **NEMÁTE** žádné příznaky, které by poukazovaly na nákazu virem COVID-19. Doporučujeme zůstat doma a kontaktovat místní zdravotnické zařízení."]
+
+ ;; r400
+ :outcome-panel/based-on-answers-higher-risk "Na základě vašich odpovědí u vás může být vyšší riziko nákazy koronavirem (COVID-19). "
+ ;; REMOVED :outcome-panel/contact-nurse-triage "Contact the COVID-19 Nurse Triage Call Center at "
+ ;; REMOVED :outcome-panel/for-further-evaluation " for further evaluation."
+ :outcome-panel/contact-nurse-triage2 [:<> "Za účelem dalšího vyhodnocení kontaktujte COVID-19 Nurse Triage Call Center na lince %1."]
+
+ ;; disclaimer
+ :outcome-panel/disclaimer-title "Vyloučení odpovědnosti:"
+ :outcome-panel/not-a-diagnosis " Toto není lékařská diagnóza."
+
+ ;; Harris factors
+ :option/yes "Ano"
+ :option/no "Ne"
+ :option/unknown "Neznámo"
+ :question/africa "Afrika"
+ :question/asia "Asie"
+ :question/australia "Austrálie"
+ :question/europe "Evropa"
+ :question/south-america "Jižní Amerika"
+ :question/no-travel "Žádná cesta"
+ :option/feeling-sick "Je mi zle"
+ :option/feeling-fine "Je mi dobře"
+ :option/temp-above-104 "Teplota nad 38 °C"
+ :option/older-than-65-and-temp-above-99 "Starší 65 let a teplota nad 37.5 °C"
+ :option/i-feel-feverish "Cítím, že mám horečku"
+ :option/i-dont-know "Nevím"
+ :option/normal "Normální"
+ :option/cough-dry "Kašel - suchý (neproduktivní)"
+ :option/cough-wet "Kašel - vlhký (produktivní)"
+ :option/shortness-of-breath "Dušnost"
+ :option/wheezing "Sípání"
+ :option/none-of-the-above "Žádná z možností výše"
+ :option/headache "Bolest hlavy"
+ :option/runny-nose "Rýma"
+ :option/itchy-eyes "Svědění očí"
+ :option/watery-eyes "Slzení očí"
+ :option/sneezing "Kýchání"
+ :option/hypertension "Vysoký krevní tlak / Hypertenze"
+ :option/heart-disease "Srdeční onemocnění"
+ :option/lung-disease "Plicní onemocnění"
+ :option/diabetes "Cukrovka"
+ :option/immunosuppressed-by-meds "Imunita oslabená v důsledku medikace nebo HIV"
+ :option/nursing-home-resident "Obyvatel domu s pečovatelskou službou nebo zařízení pro péči o chronicky nemocné"
+ :option/pregnant "Těhotná nebo do 2 týdnů po porodu"
+ :option/younger-than-20 "Mladší 20 let"
+ :option/over-80 "80 let nebo starší"
+ :factor-question/in-person-close-contact "1. Byl(a) jste v osobním kontaktu s osobu, jíž byla diagnostikována nákaza koronavirem (COVID-19)?"
+ :factor-question/recent-international-travel "2. Cestoval(a) jste v posledních 14 dnech do některé z následujících zahraničních destinací?"
+ :factor-question/how-are-you-feeling "3. Jak se dnes cítíte?"
+ :factor-question/what-is-your-temp-harris "Jaká je vaše tělesná teplota?"
+ :factor-question/any-of-the-following "5. Máte některé z následujících příznaků?"
+ :factor-question/allergies "6. Trpíte některou z následujících alergií?"
+ :factor-question/do-any-of-the-following-apply "7. Platí o vás následující:"
+ :factor-question/what-is-your-age-harris "Kolik je vám let?"
+ :factor-question/first-responder-or-healthcare "9. Jste záchranář nebo zdravotnický pracovník?"
+
+ ;; Result Bars
+ :result-bar/click-to-proceed "Klikněte, chcete-li pokračovat ve screeningu"
+ :result-bar/please-complete-all-fields "Prosím, vyplňte všechna pole"
+ :result-bar/possible-infection "Možná nákaza"
+ :result-bar/screened-negative "Screening negativní"
+
+ ;; Outcome Panels Fort Bend - G. Klein, 28 Mar 2020
+ ;; R400
+ :fort-bend-county.outcome-panel/contact-call-center [:<> "Pro další vyhodnocení kontaktujte COVID-19 Health Professional Triage Call Center na lince %1"]
+ :fort-bend-county.outcome-panel/provide-code "Zadejte tento kód pro telefonické spojení s Health Professional Triage Center."
+ :fort-bend-county.outcome-panel/code-is-for-speaking "Vezměte, prosím, na vědomí, že tento kód vám pouze umožní mluvit se specialistou a není zárukou provedení testu."
+ :fort-bend-county.outcome-panel/if-approved "Pokud vám bude schváleno testování, obdržíte další jedinečný kód, který si vezmete s sebou na místo."
+ :fort-bend-county.outcome-panel/please-dont-come "Prosím nechoďte na místo s tímto kódem, bude neplatný."
+
+ ;; R300
+ :fort-bend-county.outcome-panel/contact-health-pro-triage "Pro další vyhodnocení kontaktujte COVID-19 Health Professional Triage Call Center na lince 281-238-2363"}
+
+ ;; everything below this point is not used in the Harris Instance as far as I can tell
+ ;; - G. Klein, 24 Mar 2020
+
+ ;; outcome panels
+ ;; FIXME :outcome-panel/you-have-screened "You have screened "
+ ;; FIXME :outcome-panel/on-the " on the "
+ ;; FIXME :outcome-panel/strong-covid19-assessment "COVID-19 Assessment"
+ ;; FIXME :outcome-panel/but-you-do-not ", but you do not have concerning symptoms at this time."
+ ;; FIXME :outcome-panel/minimal-symptoms " and have minimal symptoms."
+ ;; FIXME :outcome-panel/strong-negative "NEGATIVE"
+ ;; FIXME :outcome-panel/strong-positive "POSITIVE"
+ ;; FIXME :outcome-panel/symptoms-should-be-evaluated " and have symptoms that should be evaluated by a healthcare professional."
+ ;; FIXME :outcome-panel/have-concerning-medical-symptoms ", but have concerning medical symptoms."
+ ;; FIXME :outcome-panel/not-in-harris "Your location or zip code does not belong to Harris County. Please contact your local health department."
+ ;; FIXME :outcome-panel/call-arkansas-dept-of-health "Call the Arkansas Department of Health at "
+ ;; FIXME :outcome-panel/during-business-hours " during business hours "
+ ;; FIXME :outcome-panel/strong-if "IF"
+ ;; FIXME :outcome-panel/you-have-indicated " you have indicated that you have:"
+ ;; FIXME :outcome-panel/known-exposure "A known exposure to COVID-19"
+ ;; FIXME :outcome-panel/have-travelled-from "Have travelled from a place with a known COVID-19 outbreak."
+ ;; FIXME :outcome-panel/call "Call "
+ ;; FIXME :outcome-panel/white-county-medical " for White County Medical Center Emergency Room, Searcy"
+ ;; FIXME :outcome-panel/harris-medical-center " for Harris Medical Center Emergency Room, Newport"
+ ;; FIXME :outcome-panel/r400h-click-link "Please click on this link and fill out the form to schedule COVID-19 testing."
+ ;; FIXME :outcome-panel/please-contact-local-hd "Please contact your local health department."
+ ;; FIXME :outcome-panel/call-local-health-dept "Call your local health department if you have either a known exposure to Coronavirus disease (COVID-19) or have traveled from a place with a known COVID-19 outbreak."
+ ;; FIXME :outcome-panel/please-call-pcp "Please call your primary care provider if you continue to have health concerns."
+ ;; FIXME :outcome-panel/need-further-evaluation-or-testing " need further evaluation or testing at this time."
+ ;; FIXME :outcome-panel/please-repeat-4-hours "Please repeat this assessment in 4 hours or if you feel worse."
+ ;; FIXME :outcome-panel/implement-home-care "You may implement a home care plan if:"
+ ;; FIXME :outcome-panel/feel-well-home-care "You feel well enough to receive care at home."
+ ;; FIXME :outcome-panel/appropriate-caregivers "Appropriate caregivers are available at home."
+ ;; FIXME :outcome-panel/seperate-bedroom "There is a separate bedroom where you can recover without sharing immediate space with others."
+ ;; FIXME :outcome-panel/resources-for-food-and-water "Resources for access to food and other necessities are available."
+ ;; FIXME :outcome-panel/you-have-access-ppe "You and other household members have access to appropriate, recommended personal protective equipment (at a minimum, gloves and facemask) and are capable of adhering to precautions recommended as part of home care or isolation (e.g., respiratory hygiene and cough etiquette, hand hygiene)"
+ ;; FIXME :outcome-panel/you-should-discuss-plan "You should discuss your plan with your Primary care provider or any healthcare provider if there are household members who may be at increased risk of complications from COVID-19 infection (.e.g., people >65 years old, young children, pregnant women, people who are immunocompromised or who have chronic heart, lung, or kidney conditions)."
+ ;; FIXME :outcome-panel/call-pcp-for-test "Please call your primary care provider to be tested for COVID-19."
+ ;; FIXME :outcome-panel/results-isolation-testing "Based on your results you need a medical evaluation that needs to be done in a specific type of isolation room."
+ ;; FIXME :outcome-panel/outpatient-clinics-cant "Outpatient clinics are not not properly equiped to do your examination."
+ ;; FIXME :outcome-panel/please-call-er-prior "Please call the ER prior to presentation."
+ ;; FIXME :outcome-panel/before-entering-facility "Before entering the facility, we will bring you a mask."
+ ;; FIXME :outcome-panel/you-will-be-escorted "You will then be escorted to the proper location."
+ ;; FIXME :outcome-panel/results-require-attention "Based on your results you have symptoms that require medical attention."
+ ;; FIXME :outcome-panel/please-call-to-discuss "Please call your primary care provider or the nearest healthcare provider and discuss these symptoms."
+ ;; FIXME :outcome-panel/please-share-screening "Please share your screening results below."
+ ;; FIXME :outcome-panel/questions "Questions"
+ ;; FIXME :outcome-panel/answers "Your Answers"
+ ;; FIXME :outcome-panel/assessment-results "Assessment Results:"
+
+ ;; PANEL_C300_COMORBIDITIES
+ ;; FIXME :not-limited-immunosuppressant-meds "not limited to prednisone, biologics, and antirejection meds"
+
+ ;; Questions
+ ;; FIXME :option/i-feel-fine "I feel fine"
+ ;; FIXME :option/i-feel-sick "I feel sick"
+ ;; FIXME :option/i-feel-very-sick "I feel very sick / Considering hospitalization"
+ ;; FIXME :option/temp-above "Temperature above 100.4 °F"
+ ;; FIXME :option/temp-below "Temperature below 96.8 °F"
+ ;; FIXME :option/normal-temp "Normal temperature / I don't know"
+ ;; FIXME :option/cough "Cough"
+ ;; FIXME :option/i-am-breathing-very-fast "I am breathing very fast"
+ ;; FIXME :option/high-blood-pressure "High blood pressure"
+ ;; FIXME :option/cancer-diagnosis "Cancer diagnosis"
+ ;; FIXME :option/taking-immunosuppressant-medication "Taking immunosuppressant medication *"
+ ;; FIXME :option/kidney-failure-on-dialysis "Kidney failure on dialysis"
+ ;; FIXME :option/other-chronic-health-condition "Other Chronic health condition"
+ ;; FIXME :factor-question/feeling-sick-today "Are you feeling sick today?"
+ ;; FIXME :factor-question/been-in-contact-with-covid19 "Have you been in contact with someone with COVID-19?"
+ ;; FIXME :factor-question/recently-traveled "Have you recently traveled to a location with known COVID-19 outbreak? *"
+ ;; FIXME :factor-question/have-been-exposed "Have you been exposed to COVID-19?"
+ ;; FIXME :factor-question/what-is-your-temp "What is your temperature?"
+ ;; FIXME :factor-question/do-you-have-the-following "Do you have any of the following?"
+ ;; FIXME :factor-question/lower-respiratory-distress "Do you have any lower respiratory distress?"
+ ;; FIXME :factor-question/what-is-your-age "What is your age? (optional)"
+
+ ;; Result Table
+ ;; FIXME :results-table/comorbidities
+ ;; FIXME :results-table/age-risk
