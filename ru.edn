@@ -1,0 +1,275 @@
+{
+ ;; Misc
+ :infected-locations "Любые из перечисленных мест: Китай, Италия, Иран, Южная Корея, Япония, Гонконг или любые очаги заражения COVID-19 в США"
+
+ ;; Header
+ :header/from "от"
+
+ ;; Footer
+ :footer/restart-screening "Пройти тест ещё раз"
+ :footer/about "О проекте"
+ :footer/hospital-signup "Регистрация"
+ :footer/check-previous-result "Проверить Предыдущий Результат"
+ :footer/legal-disclaimer "Правовая оговорка"
+ :footer/disclaimer "Данный инструмент является частью скрининга, таким образом люди могут выяснить, нужен ли им последующий тест или нет. Он обновляется в соответствии с нашими возможностями и рекомендациями CDC.gov. Данный тест должен противоречить или служить заменой рекомендации лицензированного медицинского работника."
+ :footer/life-threatening-emergency "Если вы почувствовали угрозу жизни - звоните 911. "
+ :footer/please-review-disclaimer "Ознакомьтесь, пожалуйста, с Политикой Приватности и Политикой Использования."
+
+ ;; Modal
+ :modal/enter-your-zip-code "Введите свой почтовый индекс:"
+ :ok "OK"
+ :cancel "Отмена"
+
+ ;; About Page
+ :about/what-is-this "Мы создали бесплатный инструмент скрининга на COVID-19 для публичного пользования в соответствии с рекомендациями CDC and WHO, чтобы все имели возможность безопасно в домашних условиях выполнить самопроверку на COVID-19. Наша цель - помочь уменьшить потенциальное воздействие на работников здравоохранения, избежать переполнения больниц и позволить вам обезопасить ваших окружающих."
+ :about/website "веб-сайт"
+ :about/who-are-we-part-one "Luminare специализируется на оцифровке специфических для здравоохранения протоколов и сложных рабочих процессов, чтобы пациенты получали своевременный и надлежащий уход. От сепсиса до COVID-19 наша команда задействует данные и превращает медицинские рабочие процессы и чеклисты в действенные инструменты, помогая лучше заботиться о пациентах. Перейдите по ссылке "
+ :about/who-are-we-part-two " чтобы узнать больше о нас."
+ :about/title "О проекте CheckForCorona.com"
+ :about/subtitle-what-is-this "Что это?"
+ :about/subtitle-who-are-we "Кто мы?"
+
+ ;; Check Result Page
+ :check-result/title "Проверить Предыдущий Результат"
+ :check-result/form-label "Введите ID вашего результата:"
+ :check-result/form-submit-button "Проверить"
+
+ ;; Landing Page
+ :harris-county.landing-page/title "Добро пожаловать, это инструмент самотестирования на коронавирус COVID-19, Harris County/Houston"
+ :fort-bend-county.landing-page/title "Добро пожаловать, это инструмент самотестирования на коронавирус COVID-19, Fort Bend County"
+ :landing-page/who-should-be-tested "Кто должен провериться на COVID-19?"
+ :landing-page/people-with-fever "Люди с температурой* больше 38°C (100.4°F) и респираторными симптомами, которые:"
+ :landing-page/have-had-close-contact "Контактировали** с носителями COVID-19"
+ :landing-page/have-other-conditions "Имеют другие заболевания и показания (диабет, заболевания лёгких, заболевания сердца, беременность)"
+ :landing-page/are-older "Старше 60 лет"
+ :landing-page/nursing-homes "Находятся в домах престарелых"
+ :landing-page/part-of-investigation "Являются частью исследования очага или вспышки заболевания"
+ :landing-page/healthcare-worker-first-responder "Являются работниками здравоохранения"
+ :landing-page/who-does-not-test "Кто может не проверяться на COVID-19?"
+ :landing-page/people-without-symptoms "Люди, у которых нет соответствующих симптомов"
+ :landing-page/anyone-who-is-sick "Если вы заболели - оставайтесь дома. "
+ :landing-page/to-protect-yourself [:<> "Чтобы защитить себя, чаще мойте руки с мылом и водой, прикрывайте кашель/чихание носовым платком, либо локтем. Держитесь на расстоянии около 2 метров или более от других. Это просто инструмент самотестирования и **это не замена медицинской консультации** в местном учреждении здравоохранения."]
+ :landing-page/if-emergency-call "Если вы почувствовали угрозу жизни - звоните 911"
+ :harris-county.landing-page/if-other-health-concerns "Если у вас есть другие проблемы со здоровьем - пожалуйста, позвоните в местное учреждение здравоохранения. Жители, не умеющие доступа к медобслуживанию, могут позвонить на горячую линию Harris Health Ask My Nurse и задать вопросы, касающиеся COVID-19 по телефону 713-634-1110 с 09:00 до 19:00, 7 дней в неделю. Для получения дополнительной информации о COVID-19, пожалуйста, перейдите на "
+ :fort-bend-county.landing-page/if-other-health-concerns "Если у вас есть другие проблемы со здоровьем - пожалуйста, позвоните в местное учреждение здравоохранения. Жители, не умеющие доступа к медобслуживанию, могут позвонить на горячую линию Harris Health Ask My Nurse и задать вопросы, касающиеся COVID-19 по телефону 713-634-1110 с 09:00 до 19:00, 7 дней в неделю. Для получения дополнительной информации о COVID-19, пожалуйста, перейдите на "
+ :or " или "
+ :landing-page/older-than-65 "*Люди старше 65 лет - с температурой 37.5°C (99.6F)"
+ :landing-page/close-contact-defined "**Контактировали - значит:"
+ :landing-page/being-within-6-feet "a) находились на расстоянии примерно 2 метров (6 футов) от носителя COVID-19 продолжительное время; контакт мог случиться, когда вы ухаживали, проживали, навещали или находились в одной комнате с носителем, включая больничный приёмный покой"
+ :landing-page/footnote-or "– или –"
+ :landing-page/having-direct-contact "b) имели непосредственный контакт с выделениями носителя COVID-19 (например, на вас кашляли) "
+ :landing-page/this-tool-will-help "Данный инструмент поможет вам понять, нуждаетесь ли вы в дальнейшем наблюдении или лабораторной проверке на COVID-19."
+ :landing-page/please-help-answer "Пожалуйста, помогите нам ответить на несколько вопросов (также, вы можете ответить вместо кого-то ещё.)"
+ :landing-page/begin-self-assessment-button "Нажмите Для Начала Тестирования"
+
+ ;; Location Panel
+ :location-panel/share-location-for-epidemiology "Поделиться местоположением?"
+ :location-panel/requesting-location-spinner  "Запрашивается местоположение …"
+ :location-panel/enter-zip-code "Ваш почтовый индекс"
+ :location-panel/click-to-use-location "Нажмите чтобы поделиться местоположением"
+ :location-panel/opt-out-of-location-sharing "Я не хочу делиться местоположением"
+ :location-panel/epidemiology-is-helpful "Информация о времени и месте чрезвычайно важна для локальных учреждений здравоохранения - для отслеживания распространения заболевания и последующих рекомендаций."
+ :location-panel/your-location-is-protected [:<> "Ваше местоположение будет использовано **исключительно** в эпидемиологических целях. Мы не храним вашу личную медицинскую информацию (PHI)."]
+ :location-panel/unable-to-use-location "Не удалось получить ваше местоположение. Пожалуйста, введите ваш почтовый индекс."
+ :location-panel/please-enter-valid-zip "Пожалуйста, введите корректный почтовый индекс."
+
+ ;; Outcome Panels Harris
+ :outcome-panel/covid-self-assessment-results "Результаты анкетирования на коронавирус (COVID-19)"
+ :outcome-panel/if-experiencing-call "Если вы чувствуете угрозу жизни - немедленно звоните "
+ :outcome-panel/your-screening-id "ID вашего результата: "
+ :outcome-panel/no-more-test-kits "К сожалению, количество проверок на сегодня ограничено. Пожалуйста, попробуйте завтра и повторите тест в 8 утра. Если вы чувствуете угрозу жизни - звоните 9-1-1. В ином случае, пожалуйста, оставайтесь дома и примите меры предосторожности (мойте руки, прикрывайте кашель/чихания, дезинфицируйте контактные поверхности и сохраняйте социальную дистанцию) "
+ :outcome-panel/health-recommendations-title "Рекомендации"
+ :outcome-panel/at-this-time-we-recommend "На данный момент рекомендуем следующее:"
+ :outcome-panel/stay-home-and-quarantine "Сохраняйте самоизоляцию последующие 14 дней. Не посещайте работу, учёбу, спортивные и другие массовые мероприятия или религиозные собрания на протяжении карантина."
+ :outcome-panel/limit-contact-with-people "Постарайтесь ограничить контакты с другими людьми насколько это возможно - включая людей, с которыми вы проживаете совместно."
+ :outcome-panel/wash-your-hands-with-soap "Мойте руки с мылом или используйте спиртосодержащие антисептики как можно чаще, особенно после кашля, чихания или после использования носового платка."
+ :outcome-panel/avoid-touching-face "Постарайтесь не трогать лицо немытыми руками."
+ :outcome-panel/cover-coughs-and-sneezes "Кашляйте или чихайте в носовой платок или локтевой сгиб. Не кашляйте в направлении других людей."
+ :outcome-panel/do-not-share "Используйте индивидуальную посуду, полотенца, столовые приборы, постельные принадлежности и другие вещи пока вы находитесь в карантине."
+ :outcome-panel/keep-surroundings-clean "Поддерживайте чистоту. Дезинфицируйте контактные поверхности, которые используются несколькими людьми, такие как дверные ручки, телефонные трубки, умывальники и шкафчики в ванной (или любые другие поверхности, на которые могли кашлять или чихнуть). Используйте ваши обычные средства дезинфекции или салфетки Clorox."
+ :outcome-panel/if-you-are-sick-stay-home "Если вы больны - оставайтесь дома вдали от других людей."
+ :outcome-panel/remember-to-avoid-gatherings "Избегайте скоплений людей, т.к. это может привести к распространению инфекции."
+ :outcome-panel/stay-informed "Следите за новостями. Рекомендации от учреждений здравоохранения постоянно обновляются."
+ ;; REMOVED :outcome-panel/visit "Visit "
+ ;; REMOVED :outcome-panel/for-frequent-updates " for frequent updates."
+ :outcome-panel/visit-url-for-updates [:<> "Перейдите по ссылке %1 для дополнительной информации (обновляется)."]
+ :harris-county.outcome-panel/visit-urls-for-updates [:<> "Перейдите по ссылкам %1, %2, and %3 для дополнительной информации (обновляется)."]
+ :outcome-panel/feeling-stressed-title "Встревожены?"
+ :outcome-panel/fear-and-anxiety "Страх и беспокойство по поводу заболевания могут причинять дискомфорт, вызывать подавленность и другие сильные эмоции как у детей, так и у взрослых."
+ :outcome-panel/people-with-preexisting-mental "Люди, имеющие психические расстройства, должны продолжать следовать плану лечения, оставаться на связи со своим лечащим врачом и следить за любыми новыми симптомами."
+ :outcome-panel/stay-connected-with-friends "Поддерживайте связь с близкими по телефону, видеосвязи, электронной почте и т.п., это особенно относится к пожилым людям."
+ :outcome-panel/use-other-ways "Попытайтесь расслабиться - сделайте зарядку, займитесь йогой или медитацией."
+ :outcome-panel/call-healthcare-provider "Позвоните в ваше местное учреждение здравоохранения, если стресс мешает вашим повседневным делам."
+ :outcome-panel/for-additional-support "Для дополнительной поддержки звоните:"
+ :outcome-panel/harris-center-mental-support "Телефон доверия Harris Center COVID-19: "
+ :outcome-panel/disaster-distress-helpline "Телефон доверия при чрезвычайных ситуациях: "
+ :outcome-panel/r100-wash-hands "Мойте руки с мылом как минимум 20 секунд или используйте спиртосодержащие антисептики, если нет возможности вымыть руки - особенно, после кашля, чихания или после использования носового платка. "
+ :outcome-panel/r100-avoid-touching-face "Постарайтесь не трогать лицо немытыми руками."
+ :outcome-panel/r100-cover-cough "Кашляйте или чихайте в носовой платок или локтевой сгиб. Не кашляйте в направлении других людей."
+ :outcome-panel/r100-avoid-close-contact "Избегайте близких контактов с людьми, которые болеют, особенно если вы в группе риска заболеть COVID-19."
+ :outcome-panel/r100-get-plenty-of-rest "Больше отдыхайте, пейте больше жидкости, избегайте стресса, а также правильно питайтесь - это поможет поддержать иммунитет."
+ :outcome-panel/r100-keep-surroundings-clean "Поддерживайте чистоту. Дезинфицируйте контактные поверхности, которые используются несколькими людьми, такие как дверные ручки, телефонные трубки, умывальники и шкафчики в ванной (или любые другие поверхности, на которые могли кашлять или чихнуть). Используйте ваши обычные средства дезинфекции или салфетки Clorox."
+ :outcome-panel/r100-if-you-are-sick "Если вы больны - оставайтесь дома вдали от других людей."
+ :outcome-panel/r100-stay-informed "Следите за новостями. Рекомендации от учреждений здравоохранения постоянно обновляются."
+ :outcome-panel/contact-local-health-dept "Обратитесь в местное учреждение здравоохранения для последующей диагностики."
+
+ ;; r100
+ :outcome-panel/based-on-your-results-r100 [:<> "Исходя из ваших ответов, вам **НЕ ТРЕБУЕТСЯ** дальнейшая проверка. "]
+ :outcome-panel/please-feel-free-to-repeat "Вы можете повторить этот тест через 24 часа если почувствуете какие-то перемены в здоровье."
+ :outcome-panel/please-follow-guidelines "Пожалуйста, следуйте указаниям местного учреждения здравоохранения или свяжитесь с ними по поводу любых последующих проблем или вопросов."
+ :outcome-panel/based-on-your-results [:<> "Исходя из ваших ответов, вам **НЕ НУЖНО** обращаться за срочной медицинской помощью"]
+
+ ;; r300
+ :outcome-panel/based-on-results-you-have [:<> "Исходя из ваших ответов, на данный момент у вас **НЕТ СИМПТОМОВ** COVID-19. Рекомендуем вам оставаться дома и связаться с местным учреждением здравоохранения."]
+
+ ;; r400
+ :outcome-panel/based-on-answers-higher-risk "Исходя из ваших ответов, вы в группе риска заражения коронавирусной инфекцией (COVID-19). "
+ ;; REMOVED :outcome-panel/contact-nurse-triage "Contact the COVID-19 Nurse Triage Call Center at "
+ ;; REMOVED :outcome-panel/for-further-evaluation " for further evaluation."
+ :outcome-panel/contact-nurse-triage2 [:<> "Свяжитесь с колл-центром первой помощи COVID-19 по телефону %1 для дополнительной информации."]
+
+ ;; disclaimer
+ :outcome-panel/disclaimer-title "Внимание:"
+ :outcome-panel/not-a-diagnosis " Результаты данного теста не являются медицинским диагнозом."
+
+ ;; Harris factors
+ :option/yes "Да"
+ :option/no "Нет"
+ :option/unknown "Не знаю"
+ :question/africa "Африка"
+ :question/asia "Азия"
+ :question/australia "Австралия"
+ :question/europe "Европа"
+ :question/south-america "Южная Америка"
+ :question/no-travel "Нет"
+ :option/feeling-sick "Чувствую себя заболевшим"
+ :option/feeling-fine "Чувствую себя здоровым"
+ :option/temp-above-104 "Температура больше 38 °C (100.4 °F)"
+ :option/older-than-65-and-temp-above-99 "Я старше 65 и у меня температура больше 37.5 °C (99.6 °F)"
+ :option/i-feel-feverish "Чувствую, что есть температура"
+ :option/i-dont-know "Я не знаю"
+ :option/normal "Температуры нет"
+ :option/cough-dry "Сухой кашель (непродуктивный)"
+ :option/cough-wet "Влажный кашель (продуктивный)"
+ :option/shortness-of-breath "Одышка"
+ :option/wheezing "Хрипы"
+ :option/none-of-the-above "Ничего из вышеперечисленного"
+ :option/headache "Головная боль"
+ :option/runny-nose "Насморк"
+ :option/itchy-eyes "Зуд в глазах"
+ :option/watery-eyes "Слезятся глаза"
+ :option/sneezing "Чихание"
+ :option/hypertension "Высокое артериальное давление / Гипертензия"
+ :option/heart-disease "Заболевания сердца"
+ :option/lung-disease "Заболевания лёгких"
+ :option/diabetes "Диабет"
+ :option/immunosuppressed-by-meds "Медикаментозная иммуносупрессия или ВИЧ"
+ :option/nursing-home-resident "Нахожусь в доме престарелых или хосписе"
+ :option/pregnant "Беременна или менее 2х недель после родов"
+ :option/younger-than-20 "Моложе 20"
+ :option/over-80 "80 и старше"
+ :factor-question/in-person-close-contact "1. Контактировали ли вы с людьми, у которых был диагностирован коронавирус (COVID-19)?"
+ :factor-question/recent-international-travel "2. Бывали ли вы где-то из нижеперечисленного за последние 14 дней?"
+ :factor-question/how-are-you-feeling "3. Ваше самочувствие?"
+ :factor-question/what-is-your-temp-harris "4. У вас есть температура?"
+ :factor-question/any-of-the-following "5. Какие-нибудь ещё симптомы?"
+ :factor-question/allergies "6. Какие-нибудь ещё симптомы?"
+ :factor-question/do-any-of-the-following-apply "7. Что-либо из нижеперечисленного:"
+ :factor-question/what-is-your-age-harris "8. Ваш возраст?"
+ :factor-question/first-responder-or-healthcare "9. Являетесь ли вы медработником?"
+
+ ;; Result Bars
+ :result-bar/click-to-proceed "Нажмите для продолжения"
+ :result-bar/please-complete-all-fields "Пожалуйста, заполните все поля"
+ :result-bar/possible-infection "Возможно вы инфицированы"
+ :result-bar/screened-negative "Результат отрицательный"
+
+ ;; Outcome Panels Fort Bend - G. Klein, 28 Mar 2020
+ ;; R400
+ :fort-bend-county.outcome-panel/contact-call-center [:<> "Для консультации проверки свяжитесь с COVID-19 Health Professional Triage Call Center по телефону %1."]
+ :fort-bend-county.outcome-panel/provide-code "Пожалуйста, сообщите этот код, чтобы позвонить в медицинский центр."
+ :fort-bend-county.outcome-panel/code-is-for-speaking "Информируем, что данный код используется только для общения с профессионалом и не гарантирует тестирования."
+ :fort-bend-county.outcome-panel/if-approved "Если вы одобрены для тестирования, вы получите ещё один уникальный код для использования на сайте."
+ :fort-bend-county.outcome-panel/please-dont-come "Пожалуйста, не заходите на сайт с этим кодом, потому что он не будет использован."
+
+ ;; R300
+ :fort-bend-county.outcome-panel/contact-health-pro-triage "Свяжитесь с COVID-19 Health Professional Triage Call Center по телефону 281-238-2363 для дальнейшей консультации"}
+
+ ;; everything below this point is not used in the Harris Instance as far as I can tell
+ ;; - G. Klein, 24 Mar 2020
+
+ ;; outcome panels
+ ;; FIXME :outcome-panel/you-have-screened "You have screened "
+ ;; FIXME :outcome-panel/on-the " on the "
+ ;; FIXME :outcome-panel/strong-covid19-assessment "COVID-19 Assessment"
+ ;; FIXME :outcome-panel/but-you-do-not ", but you do not have concerning symptoms at this time."
+ ;; FIXME :outcome-panel/minimal-symptoms " and have minimal symptoms."
+ ;; FIXME :outcome-panel/strong-negative "NEGATIVE"
+ ;; FIXME :outcome-panel/strong-positive "POSITIVE"
+ ;; FIXME :outcome-panel/symptoms-should-be-evaluated " and have symptoms that should be evaluated by a healthcare professional."
+ ;; FIXME :outcome-panel/have-concerning-medical-symptoms ", but have concerning medical symptoms."
+ ;; FIXME :outcome-panel/not-in-harris "Your location or zip code does not belong to Harris County. Please contact your local health department."
+ ;; FIXME :outcome-panel/call-arkansas-dept-of-health "Call the Arkansas Department of Health at "
+ ;; FIXME :outcome-panel/during-business-hours " during business hours "
+ ;; FIXME :outcome-panel/strong-if "IF"
+ ;; FIXME :outcome-panel/you-have-indicated " you have indicated that you have:"
+ ;; FIXME :outcome-panel/known-exposure "A known exposure to COVID-19"
+ ;; FIXME :outcome-panel/have-travelled-from "Have travelled from a place with a known COVID-19 outbreak."
+ ;; FIXME :outcome-panel/call "Call "
+ ;; FIXME :outcome-panel/white-county-medical " for White County Medical Center Emergency Room, Searcy"
+ ;; FIXME :outcome-panel/harris-medical-center " for Harris Medical Center Emergency Room, Newport"
+ ;; FIXME :outcome-panel/r400h-click-link "Please click on this link and fill out the form to schedule COVID-19 testing."
+ ;; FIXME :outcome-panel/please-contact-local-hd "Please contact your local health department."
+ ;; FIXME :outcome-panel/call-local-health-dept "Call your local health department if you have either a known exposure to Coronavirus disease (COVID-19) or have traveled from a place with a known COVID-19 outbreak."
+ ;; FIXME :outcome-panel/please-call-pcp "Please call your primary care provider if you continue to have health concerns."
+ ;; FIXME :outcome-panel/need-further-evaluation-or-testing " need further evaluation or testing at this time."
+ ;; FIXME :outcome-panel/please-repeat-4-hours "Please repeat this assessment in 4 hours or if you feel worse."
+ ;; FIXME :outcome-panel/implement-home-care "You may implement a home care plan if:"
+ ;; FIXME :outcome-panel/feel-well-home-care "You feel well enough to receive care at home."
+ ;; FIXME :outcome-panel/appropriate-caregivers "Appropriate caregivers are available at home."
+ ;; FIXME :outcome-panel/seperate-bedroom "There is a separate bedroom where you can recover without sharing immediate space with others."
+ ;; FIXME :outcome-panel/resources-for-food-and-water "Resources for access to food and other necessities are available."
+ ;; FIXME :outcome-panel/you-have-access-ppe "You and other household members have access to appropriate, recommended personal protective equipment (at a minimum, gloves and facemask) and are capable of adhering to precautions recommended as part of home care or isolation (e.g., respiratory hygiene and cough etiquette, hand hygiene)"
+ ;; FIXME :outcome-panel/you-should-discuss-plan "You should discuss your plan with your Primary care provider or any healthcare provider if there are household members who may be at increased risk of complications from COVID-19 infection (.e.g., people >65 years old, young children, pregnant women, people who are immunocompromised or who have chronic heart, lung, or kidney conditions)."
+ ;; FIXME :outcome-panel/call-pcp-for-test "Please call your primary care provider to be tested for COVID-19."
+ ;; FIXME :outcome-panel/results-isolation-testing "Based on your results you need a medical evaluation that needs to be done in a specific type of isolation room."
+ ;; FIXME :outcome-panel/outpatient-clinics-cant "Outpatient clinics are not properly equipped to do your examination."
+ ;; FIXME :outcome-panel/please-call-er-prior "Please call the ER prior to presentation."
+ ;; FIXME :outcome-panel/before-entering-facility "Before entering the facility, we will bring you a mask."
+ ;; FIXME :outcome-panel/you-will-be-escorted "You will then be escorted to the proper location."
+ ;; FIXME :outcome-panel/results-require-attention "Based on your results you have symptoms that require medical attention."
+ ;; FIXME :outcome-panel/please-call-to-discuss "Please call your primary care provider or the nearest healthcare provider and discuss these symptoms."
+ ;; FIXME :outcome-panel/please-share-screening "Please share your screening results below."
+ ;; FIXME :outcome-panel/questions "Questions"
+ ;; FIXME :outcome-panel/answers "Your Answers"
+ ;; FIXME :outcome-panel/assessment-results "Assessment Results:"
+
+ ;; PANEL_C300_COMORBIDITIES
+ ;; FIXME :not-limited-immunosuppressant-meds "not limited to prednisone, biologics, and antirejection meds"
+
+ ;; Questions
+ ;; FIXME :option/i-feel-fine "I feel fine"
+ ;; FIXME :option/i-feel-sick "I feel sick"
+ ;; FIXME :option/i-feel-very-sick "I feel very sick / Considering hospitalization"
+ ;; FIXME :option/temp-above "Temperature above 100.4 °F"
+ ;; FIXME :option/temp-below "Temperature below 96.8 °F"
+ ;; FIXME :option/normal-temp "Normal temperature / I don't know"
+ ;; FIXME :option/cough "Cough"
+ ;; FIXME :option/i-am-breathing-very-fast "I am breathing very fast"
+ ;; FIXME :option/high-blood-pressure "High blood pressure"
+ ;; FIXME :option/cancer-diagnosis "Cancer diagnosis"
+ ;; FIXME :option/taking-immunosuppressant-medication "Taking immunosuppressant medication *"
+ ;; FIXME :option/kidney-failure-on-dialysis "Kidney failure on dialysis"
+ ;; FIXME :option/other-chronic-health-condition "Other Chronic health condition"
+ ;; FIXME :factor-question/feeling-sick-today "Are you feeling sick today?"
+ ;; FIXME :factor-question/been-in-contact-with-covid19 "Have you been in contact with someone with COVID-19?"
+ ;; FIXME :factor-question/recently-traveled "Have you recently traveled to a location with known COVID-19 outbreak? *"
+ ;; FIXME :factor-question/have-been-exposed "Have you been exposed to COVID-19?"
+ ;; FIXME :factor-question/what-is-your-temp "У вас есть температура?"
+ ;; FIXME :factor-question/do-you-have-the-following "Do you have any of the following?"
+ ;; FIXME :factor-question/lower-respiratory-distress "Do you have any lower respiratory distress?"
+ ;; FIXME :factor-question/what-is-your-age "Ваш возраст? (не обязательно)"
+
+ ;; Result Table
+ ;; FIXME :results-table/comorbidities "Comorbidities"
+ ;; FIXME :results-table/age-risk "Age Risk"
