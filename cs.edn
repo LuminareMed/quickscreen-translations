@@ -80,7 +80,7 @@
  :outcome-panel/no-more-test-kits "Pro dnešek je už, bohužel, limit testů vyčerpán. Prosím, zkuste to znovu zítra a po 8. hodině ranní si zopakujte samovyšetření. Pokud jste v ohrožení života, volejte, prosím, 9-1-1. Jinak zůstaňte, prosím, doma a dodržujte preventivní opatření (myjte si ruce, kryjte si ústa při kašlání a kýchání, dezinfikujte frekventované povrchy a ve společnosti si udržujte odstup)."
  :outcome-panel/health-recommendations-title "Zdravotní doporučení"
  :outcome-panel/at-this-time-we-recommend "Momentálně doporučujeme:"
- :outcome-panel/stay-home-and-quarantine "Zůstaňte 14 dní doma v karanténě. Po tuto dobu nechoďte do práce ani do školy a nezůčastňujte se atletických událostí ani jiných společenských a náboženských shromáždění."
+ :outcome-panel/stay-home-and-quarantine "Zůstaňte 14 dní doma v karanténě. Po tuto dobu nechoďte do práce ani do školy a nezúčastňujte se sportovních událostí ani jiných společenských a náboženských shromáždění."
  :outcome-panel/limit-contact-with-people "Omezte kontakt s jinými lidmi na nezbytné minimum. To zahrnuje i maximální možnou izolaci od vašich spolubydlících."
  :outcome-panel/wash-your-hands-with-soap "Často, zvláště po kašlání, kýchání nebo vyhazování použitého kapesníku do koše, si myjte ruce vodou a mýdlem nebo používejte dezinfekční prostředek na bázi alkoholu."
  :outcome-panel/avoid-touching-face "Nedotýkejte se očí, nosu a úst neumytýma rukama."
@@ -189,7 +189,7 @@
  :fort-bend-county.outcome-panel/contact-call-center [:<> "Pro další vyhodnocení kontaktujte COVID-19 Health Professional Triage Call Center na lince %1"]
  :fort-bend-county.outcome-panel/provide-code "Zadejte tento kód pro telefonické spojení s Health Professional Triage Center."
  :fort-bend-county.outcome-panel/code-is-for-speaking "Vezměte, prosím, na vědomí, že tento kód vám pouze umožní mluvit se specialistou a není zárukou provedení testu."
- :fort-bend-county.outcome-panel/if-approved "Pokud vám bude schváleno testování, obdržíte další jedinečný kód, který si vezmete s sebou na místo."
+ :fort-bend-county.outcome-panel/if-approved "Pokud vám bude schváleno testování, obdržíte další unikátní kód, který si vezmete s sebou na místo."
  :fort-bend-county.outcome-panel/please-dont-come "Prosím nechoďte na místo s tímto kódem, bude neplatný."
 
  ;; R300
