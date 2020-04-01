@@ -3,6 +3,7 @@
 
 const assert = require('assert')
 const fs = require('fs')
+const path = require('path')
 
 const parseEDN = require('edn-to-js')
 const glob = require('glob')
@@ -10,17 +11,17 @@ const glob = require('glob')
 const keywordRegex = /:[a-zA-Z0-9\-./]+/g
 
 // sanity-check: english dictionary must exist
-if (!fs.existsSync('en.edn')) {
-  console.error('[ERROR] en.edn file must exist')
+if (!fs.existsSync('dictionaries/en.edn')) {
+  console.error('[ERROR] dictionaries/en.edn file must exist')
   process.exit(1)
 }
 
 // read all the dictionary files into memory and validate EDN syntax
-const allDictionaryFiles = glob.sync('*.edn')
+const allDictionaryFiles = glob.sync('dictionaries/*.edn')
 const dictionaryFileContents = {}
 for (let i = 0; i < allDictionaryFiles.length; i++) {
   const filename = allDictionaryFiles[i]
-  const langKey = filename.replace('.edn', '')
+  const langKey = path.basename(filename, '.edn')
   const fileContents = readFileSync(filename)
 
   try {
@@ -32,6 +33,7 @@ for (let i = 0; i < allDictionaryFiles.length; i++) {
 
   dictionaryFileContents[langKey] = fileContents
 }
+console.log('[INFO] all dictionary files are valid EDN syntax')
 
 // make sure the language files all have the same resource-id on every line
 const enFileContents = dictionaryFileContents.en
@@ -71,7 +73,7 @@ for (const langKey in dictionaryFileContents) {
   }
 }
 
-console.log('[INFO] all dictionary files line up with en.edn - great job!')
+console.log('[INFO] all resource ids line up with en.edn - great job!')
 process.exit(0)
 
 // -----------------------------------------------------------------------------

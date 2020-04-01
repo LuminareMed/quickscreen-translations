@@ -51,9 +51,10 @@ requirements as we progress.
 We are using [tempura] for [i18n] and storing translation dictionaries in simple
 [EDN files] (very similar to JSON).
 
-The English dictionary file [`en.edn`](en.edn) will always reflect the latest
-version of the product. The QuickScreen development team has a bit of Spanish
-translating capability, but otherwise we all work in English.
+The English dictionary file [`dictionaries/en.edn`](dictionaries/en.edn) will
+always reflect the latest version of the product. The QuickScreen development
+team has a bit of Spanish translating capability, but otherwise we all work in
+English.
 
 We welcome all Pull Requests to this repo to help us keep the other languages "in
 sync" with English. Please see the Development Notes section below for tips on

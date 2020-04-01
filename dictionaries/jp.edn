@@ -1,0 +1,275 @@
+{
+ ;; Misc
+ :infected-locations "以下の国・地域：中国、イタリア、イラン、韓国、日本、香港、または アメリカ、および新型コロナウイルスの発生が確認されている地域"
+
+ ;; Header
+ :header/from "from"
+
+ ;; Footer
+ :footer/restart-screening "再診断"
+ :footer/about "プロジェクトについて"
+ :footer/hospital-signup "病院への登録"
+ :footer/check-previous-result "過去の診断結果 確認"
+ :footer/legal-disclaimer "免責事項"
+ :footer/disclaimer "ここで行うスクリーニングは、医療機関での検査が必要か否かを判断する診断ツールです。本スクリーニングはアメリカ疾病管理予防センター CDC.govのCOVID-19対策ガイドラインに基づき、情報更新しております。本スクリーニングでの診断結果は、独立認定医療従事者によるアドバイスに代わるものではありません。"
+ :footer/life-threatening-emergency "命にかかわる緊急時は、911に電話をかけてください。"
+ :footer/please-review-disclaimer "命にかかわる緊急時は、911に電話してください。"
+
+ ;; Modal
+ :modal/enter-your-zip-code "ZIPコードを入力してください"
+ :ok "確認"
+ :cancel "取消"
+
+ ;; About Page
+ :about/what-is-this "私たちはCDCとWHOのガイドラインに基づき、居住者 皆様の安全かつ包括的な自己診断を支援すべく、COVID-19スクリーニングツールを無償提供しています。 本プロジェクトは医療従事者への感染拡大防止、救急外来の混雑回避、地域社会へのコミュニケーション円滑化を目的としています。"
+ :about/website "ウェブサイト"
+ :about/who-are-we-part-one "Luminareは患者が最適かつ迅速な医療ケアを受けられるように、医療に関するプロトコルと複雑なワークフローのデジタル化を専門としています。 私たちのチームは患者により良い医療ケアを提供すべく、敗血症から新型コロナウイルスまで、過去のデータを活用し 医療ワークフローやチェックリストを実用的なツールへ変換し 提供しています。"
+ :about/who-are-we-part-two "詳しくはこちらへ"
+ :about/title "CheckForCorona.comプロジェクトについて"
+ :about/subtitle-what-is-this "プロジェクトについて"
+ :about/subtitle-who-are-we "私たちについて"
+
+ ;; Check Result Page
+ :check-result/title "過去の診断結果 確認"
+ :check-result/form-label "スクリーニングIDを入力してください"
+ :check-result/form-submit-button "送信　（つぎへ）"
+
+ ;; Landing Page
+ :harris-county.landing-page/title "新型コロナウイルス（COVID-19）感染自己診断サイトへようこそ"
+ :fort-bend-county.landing-page/title "新型コロナウイルス（COVID-19）感染自己診断サイトへようこそ"
+ :landing-page/who-should-be-tested "新型コロナウイルス（COVID-19）の検査を必要とする方とは"
+ :landing-page/people-with-fever "38℃（100.4℉）以上の発熱があり、呼吸器系疾患の症状がある方"
+ :landing-page/have-had-close-contact "新型コロナウイルス感染者と濃厚接触した方"
+ :landing-page/have-other-conditions "糖尿病、肺疾患、心臓病などの症状がある方、または妊娠している方"
+ :landing-page/are-older "60歳以上である方"
+ :landing-page/nursing-homes "老人ホーム、介護施設に入居されている方"
+ :landing-page/part-of-investigation "集団感染が疑われ、調査対象となっている地域に訪れた方"
+ :landing-page/healthcare-worker-first-responder "医療従事者または救急対応従事者の方"
+ :landing-page/who-does-not-test "新型コロナウイルス（COVID-19）の検査が不要な方とは"
+ :landing-page/people-without-symptoms "新型コロナウイルスに関連する症状がない方"
+ :landing-page/anyone-who-is-sick "一般的な風邪の症状の方（在宅療養してください）"
+ :landing-page/to-protect-yourself [:<> "感染予防のために、こまめに石鹸で手を洗い、咳やくしゃみをする際はティッシュまたは肘の内側で鼻と口を覆い、さらに他の人と約2m（6 feet）以上の距離を取りましょう。本スクリーニングは自己診断ツールであり、医療従事者によるアドバイスに代わるものではありません。"]
+ :landing-page/if-emergency-call "命にかかわる緊急時は、911に電話をかけてください。"
+ :harris-county.landing-page/if-other-health-concerns "その他 健康に関する不安がある場合、かかりつけの医療機関にお問い合わせください。医療機関を利用できない居住者は、Harris Health Ask My Nurse（TEL:713-634-1110  午前9時～午後7時  年中無休）にお問い合わせください。より詳しい新型コロナウイルスについての情報はこちらへ。"
+ :fort-bend-county.landing-page/if-other-health-concerns "その他 健康に関する不安がある場合、かかりつけの医療機関にお問い合わせください。医療機関を利用できない居住者は、Harris Health Ask My Nurse（TEL:713-634-1110  午前9時～午後7時  年中無休）にお問い合わせください。より詳しい新型コロナウイルスについての情報はこちらへ。"
+ :or "または"
+ :landing-page/older-than-65 "65歳以上で37.5℃（99.6℉）以上の発熱がある方"
+ :landing-page/close-contact-defined "濃厚接触とは"
+ :landing-page/being-within-6-feet "a）約2ｍ（6 feet）以内で新型コロナウイルス感染者と同居あるいは長時間の接触（介護や待合室の利用を含む）があった方"
+ :landing-page/footnote-or "または"
+ :landing-page/having-direct-contact "b）新型コロナウイルス感染者の咳やくしゃみなどによる気道分泌液または体液等に直接触れた可能性が高い方"
+ :landing-page/this-tool-will-help "本スクリーニングは医療機関による新型コロナウイルスの検査が必要か否かを診断ツールです。"
+ :landing-page/please-help-answer "以下の質問にお答えください。（もしくは、代理回答 願います。）"
+ :landing-page/begin-self-assessment-button "自己診断 開始"
+
+ ;; Location Panel
+ :location-panel/share-location-for-epidemiology "感染拡大調査のために現在位置情報を共有しますか？"
+ :location-panel/requesting-location-spinner "現在位置情報 検出中"
+ :location-panel/enter-zip-code "ZIPコードを入力してください"
+ :location-panel/click-to-use-location "現在位置情報の自動検出"
+ :location-panel/opt-out-of-location-sharing "現在位置情報を共有しない"
+ :location-panel/epidemiology-is-helpful "いつ、どこで流行が発生するかは"
+ :location-panel/your-location-is-protected [:<> "コミュニティの迅速な対応には、流行の発生源特定および追跡のために 日時や位置情報の特定が極めて重要です。" "本情報は感染拡大調査のみに利用されます。回答時の健康に関する個人情報は一切保存されません。"]
+ :location-panel/unable-to-use-location "現在位置情報を特定できませんでした。ZIPコードを入力してください。"
+ :location-panel/please-enter-valid-zip "有効なZIPコードを入力してください。"
+
+ ;; Outcome Panels Harris
+ :outcome-panel/covid-self-assessment-results "新型コロナウイルス（COVID-19）自己診断結果"
+ :outcome-panel/if-experiencing-call "命にかかわる緊急時は、911に電話をかけてください。"
+ :outcome-panel/your-screening-id "あなたのスクリーニングIDはこちらです。"
+ :outcome-panel/no-more-test-kits "本日のスクリーニング数の上限に達してしまったため、恐れ入りますが 明日午前8時以降に再度 診断を行ってください。命にかかわる緊急時は、911に電話をかけてください。また、不要不急の外出を避け、手洗いやうがい、他の人と距離を取るなどして感染予防に努めてください。"
+ :outcome-panel/health-recommendations-title "感染予防および感染拡大を防ぐために"
+ :outcome-panel/at-this-time-we-recommend "感染を予防し、拡大を防ぐために 以下のことをお勧めします。"
+ :outcome-panel/stay-home-and-quarantine "自宅にて自主的に14日間の隔離。出勤、通学、ジム通い、また イベントなどの社会的および宗教的集会に参加しない。"
+ :outcome-panel/limit-contact-with-people "接触する人数（同居人を含む）、機会をできるだけ減らす。"
+ :outcome-panel/wash-your-hands-with-soap "こまめに石鹸で手を洗う。もしくは、こまめにアルコール成分入り除菌ジェルを利用する。特に咳やくしゃみのあとは念入りに行い、使ったティッシュ等はすぐにゴミ箱へ捨てる。"
+ :outcome-panel/avoid-touching-face "手を洗っていない状態で 目や鼻、口を触るのを避ける。"
+ :outcome-panel/cover-coughs-and-sneezes "咳やくしゃみをする際はティッシュまたは肘の内側で鼻と口を覆う。絶対に他の人に向かって咳やくしゃみをしないでください。"
+ :outcome-panel/do-not-share "コップや食器、タオル、寝具などを 自主的に隔離している間は共有しない。"
+ :outcome-panel/keep-surroundings-clean "周囲を清潔に保つ。ドアノブや電話、洗面所など他の人も触れる可能性のある場所は除菌ウエットティッシュなどで こまめに拭く。"
+ :outcome-panel/if-you-are-sick-stay-home "体調不良の場合、不要不急の外出、他の人と接触を避ける。"
+ :outcome-panel/remember-to-avoid-gatherings "感染拡大を防ぐため、集団で集まることを避けてください。"
+ :outcome-panel/stay-informed "信用できる医療機関からの最新情報収集に努めてください。"
+ ;; REMOVED :outcome-panel/visit "Visit "
+ ;; REMOVED :outcome-panel/for-frequent-updates " for frequent updates."
+ :outcome-panel/visit-url-for-updates [:<> "詳細はこちら%1"]
+ :harris-county.outcome-panel/visit-urls-for-updates [:<> "最新情報 %1 %2 %3"]
+ :outcome-panel/feeling-stressed-title "ストレスや不安を抱えていますか？"
+ :outcome-panel/fear-and-anxiety "病気に対する恐怖や不安は大人だけでなく、子供にも過度なストレス源となります。"
+ :outcome-panel/people-with-preexisting-mental "すでに精神的に不安定な状態にあり 療養中の方は、現在の治療を続け、かかりつけ医との連絡を保ち、新たな症状が出ないか 細心の注意を払ってください。"
+ :outcome-panel/stay-connected-with-friends "友人や家族（特に年配の方）と電話やビデオ通話、メール等を通じて連絡を取り合いましょう。"
+ :outcome-panel/use-other-ways "運動やストレッチを行い、精神バランスを整え、 心と体をリラックスさせましょう。"
+ :outcome-panel/call-healthcare-provider "ストレスが日常生活に影響を与える場合は、かかりつけ医に相談しましょう。"
+ :outcome-panel/for-additional-support "追加情報、サポートにつきましては、以下をご覧ください。"
+ :outcome-panel/harris-center-mental-support "ハリスセンター 新型コロナウイルス精神サポート ホットライン"
+ :outcome-panel/disaster-distress-helpline "災害ストレス ヘルプライン"
+ :outcome-panel/r100-wash-hands "こまめに20秒以上かけて石鹸で手を洗ってください。手が洗えない場合は、除菌ジェル等を用いて手を清潔に保ってください。特に、咳やくしゃみのあとは念入りに行い、使ったティッシュはすぐにゴミ箱へ捨ててください。"
+ :outcome-panel/r100-avoid-touching-face "手を洗っていない状態で目や鼻、口を触るのを避けてください。"
+ :outcome-panel/r100-cover-cough "咳やくしゃみの際はティッシュや肘の内側で鼻や口を覆ってください。絶対に他の人に向かって咳やくしゃみをしないでください。"
+ :outcome-panel/r100-avoid-close-contact "風邪をひいている人との濃厚接触を避けてください。特に持病があり、新型コロナウイルス感染により悪化するリスクの高い方は気を付けてください。"
+ :outcome-panel/r100-get-plenty-of-rest "十分な休息をとり、こまめに水分を補給し、バランスの取れた食事を心がけ、ストレスをコントロールすることで免疫力を高く保ってください。"
+ :outcome-panel/r100-keep-surroundings-clean "周囲を清潔に保ってください。ドアノブや電話、洗面所など他の人も触れる可能性のある場所は除菌ウエットティッシュなどで こまめに拭いてください。"
+ :outcome-panel/r100-if-you-are-sick "風邪をひいている場合は 不要不急の外出、他の人との接触を避けてください。"
+ :outcome-panel/r100-stay-informed "信用できる医療機関からの最新情報収集に努めてください。"
+ :outcome-panel/contact-local-health-dept "さらなる情報、診断については、地域の医療機関にお問い合わせください。"
+
+ ;; r100
+ :outcome-panel/based-on-your-results-r100 [:<> "今回の診断結果より、現時点では 医療機関による検査は必要ないと判断されました。"]
+ :outcome-panel/please-feel-free-to-repeat "24時間以内に健康状態が変化した場合、再度この自己診断を行ってください。"
+ :outcome-panel/please-follow-guidelines "健康上の心配や不安がある場合は、引き続き 地域の医療機関や かかりつけ医からの指導に沿って行動してください。"
+ :outcome-panel/based-on-your-results [:<> "今回の診断結果より、現時点では 救急外来を受診する必要はないと判断されました。"]
+
+ ;; r300
+ :outcome-panel/based-on-results-you-have [:<> "今回の診断結果より、現時点では 新型コロナウイルスの感染による症状ではないと判断されました。不要不急の外出を避け、地域の医療機関に問い合わせることをお勧めします。"]
+
+ ;; r400
+ :outcome-panel/based-on-answers-higher-risk "今回の診断結果より、新型コロナウイルスに感染している可能性が高いと判断されました。"
+ ;; REMOVED :outcome-panel/contact-nurse-triage "Contact the COVID-19 Nurse Triage Call Center at "
+ ;; REMOVED :outcome-panel/for-further-evaluation " for further evaluation."
+ :outcome-panel/contact-nurse-triage2 [:<> "追加診断につきましては、新型コロナウイルス ナース トリアージ センター（TEL: %1）にお問い合わせください。"]
+
+;; disclaimer
+ :outcome-panel/disclaimer-title "免責事項"
+ :outcome-panel/not-a-diagnosis "これは医療従事者による診断ではありません。"
+
+ ;; Harris factors
+ :option/yes "はい"
+ :option/no "いいえ"
+ :option/unknown "わからない"
+ :question/africa "アフリカ"
+ :question/asia "アジア"
+ :question/australia "オーストラリア"
+ :question/europe "ヨーロッパ"
+ :question/south-america "南米"
+ :question/no-travel "訪れていない"
+ :option/feeling-sick "体調が すぐれない"
+ :option/feeling-fine "体調が良い"
+ :option/temp-above-104 "38℃（100.4℉）以上の発熱がある"
+ :option/older-than-65-and-temp-above-99 "65歳以上であり、37.5℃（99.6℉）以上の発熱がある"
+ :option/i-feel-feverish "熱っぽい"
+ :option/i-dont-know "わからない"
+ :option/normal "正常"
+ :option/cough-dry "乾いた咳が出る"
+ :option/cough-wet "湿った咳が出る"
+ :option/shortness-of-breath "息苦しい"
+ :option/wheezing "喘鳴（ぜいぜいする）の症状がある"
+ :option/none-of-the-above "該当なし"
+ :option/headache "頭痛"
+ :option/runny-nose "鼻水が出る"
+ :option/itchy-eyes "目がかゆい"
+ :option/watery-eyes "涙目"
+ :option/sneezing "くしゃみ"
+ :option/hypertension "高血圧"
+ :option/heart-disease "心臓病"
+ :option/lung-disease "肺疾患"
+ :option/diabetes "糖尿病"
+ :option/immunosuppressed-by-meds "薬物療法またはHIVによる免疫抑制"
+ :option/nursing-home-resident "介護施設または長期治療施設の入居者"
+ :option/pregnant "妊婦または出産後2週間以内"
+ :option/younger-than-20 "20歳未満"
+ :option/over-80 "80歳以上"
+ :factor-question/in-person-close-contact "これまでに新型コロナウイルスに感染したと診断された方との濃厚接触がありましたか？"
+ :factor-question/recent-international-travel "14日以内に以下の地域へ海外渡航しましたか？"
+ :factor-question/how-are-you-feeling "今日の体調はいかがですか？"
+ :factor-question/what-is-your-temp-harris "現在の体温は何度ですか？"
+ :factor-question/any-of-the-following "以下に該当するものはありますか？"
+ :factor-question/allergies "以下に該当するものはありますか？"
+ :factor-question/do-any-of-the-following-apply "以下に該当する項目はありますか？"
+ :factor-question/what-is-your-age-harris "何歳ですか？"
+ :factor-question/first-responder-or-healthcare "医療従事者または救急対応従事者ですか？"
+
+ ;; Result Bars
+ :result-bar/click-to-proceed "クリックして次に進む"
+ :result-bar/please-complete-all-fields "すべての項目に回答してください。"
+ :result-bar/possible-infection "陽性と診断されました。"
+ :result-bar/screened-negative "陰性と診断されました。"}
+
+ ;; Outcome Panels Fort Bend - G. Klein, 28 Mar 2020
+ ;; R400
+ ;; FIXME :fort-bend-county.outcome-panel/contact-call-center
+ ;; FIXME :fort-bend-county.outcome-panel/provide-code
+ ;; FIXME :fort-bend-county.outcome-panel/code-is-for-speaking
+ ;; FIXME :fort-bend-county.outcome-panel/if-approved
+ ;; FIXME :fort-bend-county.outcome-panel/please-dont-come
+
+ ;; R300
+ ;; FIXME :fort-bend-county.outcome-panel/contact-health-pro-triage
+
+ ;; everything below this point is not used in the Harris Instance as far as I can tell
+ ;; - G. Klein, 24 Mar 2020
+
+ ;; outcome panels
+ ;; FIXME :outcome-panel/you-have-screened
+ ;; FIXME :outcome-panel/on-the
+ ;; FIXME :outcome-panel/strong-covid19-assessment
+ ;; FIXME :outcome-panel/but-you-do-not
+ ;; FIXME :outcome-panel/minimal-symptoms
+ ;; FIXME :outcome-panel/strong-negative
+ ;; FIXME :outcome-panel/strong-positive
+ ;; FIXME :outcome-panel/symptoms-should-be-evaluated
+ ;; FIXME :outcome-panel/have-concerning-medical-symptoms
+ ;; FIXME :outcome-panel/not-in-harris
+ ;; FIXME :outcome-panel/call-arkansas-dept-of-health
+ ;; FIXME :outcome-panel/during-business-hours
+ ;; FIXME :outcome-panel/strong-if
+ ;; FIXME :outcome-panel/you-have-indicated
+ ;; FIXME :outcome-panel/known-exposure
+ ;; FIXME :outcome-panel/have-travelled-from
+ ;; FIXME :outcome-panel/call
+ ;; FIXME :outcome-panel/white-county-medical
+ ;; FIXME :outcome-panel/harris-medical-center
+ ;; FIXME :outcome-panel/r400h-click-link
+ ;; FIXME :outcome-panel/please-contact-local-hd
+ ;; FIXME :outcome-panel/call-local-health-dept
+ ;; FIXME :outcome-panel/please-call-pcp
+ ;; FIXME :outcome-panel/need-further-evaluation-or-testing
+ ;; FIXME :outcome-panel/please-repeat-4-hours
+ ;; FIXME :outcome-panel/implement-home-care
+ ;; FIXME :outcome-panel/feel-well-home-care
+ ;; FIXME :outcome-panel/appropriate-caregivers
+ ;; FIXME :outcome-panel/seperate-bedroom
+ ;; FIXME :outcome-panel/resources-for-food-and-water
+ ;; FIXME :outcome-panel/you-have-access-ppe
+ ;; FIXME :outcome-panel/you-should-discuss-plan
+ ;; FIXME :outcome-panel/call-pcp-for-test
+ ;; FIXME :outcome-panel/results-isolation-testing
+ ;; FIXME :outcome-panel/outpatient-clinics-cant
+ ;; FIXME :outcome-panel/please-call-er-prior
+ ;; FIXME :outcome-panel/before-entering-facility
+ ;; FIXME :outcome-panel/you-will-be-escorted
+ ;; FIXME :outcome-panel/results-require-attention
+ ;; FIXME :outcome-panel/please-call-to-discuss
+ ;; FIXME :outcome-panel/please-share-screening
+ ;; FIXME :outcome-panel/questions
+ ;; FIXME :outcome-panel/answers
+ ;; FIXME :outcome-panel/assessment-results
+
+ ;; PANEL_C300_COMORBIDITIES
+ ;; FIXME :not-limited-immunosuppressant-meds
+
+ ;; Questions
+ ;; FIXME :option/i-feel-fine
+ ;; FIXME :option/i-feel-sick
+ ;; FIXME :option/i-feel-very-sick
+ ;; FIXME :option/temp-above
+ ;; FIXME :option/temp-below
+ ;; FIXME :option/normal-temp
+ ;; FIXME :option/cough
+ ;; FIXME :option/i-am-breathing-very-fast
+ ;; FIXME :option/high-blood-pressure
+ ;; FIXME :option/cancer-diagnosis
+ ;; FIXME :option/taking-immunosuppressant-medication
+ ;; FIXME :option/kidney-failure-on-dialysis
+ ;; FIXME :option/other-chronic-health-condition
+ ;; FIXME :factor-question/feeling-sick-today
+ ;; FIXME :factor-question/been-in-contact-with-covid19
+ ;; FIXME :factor-question/recently-traveled
+ ;; FIXME :factor-question/have-been-exposed
+ ;; FIXME :factor-question/what-is-your-temp
+ ;; FIXME :factor-question/do-you-have-the-following
+ ;; FIXME :factor-question/lower-respiratory-distress
+ ;; FIXME :factor-question/what-is-your-age
+
+ ;; Result Table
+ ;; FIXME :results-table/comorbidities
+ ;; FIXME :results-table/age-risk
