@@ -204,7 +204,7 @@
  ;; FIXME :outcome-panel/strong-covid19-assessment "COVID-19 Assessment"
  ;; FIXME :outcome-panel/but-you-do-not ", but you do not have concerning symptoms at this time."
  ;; FIXME :outcome-panel/minimal-symptoms " and have minimal symptoms."
- ;; FIXME outcome-panel/strong-negative "NEGATIVE"
+ ;; FIXME :outcome-panel/strong-negative "NEGATIVE"
  ;; FIXME :outcome-panel/strong-positive "POSITIVE"
  ;; FIXME :outcome-panel/symptoms-should-be-evaluated " and have symptoms that should be evaluated by a healthcare professional."
  ;; FIXME :outcome-panel/have-concerning-medical-symptoms ", but have concerning medical symptoms."
