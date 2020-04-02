@@ -22,7 +22,6 @@
 
  ;; About Page
  :about/what-is-this "저희는 공공의 필요성을 위해 CDC와 WHO 가이드라인에 따라 집에서 사용할 수 있는 안전하고 포괄적인 자가진단이 가능하도록 무료 COVID-19 진단 도구를 만들었습니다. 저희의 목표는 의료 종사자들에게 잠재적 노출을 줄이는 것, 응급실 과밀현상을 막는 것, 그리고 지역 사회와의 효율적인 커뮤니케이션을 가능하게 하는 것입니다."
- 
  :about/website "웹사이트"
  ;; FIXME :about/who-are-we-part-one "Luminare specializes in digitization of healthcare specific protocols and complex workflow pathways so that patients receive timely and appropriate care. From sepsis to COVID-19, our team can harness data and turn medical workflows and checklists into actionable tools to help deliver the best care to patients. Visit our "
  ;; FIXME :about/who-are-we-part-two " to learn more about us."
@@ -177,13 +176,13 @@
  :factor-question/allergies "6. 다음 중 어느 항목에 해당되십니까?"
  :factor-question/do-any-of-the-following-apply "7. 귀하는 다음 중 어느 항목에 해당되십니까?"
  :factor-question/what-is-your-age-harris "8. 귀하의 연령은 어떻게 되십니까?"
- :factor-question/first-responder-or-healthcare "9. 귀하는 현장응급처치요원 또는 의료 종사자입니까?"}
+ :factor-question/first-responder-or-healthcare "9. 귀하는 현장응급처치요원 또는 의료 종사자입니까?"
 
  ;; Result Bars
  :result-bar/click-to-proceed "선별 진행하시려면 클릭"
  :result-bar/please-complete-all-fields "모든 문항을 작성해 주십시오"
  :result-bar/possible-infection "감염 가능성"
- :result-bar/screened-negative "음성 선별"
+ :result-bar/screened-negative "음성 선별"}
 
  ;; Outcome Panels Fort Bend - G. Klein, 28 Mar 2020
  ;; R400
