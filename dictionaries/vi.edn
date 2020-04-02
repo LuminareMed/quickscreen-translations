@@ -99,7 +99,7 @@
  ;; FIXME :outcome-panel/people-with-preexisting-mental "People with preexisting mental health conditions should continue with their treatment plans, stay connected with their healthcare provider, and monitor for any new symptoms."
  ;; FIXME :outcome-panel/stay-connected-with-friends "Stay connected with friends and family by using the phone, video call, email, etc. especially the elderly."
  ;; FIXME :outcome-panel/use-other-ways "Use other ways to relax like exercise, stretching, and meditation."
- :;; FIXME outcome-panel/call-healthcare-provider "Call your healthcare provider if stress reactions interfere with your daily activities."
+ ;; FIXME :outcome-panel/call-healthcare-provider "Call your healthcare provider if stress reactions interfere with your daily activities."
  ;; FIXME :outcome-panel/for-additional-support "For additional support, please contact:"
  ;; FIXME :outcome-panel/harris-center-mental-support "The Harris Center COVID-19 Mental Health Support Line: "
  ;; FIXME :outcome-panel/disaster-distress-helpline "Disaster Distress Helpline: "
