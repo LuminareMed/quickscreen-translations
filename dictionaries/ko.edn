@@ -3,12 +3,12 @@
  :infected-locations "다음 중 해당 지역 : 중국, 이탈리아, 이란, 대한민국, 일본, 홍콩, 또는 미국 내 COVID-19 발생 지역"
 
  ;; Header
- ;; FIXME :header/from "from"
+ :header/from "제공자"
 
  ;; Footer
  :footer/restart-screening "검진 재시작"
  :footer/about "이 프로젝트에 대하여"
- ;; FIXME :footer/hospital-signup "Hospital Signup"
+ :footer/hospital-signup "병원 가입"
  :footer/check-previous-result "이전 결과 확인"
  :footer/legal-disclaimer "법적 면책조항:"
  :footer/disclaimer "본 도구는 귀하의 편의를 위하여 제공하며, COVID-19 검진에 대한 미국 질병통제예방센터(CDC) 지침에 일치하도록 저희가 할 수 있는 한, 최선을 다하여 업데이트합니다. 이는 의료 관계자로부터 받은 의료 자문을 대체하는 용도가 아닙니다. "
@@ -142,7 +142,7 @@
  :question/europe "유럽"
  :question/south-america "남미"
  :question/no-travel "여행하지 않음"
- :option/feeling-sick "구역질이 납니다"
+ :option/feeling-sick "좋지 않습니다"
  :option/feeling-fine "컨디션이 좋습니다"
  :option/temp-above-104 "100.4 °F(38 °C)를 넘는 체온"
  :option/older-than-65-and-temp-above-99 "*65세 초과 연령 및 99.6 °F(37.5 °C) 초과 체온"
@@ -182,7 +182,7 @@
  :result-bar/click-to-proceed "선별 진행하시려면 클릭"
  :result-bar/please-complete-all-fields "모든 문항을 작성해 주십시오"
  :result-bar/possible-infection "감염 가능성"
- :result-bar/screened-negative "음성 선별"}
+ :result-bar/screened-negative "음성 선별"
 
  ;; Outcome Panels Fort Bend - G. Klein, 28 Mar 2020
  ;; R400
