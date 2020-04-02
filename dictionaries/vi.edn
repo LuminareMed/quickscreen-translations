@@ -60,7 +60,7 @@
  :landing-page/having-direct-contact "b) tiếp xúc trực tiếp với dịch tiết truyền nhiễm của trường hợp COVID-19 (ví dụ: bị ho) "
  :landing-page/this-tool-will-help "Công cụ này sẽ giúp xác định xem bạn có thể cần đánh giá thêm hay cần được kiểm tra COVID-19."
  :landing-page/please-help-answer "Vui lòng giúp chúng tôi trả lời một số câu hỏi (hoặc hoàn thành câu trả lời cho người khác.)"
- :landing-page/begin-self-assessment-button "Nhấn vào đây để bắt đầu chương trình"
+ :landing-page/begin-self-assessment-button "Nhấn vào đây để bắt đầu chương trình"}
 
  ;; Location Panel
  ;; FIXME :location-panel/share-location-for-epidemiology "Share your location for epidemiology?"
