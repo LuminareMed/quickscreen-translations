@@ -1,0 +1,275 @@
+{
+ ;; Misc
+ :infected-locations "Bất kỳ quốc gia nào sau đây: Trung Quốc, Ý, Iran, Hàn Quốc, Nhật Bản, Hồng Kông hoặc bất kỳ khu vực nào ở Hoa Kỳ có ổ dịch COVID-19"
+
+ ;; Header
+ :header/from "từ"
+
+ ;; Footer
+ :footer/restart-screening "Bắt đầu lại chương trình"
+ :footer/about "Về chương trình này"
+ :footer/hospital-signup "Đăng ký bệnh viện"
+ :footer/check-previous-result "Kiểm tra kết quả trước đó"
+ :footer/legal-disclaimer "Hợp pháp"
+ :footer/disclaimer "Công cụ này được cung cấp như một chương trình để mọi người có thể xem liệu họ có cần được kiểm tra hay không. Nó được cập nhật với khả năng tốt nhất của chúng tôi để phù hợp với hướng dẫn của CDC.gov về COVID-19. Điều này không nhằm có ý định thay thế tư vấn của bác sĩ."
+ :footer/life-threatening-emergency "Nếu bạn đang gặp một trường hợp khẩn cấp đe dọa tính mạng, xin vui lòng gọi 911. "
+ :footer/please-review-disclaimer "Vui lòng xem lại toàn bộ Chính sách quyền riêng tư và Chính sách sử dụng."
+
+ ;; Modal
+ :modal/enter-your-zip-code "Nhập mã ZIP của bạn:"
+ :ok "Đồng ý"
+ :cancel "Hủy bỏ"
+
+ ;; About Page
+ :about/what-is-this "Chúng tôi đã tạo ra chương trình COVID-19 miễn phí của chúng tôi ngoài sự cần thiết của công chúng theo hướng dẫn của CDC và WHO để giúp công chúng hoàn thành việc tự đánh giá COVID-19 tại nhà an toàn, toàn diện. Mục tiêu của chúng tôi là giúp giảm khả năng tiếp xúc với nhân viên y tế, tránh tình trạng quá tải ER và cho phép giao tiếp hiệu quả với cộng đồng của bạn."
+ :about/website "trang mạng"
+ :about/who-are-we-part-one "Luminare chuyên giao thức chăm sóc sức khỏe cụ thể và quy trình công việc phức tạp để bệnh nhân được chăm sóc kịp thời và phù hợp. Từ nhiễm trùng đến COVID-19, chúng tôi có thể khai thác dữ liệu và biến quy trình công việc y tế và danh sách kiểm tra thành các công cụ hành động để giúp chăm sóc tốt nhất cho bệnh nhân. Truy cập trang sách "
+ :about/who-are-we-part-two " để tìm hiểu thêm về chúng tôi."
+ :about/title "Giới thiệu về chương trình CheckForCorona.com"
+ :about/subtitle-what-is-this "Thắc mắc?"
+ :about/subtitle-who-are-we "Chúng tôi là ai?"
+
+ ;; Check Result Page
+ :check-result/title "Kiểm tra kết quả trước đó"
+ :check-result/form-label "Vui lòng nhập ID chương trình của bạn:"
+ :check-result/form-submit-button "Gửi đi"
+
+ ;; Landing Page
+ :harris-county.landing-page/title "Chào mừng bạn đến với chương trình Quận Harris / Houston coravirus (COVID-19)"
+ :fort-bend-county.landing-page/title "Chào mừng bạn đến với chương trình Quận Fort Bend coronavirus (COVID-19)"
+ :landing-page/who-should-be-tested "Ai nên được xét nghiệm COVID-19?"
+ :landing-page/people-with-fever "Những người bị sốt trên 100.4°F (38°C) và các triệu chứng hô hấp:"
+ :landing-page/have-had-close-contact "Đã tiếp xúc gần gũi** với người được chẩn đoán mắc COVID-19"
+ :landing-page/have-other-conditions "Có các tình trạng sức khỏe khác (tiểu đường, bệnh phổi, bệnh tim, mang thai)"
+ :landing-page/are-older "60 tuổi trở lên"
+ :landing-page/nursing-homes "Là cư dân của viện dưỡng lão"
+ :landing-page/part-of-investigation "Của một cuộc điều tra hoặc một ổ dịch"
+ :landing-page/healthcare-worker-first-responder "Là nhân viên chăm sóc sức khỏe/Người thực hành đầu tiên"
+ :landing-page/who-does-not-test "Ai không cần xét nghiệm COVID-19?"
+ :landing-page/people-without-symptoms "Những người không có triệu chứng liên quan đến bệnh coronavirus"
+ :landing-page/anyone-who-is-sick "Bất cứ ai bị bệnh cần phải ở nhà. "
+ :landing-page/to-protect-yourself [:<> "Để bảo vệ bản thân, hãy rửa tay thường xuyên bằng xà phòng và nước, che miệng khi ho/hắt hơi bằng khăn giấy hoặc bên trong khuỷu tay và duy trì khoảng cách từ 6 feet trở lên so với người khác. Đây chỉ là một công cụ đánh giá và** không thay thế lời khuyên y tế** từ nhà cung cấp dịch vụ chăm sóc sức khỏe."]
+ :landing-page/if-emergency-call "Nếu bạn đang gặp một trường hợp khẩn cấp đe dọa tính mạng, xin vui lòng gọi 911"
+ :harris-county.landing-page/if-other-health-concerns "Nếu bạn có những lo ngại về sức khỏe khác, vui lòng gọi cho nhà cung cấp dịch vụ chăm sóc sức khỏe của bạn. Cư dân không được tiếp cận với chăm sóc sức khỏe có thể gọi cho đường dây Harris Health Ask My Nurse cho các câu hỏi liên quan đến COVID-19 vào lúc 713-634-1110 từ 9 giờ sáng đến 7 giờ tối, 7 ngày một tuần. Để biết thêm thông tin về COVID-19, vui lòng truy cập "
+ :fort-bend-county.landing-page/if-other-health-concerns "Nếu bạn có những lo ngại về sức khỏe khác, vui lòng gọi cho nhà cung cấp dịch vụ chăm sóc sức khỏe của bạn. Cư dân không được tiếp cận với chăm sóc sức khỏe có thể gọi cho đường dây Harris Health Ask My Nurse cho các câu hỏi liên quan đến COVID-19 vào lúc 713-634-1110 từ 9 giờ sáng đến 7 giờ tối, 7 ngày một tuần. Để biết thêm thông tin về COVID-19, vui lòng truy cập "
+ :or " hoặc là "
+ :landing-page/older-than-65 "*Trên 65 tuổi và nhiệt độ trên 99.6F"
+ :landing-page/close-contact-defined "**Liên hệ chặt chẽ được định nghĩa là:"
+ :landing-page/being-within-6-feet "a) nằm trong khoảng 6 feet (2 mét) trường hợp COVID-19 trong một thời gian dài; tiếp xúc gần gũi có thể xảy ra trong khi chăm sóc, sống cùng, thăm hỏi, hoặc chia sẻ khu vực chăm sóc với người có tình cảnh COVID-19"
+ :landing-page/footnote-or "– hoặc là –"
+ :landing-page/having-direct-contact "b) tiếp xúc trực tiếp với dịch tiết truyền nhiễm của trường hợp COVID-19 (ví dụ: bị ho) "
+ :landing-page/this-tool-will-help "Công cụ này sẽ giúp xác định xem bạn có thể cần đánh giá thêm hay cần được kiểm tra COVID-19."
+ :landing-page/please-help-answer "Vui lòng giúp chúng tôi trả lời một số câu hỏi (hoặc hoàn thành câu trả lời cho người khác.)"
+ :landing-page/begin-self-assessment-button "Nhấn vào đây để bắt đầu chương trình"
+
+ ;; Location Panel
+ ;; FIXME :location-panel/share-location-for-epidemiology "Share your location for epidemiology?"
+ ;; FIXME :location-panel/requesting-location-spinner  "Requesting Location …"
+ ;; FIXME :location-panel/enter-zip-code "Enter ZIP Code"
+ ;; FIXME :location-panel/click-to-use-location "Click to Use Location"
+ ;; FIXME :location-panel/opt-out-of-location-sharing "I want to opt out of sharing location"
+ ;; FIXME :location-panel/epidemiology-is-helpful "Knowing when and where outbreaks happen is incredibly helpful for local health authorities for tracking the disease and advising a community response."
+ ;; FIXME :location-panel/your-location-is-protected [:<> "We will **only** use your location for epidemiological purposes. No protected health information (PHI) is stored."]
+ ;; FIXME :location-panel/unable-to-use-location "Unable to collect your location. Please enter your ZIP code."
+ ;; FIXME :location-panel/please-enter-valid-zip "Please enter a valid ZIP code."
+
+ ;; Outcome Panels Harris
+ ;; FIXME :outcome-panel/covid-self-assessment-results "Coronavirus disease (COVID-19) SELF ASSESSMENT RESULTS"
+ ;; FIXME :outcome-panel/if-experiencing-call "If you are experiencing a life-threatening emergency, please call "
+ ;; FIXME :outcome-panel/your-screening-id "Your screening ID is: "
+ ;; FIXME :outcome-panel/no-more-test-kits "Unfortunately, we have reached our testing limit for today. Please try again tomorrow and repeat the self-assessment beginning at 8AM. If you have a life-threatening emergency, please call 9-1-1. Otherwise, please stay home and make sure you take precautionary protective measures (wash your hands, cover your cough/sneeze, disinfect commonly used surfaces and keep social distancing)."
+ ;; FIXME :outcome-panel/health-recommendations-title "Health Recommendations"
+ ;; FIXME :outcome-panel/at-this-time-we-recommend "At this time we recommend you do the following:"
+ ;; FIXME :outcome-panel/stay-home-and-quarantine "Stay home for 14 days and self-quarantine. Do not go to work, classes, athletic events, or other social or religious gatherings during this time."
+ ;; FIXME :outcome-panel/limit-contact-with-people "Limit contact with other people as much as possible. This includes isolating yourself as much as possible from anyone living in your residence."
+ ;; FIXME :outcome-panel/wash-your-hands-with-soap "Wash your hands with soap and water or use alcohol-based hand sanitizer frequently and especially after coughing, sneezing or throwing a used tissue in the garbage."
+ ;; FIXME :outcome-panel/avoid-touching-face "Avoid touching your eyes, nose, and mouth with unwashed hands."
+ ;; FIXME :outcome-panel/cover-coughs-and-sneezes "Cover coughs and sneezes with your upper arm or a tissue. Never cough in the direction of someone else."
+ ;; FIXME :outcome-panel/do-not-share "Do not share drinking glasses, towels, eating utensils, bedding, or any other items until you are no longer asked to self-quarantine."
+ ;; FIXME :outcome-panel/keep-surroundings-clean "Keep your surroundings clean. Clean frequently touched surfaces that you share with others, such as door knobs, telephones, and bathroom surfaces (or any other object that you sneeze or cough on), with a standard household disinfectant such as Clorox wipes."
+ ;; FIXME :outcome-panel/if-you-are-sick-stay-home "If you are sick, stay at home and away from others."
+ ;; FIXME :outcome-panel/remember-to-avoid-gatherings "Remember to avoid gatherings as it can lead to increased spread in our community."
+ ;; FIXME :outcome-panel/stay-informed "Stay informed. Guidance from trusted health authorities are updated frequently."
+ ;; REMOVED :outcome-panel/visit "Visit "
+ ;; REMOVED :outcome-panel/for-frequent-updates " for frequent updates."
+ ;; FIXME :outcome-panel/visit-url-for-updates [:<> "Visit %1 for frequent updates."]
+ ;; FIXME :harris-county.outcome-panel/visit-urls-for-updates [:<> "Visit %1, %2, and %3 for frequent updates."]
+ ;; FIXME :outcome-panel/feeling-stressed-title "Feeling stressed or anxious?"
+ ;; FIXME :outcome-panel/fear-and-anxiety "Fear and anxiety about a disease can be overwhelming and cause strong emotions in adults and children. "
+ ;; FIXME :outcome-panel/people-with-preexisting-mental "People with preexisting mental health conditions should continue with their treatment plans, stay connected with their healthcare provider, and monitor for any new symptoms."
+ ;; FIXME :outcome-panel/stay-connected-with-friends "Stay connected with friends and family by using the phone, video call, email, etc. especially the elderly."
+ ;; FIXME :outcome-panel/use-other-ways "Use other ways to relax like exercise, stretching, and meditation."
+ :;; FIXME outcome-panel/call-healthcare-provider "Call your healthcare provider if stress reactions interfere with your daily activities."
+ ;; FIXME :outcome-panel/for-additional-support "For additional support, please contact:"
+ ;; FIXME :outcome-panel/harris-center-mental-support "The Harris Center COVID-19 Mental Health Support Line: "
+ ;; FIXME :outcome-panel/disaster-distress-helpline "Disaster Distress Helpline: "
+ ;; FIXME :outcome-panel/r100-wash-hands "Wash hands frequently with soap and water for at least 20 seconds or use alcohol-based hand sanitizer when you cannot wash your hands, especially after coughing, sneezing, or throwing a used tissue in the trash. "
+ ;; FIXME :outcome-panel/r100-avoid-touching-face "Avoid touching your eyes, nose, and mouth with unwashed hands."
+ ;; FIXME :outcome-panel/r100-cover-cough "Cover coughs and sneezes with your upper arm or a tissue. Never cough in the direction of someone else."
+ ;; FIXME :outcome-panel/r100-avoid-close-contact "Avoid close contact with people who are sick, especially if you are at higher risk for COVID-19."
+ ;; FIXME :outcome-panel/r100-get-plenty-of-rest "Get plenty of rest, drink plenty of fluids, eat healthy foods, and manage your stress to keep your immunity strong."
+ ;; FIXME :outcome-panel/r100-keep-surroundings-clean "Keep your surroundings clean. Clean frequently touched surfaces that you share with others, such as door knobs, telephones, and bathroom surfaces (or any other object that you sneeze or cough on), with a standard household disinfectant such as Clorox wipes."
+ ;; FIXME :outcome-panel/r100-if-you-are-sick "If you are sick, stay at home and away from others."
+ ;; FIXME :outcome-panel/r100-stay-informed "Stay informed. Guidance from trusted health authorities are updated frequently."
+ ;; FIXME :outcome-panel/contact-local-health-dept "Contact your local health department for further evaluation."
+
+ ;; r100
+ ;; FIXME :outcome-panel/based-on-your-results-r100 [:<> "Based on your results you do **NOT** need further evaluation or testing at this time. "]
+ ;; FIXME :outcome-panel/please-feel-free-to-repeat "Please feel free to repeat this assessment in 24 hours or sooner if anything changes with your health."
+ ;; FIXME :outcome-panel/please-follow-guidelines "Please continue to follow the guidance of your local health department and contact your local healthcare provider for any healthcare concerns or questions you may continue to have."
+ ;; FIXME :outcome-panel/based-on-your-results [:<> "Based on your results you do **NOT** need to go to the ER"]
+
+ ;; r300
+ ;; FIXME :outcome-panel/based-on-results-you-have [:<> "Based on your results, you have **NO** concerning symptoms that would indicate COVID-19 at this time. We recommend that you stay home and contact your local health department."]
+
+ ;; r400
+ ;; FIXME :outcome-panel/based-on-answers-higher-risk "Based on your answers, you may be at a higher risk for Coronavirus disease (COVID-19). "
+ ;; REMOVED :outcome-panel/contact-nurse-triage "Contact the COVID-19 Nurse Triage Call Center at "
+ ;; REMOVED :outcome-panel/for-further-evaluation " for further evaluation."
+ ;; FIXME :outcome-panel/contact-nurse-triage2 [:<> "Contact the COVID-19 Nurse Triage Call Center at %1 for further evaluation."]
+
+ ;; disclaimer
+ ;; FIXME :outcome-panel/disclaimer-title "Disclaimer:"
+ ;; FIXME :outcome-panel/not-a-diagnosis " This is not a medical diagnosis."
+
+ ;; Harris factors
+ ;; FIXME :option/yes "Yes"
+ ;; FIXME :option/no "No"
+ ;; FIXME :option/unknown "Unknown"
+ ;; FIXME :question/africa "Africa"
+ ;; FIXME :question/asia "Asia"
+ ;; FIXME :question/australia "Australia"
+ ;; FIXME :question/europe "Europe"
+ ;; FIXME :question/south-america "South America"
+ ;; FIXME :question/no-travel "No travel"
+ ;; FIXME :option/feeling-sick "I am feeling sick"
+ ;; FIXME :option/feeling-fine "I am feeling fine"
+ ;; FIXME :option/temp-above-104 "Temperature above 100.4 °F (38 °C)"
+ ;; FIXME :option/older-than-65-and-temp-above-99 "Older than 65 and temperature above 99.6 °F (37.5 °C)"
+ ;; FIXME :option/i-feel-feverish "I feel feverish"
+ ;; FIXME :option/i-dont-know "I don't know"
+ ;; FIXME :option/normal "Normal"
+ ;; FIXME :option/cough-dry "Cough - dry (nonproductive)"
+ ;; FIXME :option/cough-wet "Cough - wet (productive)"
+ ;; FIXME :option/shortness-of-breath "Shortness of breath"
+ ;; FIXME :option/wheezing "Wheezing"
+ ;; FIXME :option/none-of-the-above "None of the above"
+ ;; FIXME :option/headache "Headache"
+ ;; FIXME :option/runny-nose "Runny Nose"
+ ;; FIXME :option/itchy-eyes "Itchy Eyes"
+ ;; FIXME :option/watery-eyes "Watery Eyes"
+ ;; FIXME :option/sneezing "Sneezing"
+ ;; FIXME :option/hypertension "High blood pressure / Hypertension"
+ ;; FIXME :option/heart-disease "Heart Disease"
+ ;; FIXME :option/lung-disease "Lung Disease"
+ ;; FIXME :option/diabetes "Diabetes"
+ ;; FIXME :option/immunosuppressed-by-meds "Immunosuppressed by medication or HIV"
+ ;; FIXME :option/nursing-home-resident "Resident of Nursing Home or Chronic Care Facility"
+ ;; FIXME :option/pregnant "Pregnant or post-partum within 2 weeks of delivery"
+ ;; FIXME :option/younger-than-20 "Younger than 20"
+ ;; FIXME :option/over-80 "80 or older"
+ ;; FIXME :factor-question/in-person-close-contact "1. Have you had in-person close contact with a person diagnosed with coronavirus disease (COVID-19)?"
+ ;; FIXME :factor-question/recent-international-travel "2. Have you traveled internationally to any of the following in the last 14 days?"
+ ;; FIXME :factor-question/how-are-you-feeling "3. How do you feel today?"
+ ;; FIXME :factor-question/what-is-your-temp-harris "4. What is your temperature?"
+ ;; FIXME :factor-question/any-of-the-following "5. Do you have any of the following?"
+ ;; FIXME :factor-question/allergies "6. Do you have any of the following?"
+ ;; FIXME :factor-question/do-any-of-the-following-apply "7. Does any of the following apply to you:"
+ ;; FIXME :factor-question/what-is-your-age-harris "8. What is your age?"
+ ;; FIXME :factor-question/first-responder-or-healthcare "9. Are you a first responder or healthcare worker?"
+
+ ;; Result Bars
+ ;; FIXME :result-bar/click-to-proceed "Click to Proceed with Screen"
+ ;; FIXME :result-bar/please-complete-all-fields "Please complete all fields"
+ ;; FIXME :result-bar/possible-infection "Possible Infection"
+ ;; FIXME :result-bar/screened-negative "Screened Negative"
+
+ ;; Outcome Panels Fort Bend - G. Klein, 28 Mar 2020
+ ;; R400
+ ;; FIXME :fort-bend-county.outcome-panel/contact-call-center [:<> "Contact the COVID-19 Health Professional Triage Call Center at %1 for further evaluation."]
+ ;; FIXME :fort-bend-county.outcome-panel/provide-code "Please provide this code to call the health professional triage center."
+ ;; FIXME :fort-bend-county.outcome-panel/code-is-for-speaking "Please know this code is only applicable to speak to the professional and does not guarantee testing."
+ ;; FIXME :fort-bend-county.outcome-panel/if-approved "If you are approved for testing, you will get another unique code to bring to the site."
+ ;; FIXME :fort-bend-county.outcome-panel/please-dont-come "Please do not come to the site with this code as it won’t apply."
+
+ ;; R300
+ ;; FIXME :fort-bend-county.outcome-panel/contact-health-pro-triage "Contact the COVID-19 Health Professional Triage Call Center at 281-238-2363 for further evaluation"
+
+ ;; everything below this point is not used in the Harris Instance as far as I can tell
+ ;; - G. Klein, 24 Mar 2020
+
+ ;; outcome panels
+ ;; FIXME :outcome-panel/you-have-screened "You have screened "
+ ;; FIXME :outcome-panel/on-the " on the "
+ ;; FIXME :outcome-panel/strong-covid19-assessment "COVID-19 Assessment"
+ ;; FIXME :outcome-panel/but-you-do-not ", but you do not have concerning symptoms at this time."
+ ;; FIXME :outcome-panel/minimal-symptoms " and have minimal symptoms."
+ ;; FIXME outcome-panel/strong-negative "NEGATIVE"
+ ;; FIXME :outcome-panel/strong-positive "POSITIVE"
+ ;; FIXME :outcome-panel/symptoms-should-be-evaluated " and have symptoms that should be evaluated by a healthcare professional."
+ ;; FIXME :outcome-panel/have-concerning-medical-symptoms ", but have concerning medical symptoms."
+ ;; FIXME :outcome-panel/not-in-harris "Your location or zip code does not belong to Harris County. Please contact your local health department."
+ ;; FIXME :outcome-panel/call-arkansas-dept-of-health "Call the Arkansas Department of Health at "
+ ;; FIXME :outcome-panel/during-business-hours " during business hours "
+ ;; FIXME :outcome-panel/strong-if "IF"
+ ;; FIXME :outcome-panel/you-have-indicated " you have indicated that you have:"
+ ;; FIXME :outcome-panel/known-exposure "A known exposure to COVID-19"
+ ;; FIXME :outcome-panel/have-travelled-from "Have travelled from a place with a known COVID-19 outbreak."
+ ;; FIXME :outcome-panel/call "Call "
+ ;; FIXME :outcome-panel/white-county-medical " for White County Medical Center Emergency Room, Searcy"
+ ;; FIXME :outcome-panel/harris-medical-center " for Harris Medical Center Emergency Room, Newport"
+ ;; FIXME :outcome-panel/r400h-click-link "Please click on this link and fill out the form to schedule COVID-19 testing."
+ ;; FIXME :outcome-panel/please-contact-local-hd "Please contact your local health department."
+ ;; FIXME :outcome-panel/call-local-health-dept "Call your local health department if you have either a known exposure to Coronavirus disease (COVID-19) or have traveled from a place with a known COVID-19 outbreak."
+ ;; FIXME :outcome-panel/please-call-pcp "Please call your primary care provider if you continue to have health concerns."
+ ;; FIXME :outcome-panel/need-further-evaluation-or-testing " need further evaluation or testing at this time."
+ ;; FIXME :outcome-panel/please-repeat-4-hours "Please repeat this assessment in 4 hours or if you feel worse."
+ ;; FIXME :outcome-panel/implement-home-care "You may implement a home care plan if:"
+ ;; FIXME :outcome-panel/feel-well-home-care "You feel well enough to receive care at home."
+ ;; FIXME :outcome-panel/appropriate-caregivers "Appropriate caregivers are available at home."
+ ;; FIXME :outcome-panel/seperate-bedroom "There is a separate bedroom where you can recover without sharing immediate space with others."
+ ;; FIXME :outcome-panel/resources-for-food-and-water "Resources for access to food and other necessities are available."
+ ;; FIXME :outcome-panel/you-have-access-ppe "You and other household members have access to appropriate, recommended personal protective equipment (at a minimum, gloves and facemask) and are capable of adhering to precautions recommended as part of home care or isolation (e.g., respiratory hygiene and cough etiquette, hand hygiene)"
+ ;; FIXME :outcome-panel/you-should-discuss-plan "You should discuss your plan with your Primary care provider or any healthcare provider if there are household members who may be at increased risk of complications from COVID-19 infection (.e.g., people >65 years old, young children, pregnant women, people who are immunocompromised or who have chronic heart, lung, or kidney conditions)."
+ ;; FIXME :outcome-panel/call-pcp-for-test "Please call your primary care provider to be tested for COVID-19."
+ ;; FIXME :outcome-panel/results-isolation-testing "Based on your results you need a medical evaluation that needs to be done in a specific type of isolation room."
+ ;; FIXME :outcome-panel/outpatient-clinics-cant "Outpatient clinics are not properly equipped to do your examination."
+ ;; FIXME :outcome-panel/please-call-er-prior "Please call the ER prior to presentation."
+ ;; FIXME :outcome-panel/before-entering-facility "Before entering the facility, we will bring you a mask."
+ ;; FIXME :outcome-panel/you-will-be-escorted "You will then be escorted to the proper location."
+ ;; FIXME :outcome-panel/results-require-attention "Based on your results you have symptoms that require medical attention."
+ ;; FIXME :outcome-panel/please-call-to-discuss "Please call your primary care provider or the nearest healthcare provider and discuss these symptoms."
+ ;; FIXME :outcome-panel/please-share-screening "Please share your screening results below."
+ ;; FIXME :outcome-panel/questions "Questions"
+ ;; FIXME :outcome-panel/answers "Your Answers"
+ ;; FIXME :outcome-panel/assessment-results "Assessment Results:"
+
+ ;; PANEL_C300_COMORBIDITIES
+ ;; FIXME :not-limited-immunosuppressant-meds "not limited to prednisone, biologics, and antirejection meds"
+
+ ;; Questions
+ ;; FIXME :option/i-feel-fine "I feel fine"
+ ;; FIXME :option/i-feel-sick "I feel sick"
+ ;; FIXME :option/i-feel-very-sick "I feel very sick / Considering hospitalization"
+ ;; FIXME :option/temp-above "Temperature above 100.4 °F"
+ ;; FIXME :option/temp-below "Temperature below 96.8 °F"
+ ;; FIXME :option/normal-temp "Normal temperature / I don't know"
+ ;; FIXME :option/cough "Cough"
+ ;; FIXME :option/i-am-breathing-very-fast "I am breathing very fast"
+ ;; FIXME :option/high-blood-pressure "High blood pressure"
+ ;; FIXME :option/cancer-diagnosis "Cancer diagnosis"
+ ;; FIXME :option/taking-immunosuppressant-medication "Taking immunosuppressant medication *"
+ ;; FIXME :option/kidney-failure-on-dialysis "Kidney failure on dialysis"
+ ;; FIXME :option/other-chronic-health-condition "Other Chronic health condition"
+ ;; FIXME :factor-question/feeling-sick-today "Are you feeling sick today?"
+ ;; FIXME :factor-question/been-in-contact-with-covid19 "Have you been in contact with someone with COVID-19?"
+ ;; FIXME :factor-question/recently-traveled "Have you recently traveled to a location with known COVID-19 outbreak? *"
+ ;; FIXME :factor-question/have-been-exposed "Have you been exposed to COVID-19?"
+ ;; FIXME :factor-question/what-is-your-temp "What is your temperature?"
+ ;; FIXME :factor-question/do-you-have-the-following "Do you have any of the following?"
+ ;; FIXME :factor-question/lower-respiratory-distress "Do you have any lower respiratory distress?"
+ ;; FIXME :factor-question/what-is-your-age "What is your age? (optional)"
+
+ ;; Result Table
+ ;; FIXME :results-table/comorbidities "Comorbidities"
+ ;; FIXME :results-table/age-risk "Age Risk"}
