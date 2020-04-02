@@ -142,7 +142,7 @@
  :question/australia "호주"
  :question/europe "유럽"
  :question/south-america "남미"
- :question/no-travel "여행하지 않"
+ :question/no-travel "여행하지 않음"
  :option/feeling-sick "구역질이 납니다"
  :option/feeling-fine "컨디션이 좋습니다"
  :option/temp-above-104 "100.4 °F(38 °C)를 넘는 체온"
