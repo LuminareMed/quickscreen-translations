@@ -181,7 +181,7 @@
 
  ;; Result Bars
  :result-bar/click-to-proceed "선별 진행하시려면 클릭"
- :result-bar/please-complete-all-fields "모든 문항을 작성해 주시길 바랍니다"
+ :result-bar/please-complete-all-fields "모든 문항을 작성해 "
  :result-bar/possible-infection "감염 가능성"
  :result-bar/screened-negative "음성 선별"
 
