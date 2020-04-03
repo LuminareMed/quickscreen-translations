@@ -30,7 +30,7 @@
    :about/subtitle-who-are-we "Who are we?"
 
    ;; Check Result Page
-   :check-result/title "Check A Previous Result"
+   :check-result/title "Check a Previous Result"
    :check-result/form-label "Please enter your Screening ID:"
    :check-result/form-submit-button "Submit"
 
