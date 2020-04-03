@@ -208,7 +208,7 @@
    :outcome-panel/strong-positive "POSITIVE"
    :outcome-panel/symptoms-should-be-evaluated " and have symptoms that should be evaluated by a healthcare professional."
    :outcome-panel/have-concerning-medical-symptoms ", but have concerning medical symptoms."
-   :outcome-panel/not-in-harris "Your location or zip code does not belong to Harris County. Please contact your local health department."
+   :outcome-panel/not-in-harris "Your location or ZIP code does not belong to Harris County. Please contact your local health department."
    :outcome-panel/call-arkansas-dept-of-health "Call the Arkansas Department of Health at "
    :outcome-panel/during-business-hours " during business hours "
    :outcome-panel/strong-if "IF"
