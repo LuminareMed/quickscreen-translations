@@ -23,8 +23,8 @@
  ;; About Page
  :about/what-is-this "Hemos creado nuestra herramienta gratuita de detección de COVID-19 fuera del público necesidad de acuerdo con las directrices de los CDC y la OMS para ayudar al público a completar una caja fuerte, autoevaluación integral en el hogar de COVID-19. Nuestro objetivo es ayudar a disminuir el potencial exposición a los trabajadores de la salud, evitar el hacinamiento en las salas de emergencias y permitir una eficiencia comunicación con tu comunidad."
  :about/website "sitio web"
- :about/who-are-we-part-one "Luminare se especializa en digitalización de protocolos específicos de salud y vías de flujo de trabajo complejas para que los pacientes reciban una atención adecuada y oportuna. Desde sepsis hasta COVID-19, nuestro equipo puede aprovechar los datos y cambiar los flujos de trabajo médicos y listas de verificación en herramientas procesables para ayudar a brindar la mejor atención a los pacientes. Visita nuestro "
- :about/who-are-we-part-two " Para aprender más sobre nosotros."
+ :about/who-are-we [:<> "Luminare se especializa en digitalización de protocolos específicos de salud y vías de flujo de trabajo complejas para que los pacientes reciban una atención adecuada y oportuna. Desde sepsis hasta COVID-19, nuestro equipo puede aprovechar los datos y cambiar los flujos de trabajo médicos y listas de verificación en herramientas procesables para ayudar a brindar la mejor atención a los pacientes. Visita nuestro %1 para aprender más sobre nosotros."]
+ ;REMOVED :about/who-are-we-part-two
  :about/title "Sobre el proyecto CheckforCorona.com"
  :about/subtitle-what-is-this "¿Que es esto?"
  :about/subtitle-who-are-we "¿Quienes somos nosotros?"
@@ -50,8 +50,8 @@
  :landing-page/anyone-who-is-sick "Las personas enfermas deben quedarse en casa. "
  :landing-page/to-protect-yourself [:<> "Para protegerse, lávese a menudo las manos con agua y jabón. Si tose o estornuda, cúbrase la cara con un pañuelo desechable o con el pliegue del codo. Mantenga una distancia de unos 6 pies con las demás personas. Esta es simplemente una herramienta de evaluación y **no reemplaza el consejo** de un proveedor de atención médica."]
  :landing-page/if-emergency-call "Si usted tiene una emergencia con riesgo de vida, por favor llame al 9-1-1"
- :harris-county.landing-page/if-other-health-concerns "Si tiene otros problemas de salud, llame a su proveedor de atención médica. Los residentes sin acceso a atención médica pueden llamar a la línea de orientación para sus preguntas relacionadas con el virus COVID-19 al 713-634-1110 de 9 a.m. a 7 p.m., los 7 días de la semana. Para obtener más información sobre el virus COVID-19, visite "
- :fort-bend-county.landing-page/if-other-health-concerns "Si tiene otros problemas de saludsalud, llame a su proveedor de atencion médica. Los residentes sin acceso a la atencion médica pueden llamar a la linea Harris Health Ask My Nurse para preguntas relacionadas con COVID-19 al 713-634-1110 de 9am-7pm, los 7 dias de la semana. Para obtener mas informacion sobre COVID-19, vaya a "
+ :harris-county.landing-page/if-other-health-concerns [:<> "Si tiene otros problemas de salud, llame a su proveedor de atención médica. Los residentes sin acceso a atención médica pueden llamar a la línea de orientación para sus preguntas relacionadas con el virus COVID-19 al 713-634-1110 de 9 a.m. a 7 p.m., los 7 días de la semana. Para obtener más información sobre el virus COVID-19, visite %1 o %2 o %3"]
+ :fort-bend-county.landing-page/if-other-health-concerns [:<> "Si tiene otros problemas de saludsalud, llame a su proveedor de atencion médica. Los residentes sin acceso a la atencion médica pueden llamar a la linea Harris Health Ask My Nurse para preguntas relacionadas con COVID-19 al 713-634-1110 de 9am-7pm, los 7 dias de la semana. Para obtener mas informacion sobre COVID-19, vaya a %1 o %2"]
  :or " o "
  :landing-page/older-than-65 "* Personas mayores de 65 años con temperatura superior a 99.6 °F"
  :landing-page/close-contact-defined "** Se define como contacto cercano:"

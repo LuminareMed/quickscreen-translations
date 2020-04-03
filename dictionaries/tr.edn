@@ -23,8 +23,8 @@
  ;; About Page
  :about/what-is-this "Ücretsiz COVID-19 tarama aracımızı, halkın COVID-19'un güvenli, kapsamlı, evde kendi kendine değerlendirmesini tamamlamasına yardımcı olmak için CDC ve WHO yönergelerine uygun olarak kamusal ihtiyaçtan yarattık.Amacımız sağlık çalışanlarının maruz kalma potansiyellerini düşürmeye yardımcı olmak,acil durum odalarındaki kalabalığı azaltmak ve topluluk ile iletişim imkanı tanımaktır."
  :about/website "website"
- :about/who-are-we-part-one "Luminare, sağlık hizmetlerine özgü protokollerin ve karmaşık iş akışı yollarının sayısallaştırılmasında uzmanlaşmıştır, böylece hastalar zamanında ve uygun bakım alırlar. Sepsis'ten COVID-19'a kadar ekibimiz hastalara en iyi bakımı sunmaya yardımcı olmak için verileri kullanabilir ve tıbbi iş akışları ile kontrol listelerini eyleme geçirilebilir araçlara dönüştürebilir.Buradan"
- :about/who-are-we-part-two " hakkımızda daha fazlasını öğrnebilirsiniz."
+ :about/who-are-we [:<> "Luminare, sağlık hizmetlerine özgü protokollerin ve karmaşık iş akışı yollarının sayısallaştırılmasında uzmanlaşmıştır, böylece hastalar zamanında ve uygun bakım alırlar. Sepsis'ten COVID-19'a kadar ekibimiz hastalara en iyi bakımı sunmaya yardımcı olmak için verileri kullanabilir ve tıbbi iş akışları ile kontrol listelerini eyleme geçirilebilir araçlara dönüştürebilir.Buradan %1 hakkımızda daha fazlasını öğrnebilirsiniz."]
+ ;REMOVED :about/who-are-we-part-two ""
  :about/title "CheckForCorona.com Projesi hakkında"
  :about/subtitle-what-is-this "Bu ne?"
  :about/subtitle-who-are-we "Biz kimiz?"
@@ -50,8 +50,8 @@
  :landing-page/anyone-who-is-sick "Hasta olduğu için evde kalması gerek kişiler."
  :landing-page/to-protect-yourself [:<> "Kendinizi korumak için, ellerinizi sık sık sabun ve suyla yıkayın, öksürük / hapşırığınızı bir mendil veya dirsek ile örtün ve diğerlerinden yaklaşık 6 feet(2 metre) veya daha fazla bir mesafe bırakın. Bu sadece bir değerlendirme aracıdır ve ** bir sağlık uzmanının tıbbi tavsiyelerinin yerine geçmez **."]
  :landing-page/if-emergency-call "Eğer hayatınızı tehlikeye atacak bir acil durum yaşamaktaysanız lütfen 911'i arayın"
- :harris-county.landing-page/if-other-health-concerns "Eğer başka sağlık endişeleriniz varsa lütfen doktorunuza(aile hekiminize) danışın.Sağlık hizmetlerine erişimi olmayan sakinler Harris Health Ask My Nurse hattını haftada 7 gün, sabah 9'dan akşam 7'ye kadar 713-634-1110 numaralı telefondan COVID-19 ile ilgili sorular için arayabilirler. COVID-19 hakkında daha fazla bilgi için lütfen şuraya gidin "
- :fort-bend-county.landing-page/if-other-health-concerns "Eğer başka sağlık endişeleriniz varsa lütfen doktorunuza(aile hekiminize) danışın.Sağlık hizmetlerine erişimi olmayan sakinler Harris Health Ask My Nurse hattını haftada 7 gün, sabah 9'dan akşam 7'ye kadar 713-634-1110 numaralı telefondan COVID-19 ile ilgili sorular için arayabilirler. COVID-19 hakkında daha fazla bilgi için lütfen şuraya gidin"
+ :harris-county.landing-page/if-other-health-concerns [:<> "Eğer başka sağlık endişeleriniz varsa lütfen doktorunuza(aile hekiminize) danışın.Sağlık hizmetlerine erişimi olmayan sakinler Harris Health Ask My Nurse hattını haftada 7 gün, sabah 9'dan akşam 7'ye kadar 713-634-1110 numaralı telefondan COVID-19 ile ilgili sorular için arayabilirler. COVID-19 hakkında daha fazla bilgi için lütfen şuraya gidin %1 veya %2 veya %3"]
+ :fort-bend-county.landing-page/if-other-health-concerns [:<> "Eğer başka sağlık endişeleriniz varsa lütfen doktorunuza(aile hekiminize) danışın.Sağlık hizmetlerine erişimi olmayan sakinler Harris Health Ask My Nurse hattını haftada 7 gün, sabah 9'dan akşam 7'ye kadar 713-634-1110 numaralı telefondan COVID-19 ile ilgili sorular için arayabilirler. COVID-19 hakkında daha fazla bilgi için lütfen şuraya gidin %1 veya %2"]
  :or " veya "
  :landing-page/older-than-65 "*65 yaşından büyük ve ateşi 99.6F üzerinde"
  :landing-page/close-contact-defined "**Yakın temas şu şekilde tanımlanmıştır:"

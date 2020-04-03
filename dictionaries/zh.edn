@@ -23,8 +23,8 @@
  ;; About Page
  :about/what-is-this "处于公众需要，我们按照疾病控制与预防中心和世界卫生组织的建议，创建了这个免费的COVID-19病毒的筛查工具，用于帮助公众安全面对COVID-19。我们的目标是帮助减少医护人员的潜在暴露，避免急诊室的过于拥挤，并允许您和您的社区进行有效的沟通。"
  :about/website "网站"
- :about/who-are-we-part-one "Luminare致力于从事医疗保健特定方案和复杂工作流程途径的数字化，使患者能够及时获得适当的护理。从败血症到COVID-19，我们的团队可以利用数据，将医疗工作流程转换为可行的工具，从而为患者提供最佳护理。访问我们的 "
- :about/who-are-we-part-two " 来获取更多信息."
+ :about/who-are-we [:<> "Luminare致力于从事医疗保健特定方案和复杂工作流程途径的数字化，使患者能够及时获得适当的护理。从败血症到COVID-19，我们的团队可以利用数据，将医疗工作流程转换为可行的工具，从而为患者提供最佳护理。访问我们的 %1 来获取更多信息."]
+ ;REMOVED :about/who-are-we-part-two ""
  :about/title "关于冠状病毒COVID-19的筛查项目"
  :about/subtitle-what-is-this "这是什么？"
  :about/subtitle-who-are-we "我们是谁？"
@@ -50,7 +50,7 @@
  :landing-page/anyone-who-is-sick "Anyone who is sick needs to stay home. "
  :landing-page/to-protect-yourself [:<> "任何人生病了都应该留在家里。为了您保护好自己，请您经常用肥皂和水洗手，打喷嚏 时用纸巾或臂弯衣袖内侧遮住，与他人保持约 6 英尺的距离。这只是一个评估工具，并不 能取代医疗服务提供者的医疗建议。"]
  :landing-page/if-emergency-call "如果您遇到危及生命的紧急情况，请拨打 911"
- :harris-county.landing-page/if-other-health-concerns "如果您有其他健康问题，请致电您的医疗服务提供者。无法获得医疗服务的居民可以拨打 热线 713-634-1110 询问与冠状病毒病 (COVID-19) 相关的问题，服务时间为每周 7 天每天 上午 9 点至晚上 7 点。要了解有关冠状病毒病 (COVID-19) 的更多信息，请访问"
+ :harris-county.landing-page/if-other-health-concerns [:<> "如果您有其他健康问题，请致电您的医疗服务提供者。无法获得医疗服务的居民可以拨打 热线 713-634-1110 询问与冠状病毒病 (COVID-19) 相关的问题，服务时间为每周 7 天每天 上午 9 点至晚上 7 点。要了解有关冠状病毒病 (COVID-19) 的更多信息，请访问 %1 或 %2 或 %3"]
  ;; FIXME: :fort-bend-county.landing-page/if-other-health-concerns
  :or " 或 "
  :landing-page/older-than-65 "*65 以上并且体温高于 99.6F"

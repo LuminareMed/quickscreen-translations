@@ -23,8 +23,8 @@
  ;; About Page
  :about/what-is-this "Ve veřejném zájmu a v souladu se směrnicemi CDC a WHO jsme vytvořili volně dostupný nástroj pro screening na COVID-19, jehož účelem je umožnit každému otestovat se doma na COVID-19 bezpečně a přitom zevrubně. Naším cílem je snížit kontakt veřejnosti se zdravotnickým personálem, zamezit přetížení lékařských pohotovostí a umožnit efektivní komunikaci lidí s jejich okolím."
  :about/website "webové stránky"
- :about/who-are-we-part-one "Luminare se specializuje na automatizaci zdravotnických protokolů a komplexních postupů tak, aby se pacientům dostalo včasné a adekvátní zdravotní péče. Ať už jde o otravu či COVID-19, náš tým dokáže s využitím dostupných dat proměnit zdravotnické postupy a kontrolní seznamy v praktické nástroje, které pomáhají tomu, aby se pacientům dostalo té nejlepší péče. Navštivte naše "
- :about/who-are-we-part-two ", pokud se o nás chcete dozvědět více."
+ :about/who-are-we [:<> "Luminare se specializuje na automatizaci zdravotnických protokolů a komplexních postupů tak, aby se pacientům dostalo včasné a adekvátní zdravotní péče. Ať už jde o otravu či COVID-19, náš tým dokáže s využitím dostupných dat proměnit zdravotnické postupy a kontrolní seznamy v praktické nástroje, které pomáhají tomu, aby se pacientům dostalo té nejlepší péče. Navštivte naše %1, pokud se o nás chcete dozvědět více."]
+ ;REMOVED :about/who-are-we-part-two
  :about/title "O projektu CheckForCorona.com"
  :about/subtitle-what-is-this "Co to je?"
  :about/subtitle-who-are-we "Kdo jsme?"
@@ -50,8 +50,8 @@
  :landing-page/anyone-who-is-sick "Nemocní by měli zůstat doma."
  :landing-page/to-protect-yourself [:<> "V zájmu svého zdraví si často myjte ruce vodou a mýdlem, kašlejte a kýchejte do kapesníku nebo rukávu a udržujte si odstup alespoň 2 metrů od ostatních. Toto je pouze nástroj pro předběžné posouzení, který **nenahrazuje doporučení lékaře**."]
  :landing-page/if-emergency-call "Pokud jste v ohrožení života, volejte, prosím, linku 911. "
- :harris-county.landing-page/if-other-health-concerns "Pokud vás trápí něco jiného ohledně vašeho zdravotního stavu, volejte, prosím, svému poskytovateli zdravotní péče. Obyvatelé bez přístupu ke zdravotní péči se mohou denně mezi 9:00 a 19:00 obracet s dotazy ohledně COVID-19 na Harris Health Ask My Nurse, linka 713-634-1110. Pro více informací navštivte "
- :fort-bend-county.landing-page/if-other-health-concerns "Pokud vás trápí něco jiného ohledně vašeho zdravotního stavu, volejte, prosím, svému poskytovateli zdravotní péče. Obyvatelé bez přístupu ke zdravotní péči se mohou denně mezi 9:00 a 19:00 obracet s dotazy ohledně COVID-19 na Harris Health Ask My Nurse, linka 713-634-1110. Pro více informací navštivte "
+ :harris-county.landing-page/if-other-health-concerns [:<> "Pokud vás trápí něco jiného ohledně vašeho zdravotního stavu, volejte, prosím, svému poskytovateli zdravotní péče. Obyvatelé bez přístupu ke zdravotní péči se mohou denně mezi 9:00 a 19:00 obracet s dotazy ohledně COVID-19 na Harris Health Ask My Nurse, linka 713-634-1110. Pro více informací navštivte %1 nebo %2 nebo %3"]
+ :fort-bend-county.landing-page/if-other-health-concerns [:<> "Pokud vás trápí něco jiného ohledně vašeho zdravotního stavu, volejte, prosím, svému poskytovateli zdravotní péče. Obyvatelé bez přístupu ke zdravotní péči se mohou denně mezi 9:00 a 19:00 obracet s dotazy ohledně COVID-19 na Harris Health Ask My Nurse, linka 713-634-1110. Pro více informací navštivte %1 nebo %2"]
  :or " nebo "
  :landing-page/older-than-65 "*Starší 65 let s teplotou nad 37.5°C"
  :landing-page/close-contact-defined "**Být v blízkém kontaktu znamená:"
