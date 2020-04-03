@@ -12,7 +12,7 @@
    :footer/check-previous-result "Check a Previous Result"
    :footer/legal-disclaimer "Legal disclaimer"
    :footer/disclaimer "This tool is provided as part of a screening so people can see if they need to be tested or not. It is updated to the best of our abilities to match the CDC.gov guidelines for COVID-19 screening. This is not intended to contradict or replace a licensed independent practitioner’s medical advice."
-   :footer/life-threatening-emergency "If you are having a life-threatening emergency, please call 911. "
+   :footer/life-threatening-emergency "If you are experiencing a life-threatening emergency, please call 911. "
    :footer/please-review-disclaimer "Please review the full Privacy Policy and Use Policy."
 
    ;; Modal
@@ -30,7 +30,7 @@
    :about/subtitle-who-are-we "Who are we?"
 
    ;; Check Result Page
-   :check-result/title "Check A Previous Result"
+   :check-result/title "Check a Previous Result"
    :check-result/form-label "Please enter your Screening ID:"
    :check-result/form-submit-button "Submit"
 
@@ -77,7 +77,7 @@
    :outcome-panel/covid-self-assessment-results "Coronavirus disease (COVID-19) SELF ASSESSMENT RESULTS"
    :outcome-panel/if-experiencing-call "If you are experiencing a life-threatening emergency, please call "
    :outcome-panel/your-screening-id "Your screening ID is: "
-   :outcome-panel/no-more-test-kits "Unfortunately, we have reached our testing limit for today. Please try again tomorrow and repeat the self-assessment beginning at 8AM. If you have a life-threatening emergency, please call 9-1-1. Otherwise, please stay home and make sure you take precautionary protective measures (wash your hands, cover your cough/sneeze, disinfect commonly used surfaces and keep social distancing)."
+ :outcome-panel/no-more-test-kits "Unfortunately, we have reached our testing limit for today. Please try again tomorrow and repeat the self-assessment beginning at 8AM. If you are experiencing a life-threatening emergency, please call 911. Otherwise, please stay home and make sure you take precautionary protective measures (wash your hands, cover your cough/sneeze, disinfect commonly used surfaces and keep social distancing)."
    :outcome-panel/health-recommendations-title "Health Recommendations"
    :outcome-panel/at-this-time-we-recommend "At this time we recommend you do the following:"
    :outcome-panel/stay-home-and-quarantine "Stay home for 14 days and self-quarantine. Do not go to work, classes, athletic events, or other social or religious gatherings during this time."
@@ -144,8 +144,8 @@
    :question/no-travel "No travel"
    :option/feeling-sick "I am feeling sick"
    :option/feeling-fine "I am feeling fine"
-   :option/temp-above-104 "Temperature above 100.4 °F (38 °C)"
-   :option/older-than-65-and-temp-above-99 "Older than 65 and temperature above 99.6 °F (37.5 °C)"
+   :option/temp-above-104 "Temperature above 100.4°F (38°C)"
+   :option/older-than-65-and-temp-above-99 "Older than 65 and temperature above 99.6°F (37.5°C)"
    :option/i-feel-feverish "I feel feverish"
    :option/i-dont-know "I don't know"
    :option/normal "Normal"
@@ -208,7 +208,7 @@
    :outcome-panel/strong-positive "POSITIVE"
    :outcome-panel/symptoms-should-be-evaluated " and have symptoms that should be evaluated by a healthcare professional."
    :outcome-panel/have-concerning-medical-symptoms ", but have concerning medical symptoms."
-   :outcome-panel/not-in-harris "Your location or zip code does not belong to Harris County. Please contact your local health department."
+   :outcome-panel/not-in-harris "Your location or ZIP code does not belong to Harris County. Please contact your local health department."
    :outcome-panel/call-arkansas-dept-of-health "Call the Arkansas Department of Health at "
    :outcome-panel/during-business-hours " during business hours "
    :outcome-panel/strong-if "IF"
@@ -251,8 +251,8 @@
    :option/i-feel-fine "I feel fine"
    :option/i-feel-sick "I feel sick"
    :option/i-feel-very-sick "I feel very sick / Considering hospitalization"
-   :option/temp-above "Temperature above 100.4 °F"
-   :option/temp-below "Temperature below 96.8 °F"
+   :option/temp-above "Temperature above 100.4°F (38°C)"
+   :option/temp-below "Temperature below 96.8°F (36°C)"
    :option/normal-temp "Normal temperature / I don't know"
    :option/cough "Cough"
    :option/i-am-breathing-very-fast "I am breathing very fast"
