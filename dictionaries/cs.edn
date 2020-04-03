@@ -193,7 +193,7 @@
  :fort-bend-county.outcome-panel/please-dont-come "Prosím nechoďte na místo s tímto kódem, bude neplatný."
 
  ;; R300
- :fort-bend-county.outcome-panel/contact-health-pro-triage "Pro další vyhodnocení kontaktujte COVID-19 Health Professional Triage Call Center na lince 281-238-2363"
+ :fort-bend-county.outcome-panel/contact-health-pro-triage "Pro další vyhodnocení kontaktujte COVID-19 Health Professional Triage Call Center na lince 281-238-2363"}
 
  ;; everything below this point is not used in the Harris Instance as far as I can tell
  ;; - G. Klein, 24 Mar 2020
