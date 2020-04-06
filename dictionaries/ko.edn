@@ -23,7 +23,7 @@
  ;; About Page
  :about/what-is-this "저희는 공공의 필요성을 위해 CDC와 WHO 가이드라인에 따라 집에서 사용할 수 있는 안전하고 포괄적인 자가진단이 가능하도록 무료 COVID-19 진단 도구를 만들었습니다. 저희의 목표는 의료 종사자들에게 잠재적 노출을 줄이는 것, 응급실 과밀현상을 막는 것, 그리고 지역 사회와의 효율적인 커뮤니케이션을 가능하게 하는 것입니다."
  :about/website "웹사이트"
- ;; FIXME :about/who-are-we [:<> "Luminare specializes in digitization of healthcare specific protocols and complex workflow pathways so that patients receive timely and appropriate care. From sepsis to COVID-19, our team can harness data and turn medical workflows and checklists into actionable tools to help deliver the best care to patients. Visit our %1 to learn more about us."]
+ :about/who-are-we [:<> "Luminare는 환자들이 적시에 적절한 치료를 받을 수 있도록 의료 관련 프로토콜과 복잡한 업무 흐름의 디지털화를 전문으로 합니다. 패혈증에서 COVID-19까지, 저희 팀은 환자들에게 최상의 치료를 제공할 수 있도록 데이터를 활용하여 의료 업무 흐름 및 점검표를 실행가능한 도구로 전환할 수 있습니다. 더 자세한 내용은 %1 를 방문하여 주십시오."]
  ;; REMOVED :about/who-are-we-part-two
  :about/title "CheckForCorona.com 프로젝트에 대하여"
  :about/subtitle-what-is-this "이것은 무엇입니까?"
@@ -51,7 +51,7 @@
  :landing-page/to-protect-yourself [:<> "자신을 보호하기 위해서는, 비누와 물로 손을 자주 씻고 화장지나 팔꿈치 안쪽으로 기침/재채기를 가리며 다른 사람들과 약 6피트(약 1.8미터)의 간격을 유지합니다. 이는 단지 진단 도구에 불과하며 의료 관계자로부터 받은 의료 자문 내용을 대체하지 않습니다."]
  :landing-page/if-emergency-call "생명을 위협하는 응급상황에 처할 경우, 911을 호출하시기 바랍니다"
  :harris-county.landing-page/if-other-health-concerns [:<> "기타 건강상 우려가 있을 경우, 담당 의료 관계자에게 전화하시기 바랍니다. 주민들은 보건당국에 접촉하지 않고 주 7일 9am-7pm까지 전화 713-634-1110번 환자분류 회선으로 연락하여 COVID-19 관련 문의사항을 제기합니다. COVID-19에 관련된 자세한 정보는 %1 , %2 또는 %3 를 방문, 참고하시기 바랍니다."]
- ;; FIXME :fort-bend-county.landing-page/if-other-health-concerns [:<> "If you have other health concerns, please call your healthcare provider. For more information on COVID-19, please go to %1 or %2"
+ :fort-bend-county.landing-page/if-other-health-concerns [:<> "기타 건강상 우려가 있을 경우, 담당 의료 관계자에게 전화하시기 바랍니다. COVID-19에 대한 더 자세한 내용은 %1 또는 %2를 참조해 주십시오."
  :or " 또는 "
  :landing-page/older-than-65 "*65세 초과 연령 및 99.6F 초과 체온"
  :landing-page/close-contact-defined "**밀접한 접촉의 정의는 다음과 같습니다:"
