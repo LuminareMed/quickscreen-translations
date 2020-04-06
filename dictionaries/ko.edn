@@ -51,7 +51,7 @@
  :landing-page/to-protect-yourself [:<> "자신을 보호하기 위해서는, 비누와 물로 손을 자주 씻고 화장지나 팔꿈치 안쪽으로 기침/재채기를 가리며 다른 사람들과 약 6피트(약 1.8미터)의 간격을 유지합니다. 이는 단지 진단 도구에 불과하며 의료 관계자로부터 받은 의료 자문 내용을 대체하지 않습니다."]
  :landing-page/if-emergency-call "생명을 위협하는 응급상황에 처할 경우, 911을 호출하시기 바랍니다"
  :harris-county.landing-page/if-other-health-concerns [:<> "기타 건강상 우려가 있을 경우, 담당 의료 관계자에게 전화하시기 바랍니다. 주민들은 보건당국에 접촉하지 않고 주 7일 9am-7pm까지 전화 713-634-1110번 환자분류 회선으로 연락하여 COVID-19 관련 문의사항을 제기합니다. COVID-19에 관련된 자세한 정보는 %1 , %2 또는 %3 를 방문, 참고하시기 바랍니다."]
- :fort-bend-county.landing-page/if-other-health-concerns [:<> "기타 건강상 우려가 있을 경우, 담당 의료 관계자에게 전화하시기 바랍니다. COVID-19에 대한 더 자세한 내용은 %1 또는 %2를 참조해 주십시오."
+ :fort-bend-county.landing-page/if-other-health-concerns [:<> "기타 건강상 우려가 있을 경우, 담당 의료 관계자에게 전화하시기 바랍니다. COVID-19에 대한 더 자세한 내용은 %1 또는 %2를 참조해 주십시오."]
  :or " 또는 "
  :landing-page/older-than-65 "*65세 초과 연령 및 99.6F 초과 체온"
  :landing-page/close-contact-defined "**밀접한 접촉의 정의는 다음과 같습니다:"
