@@ -1,0 +1,275 @@
+{
+ ;; Misc
+ :infected-locations "Qualquer dos países seguintes: China, Italy, Iran, South Korea, Japan, Hong Kong, ou qualquer áreas dentro dos Estados Unidos com um surto de COVID-19"
+
+ ;; Header
+ :header/from "de"
+
+ ;; Footer
+ :footer/restart-screening "Recomece Triagem"
+ :footer/about "Sobre este projeto"
+ :footer/hospital-signup "Registre o Hospital"
+ :footer/check-previous-result "Verifique Resultado Anterior"
+ :footer/legal-disclaimer "Aviso legal"
+ :footer/disclaimer "Esta ferramenta é fornecida como parte de uma triagem para que as pessoas possam determinar se necessitam realizar um teste ou não. Tem sido atualizada dentro da nossa habilidade para corresponder às recomendações do CDC.gov para triagem de COVID-19. Essa ferramenta não tem a intenção de contradizer ou substituir recomendações médicas de um profissional licenciado."
+ :footer/life-threatening-emergency "Se está tendo uma emergência com risco de vida, ligue para 911, por favor."
+ :footer/please-review-disclaimer "Por favor, reveja a \"Privacy Policy\" completa e a \"Use Policy.\""
+
+ ;; Modal
+ :modal/enter-your-zip-code "Insira o seu código Postal:"
+ :ok "OK"
+ :cancel "Cancele"
+
+ ;; About Page
+ :about/what-is-this "Em resposta a uma demanda atual, nós criamos essa ferramenta de triagem COVID-19 gratis de acordo com recomendações do CDC e da OMS para ajudar o público a completar uma auto-avaliacão domiciliar ampla e segura. Nosso objetivo é ajudar diminuir o potencial de exposição para os profissionais de saúde, evitar superlotação dos serviços de saúde e permitir comunicação eficaz com a comunidade."
+ :about/website "website"
+ :about/who-are-we [:<> "Luminare especializa-se em digitalização de protocolos específicos de saúde e fluxos de trabalho complexos para que pacientes recebam cuidados apropriadas e em tempo hábil. De sepse a COVID-19, nossa equipe pode utilizar dados e transformar fluxos de trabalho médicos e listas de controle em ferramentas para ajudar prover o melhor cuidado para os pacientes. Visite nosso %1 para aprender mais sobre nós."]
+ ;; REMOVED :about/who-are-we-part-two
+ :about/title "Sobre o projeto CheckForCorona.com"
+ :about/subtitle-what-is-this "O que é isso?"
+ :about/subtitle-who-are-we "Quem somos nós?"
+
+ ;; Check Result Page
+ :check-result/title "Verifique Resultado Anterior"
+ :check-result/form-label "Insira seu Número de Triagem:"
+ :check-result/form-submit-button "Enviar"
+
+ ;; Landing Page
+ :harris-county.landing-page/title "Bem-vindos ao Harris County/Houston Coronavirus Disease (COVID-19) ferramenta de auto-avaliação"
+ :fort-bend-county.landing-page/title "Bem-vindos ao Fort Bend County Coronavirus Disease (COVID-19) ferramenta de auto-avaliação"
+ :landing-page/who-should-be-tested "Quem deve ser testado para COVID-19?"
+ :landing-page/people-with-fever "Pessoas com febre* acima de 100.4°F (38°C) e sintomas respiratórios quem:"
+ :landing-page/have-had-close-contact "Teve contato** com alguém diagnosticado com COVID-19"
+ :landing-page/have-other-conditions "Tem co-morbidades (diabetes, doenças pulmonares, doenças cardíacas, gravidez)"
+ :landing-page/are-older "Tem 60 ou mais anos de idade"
+ :landing-page/nursing-homes "Residem em casa de idosos/asilos"
+ :landing-page/part-of-investigation "Parte de uma investigação de uma aglomerado ou um surto"
+ :landing-page/healthcare-worker-first-responder "São trabalhadores da saúde/primeiros socorros"
+ :landing-page/who-does-not-test "Quem não necessita ser testado para COVID-19?"
+ :landing-page/people-without-symptoms "Pessoas sem sintomas relacionados à doença provocada pelo coronavirus"
+ :landing-page/anyone-who-is-sick "Todos que estão doentes necessitam ficar em casa. "
+ :landing-page/to-protect-yourself [:<> "Para se proteger, lave suas mãos frequentemente com água e sabão, cubra sua tosse/espirro com papel ou tussa na dobra do cotovelo e mantenha distância de cerca de 6 pés (cerca de 2 metros) ou mais de outras pessoas. Isto é somente uma ferramenta de auto-avaliação e **não substitui avaliação médica** feita por um profissional de saúde."]
+ :landing-page/if-emergency-call "Se for uma emergência com risco de vida, ligue para 911, por favor."
+ :harris-county.landing-page/if-other-health-concerns "Caso você tenha outras preocupações com sua saúde, por favor, ligue seu provedor de saúde. Residentes sem acesso a assistência médica podem ligar para a linha de \"Harris Health Ask My Nurse\" para esclarecerem duvidas sobre COVID-19 no número 713-634-1110 de 9:00-19:00, 7 dias por semana. Para mais informações sobre COVID-19, por favor, vá para "
+ :fort-bend-county.landing-page/if-other-health-concerns "Caso você tenha outras preocupações com sua saúde, por favor, ligue seu provedor de saúde. Residentes sem acesso a assistência médica podem ligar para a linha de \"Harris Health Ask My Nurse\" para esclarecerem duvidas sobre COVID-19 no número 713-634-1110 de 9:00-19:00, 7 dias por semana. Para mais informações sobre COVID-19, por favor, vá para "
+ :or " ou "
+ :landing-page/older-than-65 "*Acima de 65 anos e temperatura corporal acima de 99.6F (37.5C)"
+ :landing-page/close-contact-defined "**Contato próximo é definido como:"
+ :landing-page/being-within-6-feet "a) distancia menor que 6 pés (2 metros) de um caso COVID-19 por um tempo prolongado; contato próximo pode acontecer enquanto estiver cuidando de, morando com, visitando, ou dividindo uma sala de espera em serviços de saúde ou consultório onde haja um caso COVID-19"
+ :landing-page/footnote-or "– ou –"
+ :landing-page/having-direct-contact "b) contato direto com secreções corporais de um caso COVID-19 (por exemplo se alguém tossiu em você) "
+ :landing-page/this-tool-will-help "Esta ferramenta te ajudará a determinar se você necessita avaliação adicional ou necessita teste para COVID-19."
+ :landing-page/please-help-answer "Por favor, ajude-nos respondendo algumas perguntas (ou responda as perguntas por uma outra pessoa.)"
+ :landing-page/begin-self-assessment-button "Clique para Começar a Auto-Avaliação"
+
+ ;; Location Panel
+ :location-panel/share-location-for-epidemiology "Compartilhe sua localização para definir epidemiologia?"
+ :location-panel/requesting-location-spinner  "Solicitando Localização …"
+ :location-panel/enter-zip-code "Insira Código Postal"
+ :location-panel/click-to-use-location "Clique para Utilizar Localização"
+ :location-panel/opt-out-of-location-sharing "Eu quero recusar compartilhar localização"
+ :location-panel/epidemiology-is-helpful "Saber quando e onde um surto ocorre é muito útil para autoridades locais de saúde para acompanhar a doença e estabelecer diretrizes para a atuação comunitaria."
+ :location-panel/your-location-is-protected [:<> "Nós **só** utilizaremos a sua localização para fins epidemiológicos. Nenhuma informação protegida de saúde (PHI) é armazenada."]
+ :location-panel/unable-to-use-location "Não foi possível coletar sua localização. Por favor insira seu código postal."
+ :location-panel/please-enter-valid-zip "Por favor insira um código postal válido."
+
+ ;; Outcome Panels Harris
+ :outcome-panel/covid-self-assessment-results "Doença provocado pelo coronavirus (COVID-19) RESULTADO da AUTO-AVALIAÇÃO"
+ :outcome-panel/if-experiencing-call "Se estiver em uma emergência com risco de vida, ligue para "
+ :outcome-panel/your-screening-id "Sua número de triagem é: "
+ :outcome-panel/no-more-test-kits "Infelizmente, nós alcançamos nosso limite de testes por hoje. Por favor tente novamente amanhã e repita a auto-avaliação a partir das 8:00 da manhã. Caso você tenha uma emergência com risco de vida, por favor ligue 911. Caso contrário, por favor, fique em casa e certifique-se de tomar medidas preventivas de proteção (lave suas mãos, cubra sua tosse/espirro, desinfete áreas usadas regularmente e mantenha distanciamento social)."
+ :outcome-panel/health-recommendations-title "Recomendações de Saúde"
+ :outcome-panel/at-this-time-we-recommend "Neste momento nós recomendamos que você faça o seguinte:"
+ :outcome-panel/stay-home-and-quarantine "Fique em casa por 14 dias e faça auto-quarentena. Não vá ao trabalho, aulas, eventos esportivos, ou outros encontros sociais ou religiosos durante este período."
+ :outcome-panel/limit-contact-with-people "Limite contato com outras pessoas na medida do possível. Isso inclui auto-isolamento, na medida do possível, até mesmo em relação a outros residentes no seu domicílio."
+ :outcome-panel/wash-your-hands-with-soap "Lave suas mãos frequente com água e sabão ou use antisséptico de mãos à base de álcool, especialmente depois de tossir, espirrar ou descartar jogar um lenço."
+ :outcome-panel/avoid-touching-face "Evite tocar seus olhos, seu nariz e sua boca antes de lavar as mãos."
+ :outcome-panel/cover-coughs-and-sneezes "Cubra tosses e espirros com seu antebraço ou um lenço de papel. Nunca tussa na direção de outra pessoa."
+ :outcome-panel/do-not-share "Não compartilhe copos, taças, toalhas, utensílios de cozinha, roupa de cama ou outros itens até que termine seu período de auto-quarentena."
+ :outcome-panel/keep-surroundings-clean "Mantenha seu ambiente higienizado. Limpe superfícies de uso frequente e de uso comum, como maçanetas de portas, telefones e superfícies de banheiro (além de outros objetos em que tossiu ou espirrou), com um desinfetante de uso doméstico como lenços Clorox."
+ :outcome-panel/if-you-are-sick-stay-home "Se voce estiver doente, fique em casa e longe dos outros."
+ :outcome-panel/remember-to-avoid-gatherings "Evite aglomerados já que podem aumentar a disseminação em nossa comunidade."
+ :outcome-panel/stay-informed "Mantenha-se informado. Orientações oriundas de autoridades de saúde respeitadas e confiáveis são atualizadas com frequência."
+ ;; REMOVED :outcome-panel/visit
+ ;; REMOVED :outcome-panel/for-frequent-updates
+ :outcome-panel/visit-url-for-updates [:<> "Visite %1 para atualizações frequentes."]
+ :harris-county.outcome-panel/visit-urls-for-updates [:<> "Visite %1, %2, e %3 para atualizações frequentes."]
+ :outcome-panel/feeling-stressed-title "Esta se sentindo ansioso ou com medo?"
+ :outcome-panel/fear-and-anxiety "Medo e ansiedade sobre a doença podem trazer sobrecarga emocional e trazer a tona sentimentos intensos em crianças e adultos."
+ :outcome-panel/people-with-preexisting-mental "Pessoas com doenças mentais ou co-morbidades psiquiátricas ou psicológicas pre-existentes devem manter seu plano de tratamento, manter contato com seu terapeuta ou equipe de saúde e monitorar o surgimento de novos sintomas."
+ :outcome-panel/stay-connected-with-friends "Mantenha contato com amigos e familiares através do telefone, chamadas de vídeo, e mail, etc. Isso e particularmente importante para os idosos."
+ :outcome-panel/use-other-ways "Faça uso de outros recursos para relaxar, tais como exercicios fisicos, alongamentos e meditação."
+ :outcome-panel/call-healthcare-provider "Ligue para seu provedor de saúde se a ansiedade ou o estresse interferirem em suas atividades diárias."
+ :outcome-panel/for-additional-support "Para suporte adicional, favor contactar:"
+ :outcome-panel/harris-center-mental-support "The Harris Center COVID-19 Mental Health Support Line: "
+ :outcome-panel/disaster-distress-helpline "Disaster Distress Helpline: "
+ :outcome-panel/r100-wash-hands "Lave as mãos frequentemente com água e sabão por ao menos 20 segundos ou use álcool gel quando não puder lavar as mãos, principalmente após tossir, espirrar, ou descartar lenços. Evite tocar olhos, nariz e boca com as mãos, especialmente antes de lavá-las."
+ :outcome-panel/r100-avoid-touching-face "Evite tocar seus olhos, seu nariz e sua boca antes de lavar as mãos."
+ :outcome-panel/r100-cover-cough "Cubra tosse e espirro com seu antebraço ou um lenço. Nunca tussa na direção de outra pessoa."
+ :outcome-panel/r100-avoid-close-contact "Evite contato próximo com pessoas que estejam doentes, principalmente se você estiver em um grupo de maior vulnerabilidade para COVID-19."
+ :outcome-panel/r100-get-plenty-of-rest "Descanse, tome muitos líquidos, coma alimentos saudáveis e busque equilíbrio de seu nível de estresse para manter sua imunidade em alta."
+ :outcome-panel/r100-keep-surroundings-clean "Mantenha seu ambiente higienizado. Limpe superfícies de uso frequente e de uso comum, como maçanetas de portas, telefones e superfícies de banheiro (além de outros objetos em que tossiu ou espirrou), com um desinfetante de uso doméstico como lenços Clorox."
+ :outcome-panel/r100-if-you-are-sick "Se estiver doente, permaneça em casa e distante dos outros."
+ :outcome-panel/r100-stay-informed "Mantenha-se informado. Orientações oriundas de autoridades de saúde respeitadas e confiáveis são atualizadas com frequência."
+ :outcome-panel/contact-local-health-dept "Entre em contato com seu departamento de saúde local para mais avaliações."
+
+ ;; r100
+ :outcome-panel/based-on-your-results-r100 [:<> "Baseado em seus resultados, voce **NÃO** necessita de mais avaliações ou testes nesse momento. "]
+ :outcome-panel/please-feel-free-to-repeat "Sinta-se livre para repetir essa avaliação em 24 horas ou menos de algo mudar em relação a sua saúde."
+ :outcome-panel/please-follow-guidelines "Favor continuar a seguir as orientações do seu departamento de saúde pública local e contate seu provedor de saúde caso tenha quaisquer dúvidas ou preocupações em relação a sua saúde."
+ :outcome-panel/based-on-your-results [:<> "Based on your results you do **NOT** need to go to the ER"]
+
+ ;; r300
+ :outcome-panel/based-on-results-you-have [:<> "Baseado em seus resultados, voce **NÃO** tem sintomas preocupantes que indicam COVID-19 nesse momento. Recomendamos que fique em casa e entre em contato com seu departamento de saúde local."]
+
+ ;; r400
+ :outcome-panel/based-on-answers-higher-risk "Baseado em suas respostas, você pode estar com risco aumentado de doença por coronavírus (COVID-19)."
+ ;; REMOVED :outcome-panel/contact-nurse-triage
+ ;; REMOVED :outcome-panel/for-further-evaluation
+ :outcome-panel/contact-nurse-triage2 [:<> "Contact the COVID-19 Nurse Triage Call Center at %1 for further evaluation."]
+
+ ;; disclaimer
+ :outcome-panel/disclaimer-title "Aviso Legal:"
+ :outcome-panel/not-a-diagnosis " Esse não e um diagnóstico medico."
+
+ ;; Harris factors
+ :option/yes "Sim"
+ :option/no "Não"
+ :option/unknown "Desconhecido"
+ :question/africa "África"
+ :question/asia "Ásia"
+ :question/australia "Austrália"
+ :question/europe "Europa"
+ :question/south-america "America do Sul"
+ :question/no-travel "Sem viagem"
+ :option/feeling-sick "Estou me sentindo doente"
+ :option/feeling-fine "Estou me sentindo bem"
+ :option/temp-above-104 "Temperatura corporal acima de 100.4°F (38°C)"
+ :option/older-than-65-and-temp-above-99 "Acima de 65 anos de idade e temperatura corporal cima de 99.6°F (37.5°C)"
+ :option/i-feel-feverish "Me sinto febril"
+ :option/i-dont-know "Não sei"
+ :option/normal "Normal"
+ :option/cough-dry "Tosse - seca (não produtiva)"
+ :option/cough-wet "Tosse - úmida (produtiva)"
+ :option/shortness-of-breath "Falta de ar"
+ :option/wheezing "Chiado - Broncoespasmo"
+ :option/none-of-the-above "Nenhum dos acima"
+ :option/headache "Cefaléia - Dor de Cabeça"
+ :option/runny-nose "Nariz Escorrendo"
+ :option/itchy-eyes "Coceira nos Olhos"
+ :option/watery-eyes "Olhos Lacrimejando"
+ :option/sneezing "Espirros"
+ :option/hypertension "Hipertensão - Pressão Alta"
+ :option/heart-disease "Cardiopatia - Doença do Coração"
+ :option/lung-disease "Doença Pulmonar"
+ :option/diabetes "Diabetes"
+ :option/immunosuppressed-by-meds "Immunosuppressão devido a medicamentos ou HIV"
+ :option/nursing-home-resident "Residente em Casa de Idosos ou Asilo ou Casa de Cuidados Cronicos"
+ :option/pregnant "Gestação ou ate duas semanas pós parto"
+ :option/younger-than-20 "Menor que 20 anos de idade"
+ :option/over-80 "80 anos de idade ou mais"
+ :factor-question/in-person-close-contact "1. Você já teve contato com uma pessoa diagnosticada com doença coronavirus (COVID-19)?"
+ :factor-question/recent-international-travel "2. Você fez viagem internacional para algum destes destinos nos últimos 13 dias?"
+ :factor-question/how-are-you-feeling "3. Como se sente hoje?"
+ :factor-question/what-is-your-temp-harris "4. Qual é a sua temperatura corporal?"
+ :factor-question/any-of-the-following "5. Você apresenta algum dos seguintes?"
+ :factor-question/allergies "6. Você apresenta algum dos seguintes?"
+ :factor-question/do-any-of-the-following-apply "7. Algum dos seguintes se aplica a você?:"
+ :factor-question/what-is-your-age-harris "8. Qual a sua idade?"
+ :factor-question/first-responder-or-healthcare "9. Você é profissional de saúde ou de primeiros socorros?"
+
+ ;; Result Bars
+ :result-bar/click-to-proceed "Clique para proceder com tela"
+ :result-bar/please-complete-all-fields "Favor completar todos os campos"
+ :result-bar/possible-infection "Infecção possível"
+ :result-bar/screened-negative "Triagem Negativa"
+
+ ;; Outcome Panels Fort Bend - G. Klein, 28 Mar 2020
+ ;; R400
+ :fort-bend-county.outcome-panel/contact-call-center [:<> "Entre em contato com o centro de triagem:  COVID-19 Health Professional Triage Call Center em %1 para mais avaliações."]
+ :fort-bend-county.outcome-panel/provide-code "Favor providenciar esse código ao ligar para o centro de saude profissional de triagem."
+ :fort-bend-county.outcome-panel/code-is-for-speaking "Favor atentar para o fato de que esse código se se aplica para ter acesso a falar com um profissional e não garante que será testado."
+ :fort-bend-county.outcome-panel/if-approved "Se você for aprovado para ser testado, você receberá outro código único para levar ao local."
+ :fort-bend-county.outcome-panel/please-dont-come "Favor não se dirigir ao local com esse código pois ele não se aplica a atendimento no local."
+
+ ;; R300
+ :fort-bend-county.outcome-panel/contact-health-pro-triage "Entre em contato com o centro de triagem:  COVID-19 Health Professional Triage Call Center no numero 281-238-2363 para mais avaliações"
+
+ ;; everything below this point is not used in the Harris Instance as far as I can tell
+ ;; - G. Klein, 24 Mar 2020
+
+ ;; outcome panels
+ :outcome-panel/you-have-screened "Voce foi avaliado"
+ :outcome-panel/on-the "no "
+ :outcome-panel/strong-covid19-assessment "COVID-19 Triagem"
+ :outcome-panel/but-you-do-not ", mas você não tem sintomatologia preocupante no momento."
+ :outcome-panel/minimal-symptoms " e tem sintomas minimos."
+ :outcome-panel/strong-negative "NEGATIVO"
+ :outcome-panel/strong-positive "POSITIVO"
+ :outcome-panel/symptoms-should-be-evaluated " e apresenta sintomas que precisam ser avaliados por um profissional de saúde."
+ :outcome-panel/have-concerning-medical-symptoms ", mas tem sintomas preocupantes."
+ :outcome-panel/not-in-harris "Sua localização ou código postal não pertence ao Harris County. Favor contactar seu departamento de saúde local."
+ :outcome-panel/call-arkansas-dept-of-health "Ligue para o Arkansas Department of Health em"
+ :outcome-panel/during-business-hours " durante o horário comercial "
+ :outcome-panel/strong-if "SE"
+ :outcome-panel/you-have-indicated " você indicou que você tem:"
+ :outcome-panel/known-exposure "Uma sabida exposição a COVID-19"
+ :outcome-panel/have-travelled-from "Viajou de um lugar que sabidamente tem surto de COVID-19."
+ :outcome-panel/call "Ligue "
+ :outcome-panel/white-county-medical " para Pronto Atendimento: White County Medical Center Emergency Room, Searcy"
+ :outcome-panel/harris-medical-center " para Pronto Atendimento: Harris Medical Center Emergency Room, Newport"
+ :outcome-panel/r400h-click-link "Favor clicar nesse link e preencher o formulário para agendar teste de COVID-19."
+ :outcome-panel/please-contact-local-hd "Favor entrar em contato com seu departamento de saúde local."
+ :outcome-panel/call-local-health-dept "Ligue para seu departamento de saúde local se tiver uma sabide exposição à doença provocada pelo Coronavírus (COVID-19) ou viajou de um local com sabido surto de COVID-19."
+ :outcome-panel/please-call-pcp "Favor ligar para seu provedor primário de saúde se continuar tendo preocupações em relação á sua saúde ou persistência de sintomas."
+ :outcome-panel/need-further-evaluation-or-testing " necessita de avaliação ou testes nesse momento."
+ :outcome-panel/please-repeat-4-hours "Favor repetir essa avaliação em 4 horas ou se houver piora dos sintomas."
+ :outcome-panel/implement-home-care "Pode implementar um plano de cuidados domiciliares se:"
+ :outcome-panel/feel-well-home-care "Você se sente bem o suficiente para receber cuidados em casa."
+ :outcome-panel/appropriate-caregivers "Cuidadores apropriados estão presentes no domicilio."
+ :outcome-panel/seperate-bedroom "Disponibilidade de um quarto separado onde você pode convalescer sem dividir espaço imediato com outros."
+ :outcome-panel/resources-for-food-and-water "Recursos para acesso a alimentos e outras amenidades estão disponíveis."
+ :outcome-panel/you-have-access-ppe "Você e outros moradores do domicílio tem acesso a equipamento de proteção individual apropriados (no mínimo luvas e máscaras) e são capazes de aderir a precauções recomendadas como parte dos cuidados domiciliares ou isolamento (por exemplo, higiene respiratória e etiqueta de tosse, higienização de mãos)"
+ :outcome-panel/you-should-discuss-plan "Você deve discutir seu plano com seu provedor de saúde ou outro profissional de saúde se houver, no domicílio, moradores com maior vulnerabilidade ou risco de complicações pela infecção por COVID-19 (por exemplo: pessoas com mais de 65 anos, crianças pequenas, gestantes, imunocomprometidos ou pessoas com cardiopatia, doenças pulmonares ou problemas renais."
+ :outcome-panel/call-pcp-for-test "Favor ligar para seu provedor de saúde para ser testado para COVID-19."
+ :outcome-panel/results-isolation-testing "Baseado em seus resultados, você precisa de avaliação médica que precisa ser feito em um tipo específico de quarto isolado."
+ :outcome-panel/outpatient-clinics-cant "Consultórios não têm equipamento próprio para fazer seu exame clínico."
+ :outcome-panel/please-call-er-prior "Favor ligar para o pronto atendimento antes de comparecer."
+ :outcome-panel/before-entering-facility "Antes de entrar no serviço de saúde, traremos uma máscara para você."
+ :outcome-panel/you-will-be-escorted "Você será guiado para o local apropriado."
+ :outcome-panel/results-require-attention "Baseado em seus resultados, você tem sintomas que demandam atendimento médico."
+ :outcome-panel/please-call-to-discuss "Favor ligar para seu provedor de saúde ou o provedor de saúde mais próximo para discutir seus sintomas."
+ :outcome-panel/please-share-screening "Favor compartilhar o resultado de sua triagem abaixo."
+ :outcome-panel/questions "Perguntas"
+ :outcome-panel/answers "Suas Respostas"
+ :outcome-panel/assessment-results "Resultado da avaliação:"
+
+ ;; PANEL_C300_COMORBIDITIES
+ :not-limited-immunosuppressant-meds "não limitado a prednisona, biológicos e medicamentos anti-rejeição"
+
+ ;; Questions
+ :option/i-feel-fine "Me sinto bem"
+ :option/i-feel-sick "Me sinto doente"
+ :option/i-feel-very-sick "Sinto muito doente/considerando hospitalização"
+ :option/temp-above "Temperatura corporal acima de 100.4°F (38°C)"
+ :option/temp-below "Temperatura corporal abaixo de 96.8°F (36°C)"
+ :option/normal-temp "Temperatura corporal normal / Não sei"
+ :option/cough "Tosse"
+ :option/i-am-breathing-very-fast "Estou com respiração acelerada"
+ :option/high-blood-pressure "Pressão alta"
+ :option/cancer-diagnosis "Diagnostico de cancer"
+ :option/taking-immunosuppressant-medication "Fazendo uso de imunossupressores *"
+ :option/kidney-failure-on-dialysis "Insuficiência renal em uso de diálise"
+ :option/other-chronic-health-condition "Outra doença crônica"
+ :factor-question/feeling-sick-today "Você se sente doente hoje?"
+ :factor-question/been-in-contact-with-covid19 "Você teve contato com alguém com COVID-19?"
+ :factor-question/recently-traveled "Você viajou para um local com um surto de COVID-19?"
+ :factor-question/have-been-exposed "Você foi exposto ao COVID-19?"
+ :factor-question/what-is-your-temp "Qual a sua temperatura corporal?"
+ :factor-question/do-you-have-the-following "Você apresenta algum dos seguintes?"
+ :factor-question/lower-respiratory-distress "Você tem insuficiência respiratória?"
+ :factor-question/what-is-your-age "Quantos anos você tem? (opcional)"
+
+ ;; Result Table
+ :results-table/comorbidities "Comorbidades"
+ :results-table/age-risk "Idade de risco"}
