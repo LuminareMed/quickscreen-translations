@@ -1,0 +1,275 @@
+{
+ ;; Misc
+ :infected-locations "Bất kỳ địa điểm nào sau đây: Trung Quốc, Ý, Iran, Hàn Quốc, Nhật Bản, Hồng Kông hoặc bất kỳ khu vực nào ở Hoa Kỳ có ổ dịch COVID-19 đã bộc phát"
+
+ ;; Header
+ :header/from "từ"
+
+ ;; Footer
+ :footer/restart-screening "Duyệt xét lại cuộc khám ngiệm"
+ :footer/about "Về dự án này"
+ :footer/hospital-signup "Ghi danh bệnh viện"
+ :footer/check-previous-result "Duyệt lại kết quả trước đây"
+ :footer/legal-disclaimer "Từ chối trách nhiệm pháp lý"
+ :footer/disclaimer "Phương tiện này được cung cấp như một phần của sàng lọc, để mọi người có thể xem, liệu họ có cần khám nghiệm hay không? Những dữ kiện này được cập nhật với khả năng tốt nhất của chúng tôi, để phù hợp với hướng dẫn của CDC.gov về sàng lọc COVID-19. Điều này không tạo sự mâu thuẫn hoặc thay thế tư vấn y tế độc lập và thẩm quyền của một bác sĩ."
+ :footer/life-threatening-emergency "Nếu bạn đang gặp một trường hợp khẩn cấp đe dọa tính mạng, xin vui lòng gọi 911. "
+ :footer/please-review-disclaimer "Xin vui lòng xem lại toàn bộ giao ước bảo mật cho những gì riêng tự và quyền hạn sử dụng nó."
+
+ ;; Modal
+ :modal/enter-your-zip-code "Biên mã bưu điện của bạn:"
+ :ok "Đồng ý"
+ :cancel "Hủy bỏ"
+
+ ;; About Page
+ :about/what-is-this "Chúng tôi đã tạo ra phương tiện sàng lọc COVID-19 miễn phí cho nhu cầu công chúng, theo hướng dẫn của CDC và WHO, để giúp mọi người hoàn thành việc tự đánh giá COVID-19 tại nhà được an toàn và bao quát. Mục tiêu của chúng tôi là giúp giảm thiểu việc phải tiếp xúc với nhân viên y tế, để tránh tình trạng quá tải ER và cho phép giao tiếp hiệu quả với cộng đồng của bạn."
+ :about/website "trang mạng"
+ :about/who-are-we [:<> "Luminare chuyên chăm sóc sức khỏe cho bệnh nhân qua phương tin học, rất cập nhật cho những vấn đề phúc tạo, để bệnh nhân kịp thời nhận được sự chăm sóc hợp lý. Từ nhiễm trùng huyết đến COVID-19, nhân viên của chúng tôi có thể khai thác dữ liệu và cung cấp những dữ kiện y khoa và danh sách kiểm tra thành các phương tiện thực nghiệm để giúp chăm sóc cho bệnh nhân một cách hoàn hảo. Mời bạn thăm viếng %1 của chúng tôi để tìm hiểu thêm về chúng tôi."]
+ ;REMOVED :about/who-are-we-part-two
+ :about/title "Giới thiệu về dự án CheckForCorona.com"
+ :about/subtitle-what-is-this "Cái này là gì?"
+ :about/subtitle-who-are-we "Chúng tôi là ai?"
+
+ ;; Check Result Page
+ :check-result/title "Duyệt xét lại kết quả trước đây"
+ :check-result/form-label "Vui lòng nhập ID sàng lọc của bạn:"
+ :check-result/form-submit-button "Gửi đi"
+
+ ;; Landing Page
+ :harris-county.landing-page/title "Chào mừng bạn đến tới phương tiện tự đánh giá cho bệnh vi rút Corona (COVID-19) của quận Harris County / Houston"
+ :fort-bend-county.landing-page/title "Chào mừng bạn đến tới phương tiện tự đánh giá cho bệnh vi rút Corona (COVID-19) của quận Ford Bend"
+ :landing-page/who-should-be-tested "Ai nên được xét nghiệm COVID-19?"
+ :landing-page/people-with-fever "Những người bị sốt* trên 100,4°F (38°C) và các triệu chứng hô hấp:"
+ :landing-page/have-had-close-contact "Đã tiếp xúc gần gũi** với người được chẩn đoán mắc COVID-19"
+ :landing-page/have-other-conditions "Có các tình trạng sức khỏe khác (tiểu đường, bệnh phổi, bệnh tim, mang thai)"
+ :landing-page/are-older "60 tuổi trở lên"
+ :landing-page/nursing-homes "Là cư dân của viện dưỡng lão"
+ :landing-page/part-of-investigation "Một phần của một cuộc điều tra của một cụm hoặc một ổ dịch"
+ :landing-page/healthcare-worker-first-responder "Là nhân viên chăm sóc sức khỏe / Người trả lời đầu tiên"
+ :landing-page/who-does-not-test "Ai không cần xét nghiệm COVID-19?"
+ :landing-page/people-without-symptoms "Những người không có triệu chứng liên quan đến bệnh vi rút Corona"
+ :landing-page/anyone-who-is-sick "Bất cứ ai bị bệnh cần phải ở nhà. "
+ :landing-page/to-protect-yourself [:<> "Để bảo vệ bản thân, hãy rửa tay thường xuyên bằng xà phòng và nước, che miệng khi ho / hắt hơi bằng khăn giấy hoặc trong khuỷu tay và duy trì khoảng cách từ 6 feet trở lên so với người khác. Đây chỉ là một công cụ đánh giá và **không thay thế lời khuyên y tế** từ nhà cung cấp dịch vụ chăm sóc sức khỏe."]
+ :landing-page/if-emergency-call "Nếu bạn đang gặp một trường hợp khẩn cấp, đe dọa tính mạng, xin gọi 911"
+ :harris-county.landing-page/if-other-health-concerns [:<> "Nếu bạn có những lo ngại về sức khỏe khác, vui lòng gọi cho nhà cung cấp dịch vụ chăm sóc sức khỏe của bạn. Cư dân không được tiếp cận với chăm sóc sức khỏe có thể gọi cho đường dây Harris Health Ask My Nurse cho các câu hỏi liên quan đến COVID-19 ở sổ 713-634-1110, từ 9 giờ sáng đến 7 giờ tối, 7 ngày một tuần. Để biết thêm thông tin về COVID-19, vui lòng truy cập %1 hoặc là %2 hoặc là %3."]
+ :fort-bend-county.landing-page/if-other-health-concerns [:<> "Nếu bạn có những lo ngại về sức khỏe khác, vui lòng gọi cho nhà cung cấp dịch vụ chăm sóc sức khỏe của bạn. Cư dân không được tiếp cận với chăm sóc sức khỏe, có thể gọi cho đường dây Harris Health Ask My Nurse cho các câu hỏi liên quan đến COVID-19 ở sổ 713-634-1110, từ 9 giờ sáng đến 7 giờ tối, 7 ngày một tuần. Để biết thêm thông tin về COVID-19, vui lòng truy cập %1 hoặc là %2."]
+ :or " hoặc là "
+ :landing-page/older-than-65 "*Tuổi lớn hơn 65 và nhiệt độ trên 99,6°F"
+ :landing-page/close-contact-defined "**Liên hệ chặt chẽ được định nghĩa là:"
+ :landing-page/being-within-6-feet "a) nằm trong khoảng 2 mét (6 feet) trong trường hợp bị COVID-19 một thời gian dài; tiếp xúc gần gũi có thể xảy ra trong khi chăm sóc, sống cùng, thăm hỏi hoặc chia sẻ khu vực chờ chăm sóc sức khỏe, hoặc phòng với trường hợp COVID-19"
+ :landing-page/footnote-or "– hoặc là –"
+ :landing-page/having-direct-contact "b) có tiếp xúc trực tiếp với dịch tiết truyền nhiễm của trường hợp COVID-19 (ví dụ: bị người khác ho trên mình) "
+ :landing-page/this-tool-will-help "Phương tiện này sẽ giúp xác định xem bạn có thể cần đánh giá thêm hay cần được kiểm tra COVID-19 hay không."
+ :landing-page/please-help-answer "Xin vui lòng giúp chúng tôi trả lời một vài câu hỏi (hoặc hoàn thành câu trả lời cho người khác.)"
+ :landing-page/begin-self-assessment-button "Nhấn vào đây để bắt đầu tự đánh giá"
+
+ ;; Location Panel
+ :location-panel/share-location-for-epidemiology "Chia sẻ vị trí của bạn cho dịch tễ học?"
+ :location-panel/requesting-location-spinner "Địa điểm yêu cầu …"
+ :location-panel/enter-zip-code "Biên mã bưu điện"
+ :location-panel/click-to-use-location "Nhấp để sử dụng Vị trí"
+ :location-panel/opt-out-of-location-sharing "Tôi muốn từ chối chia sẻ vị trí"
+ :location-panel/epidemiology-is-helpful "Biết khi nào và nơi dịch bệnh xảy ra là vô cùng hữu ích cho các cơ quan y tế địa phương để theo dõi bệnh và tư vấn khi có phản ứng của cộng đồng."
+ :location-panel/your-location-is-protected [:<> "Chúng tôi sẽ **chỉ** sử dụng vị trí của bạn cho mục đích dịch tễ học. Không có loại bảo vệ thông tin sức khỏe (PHI) được lưu trữ."]
+ :location-panel/unable-to-use-location "Không thể thu thập vị trí của bạn. Vui lòng nhập mã bưu điện của bạn."
+ :location-panel/please-enter-valid-zip "Xin vui lòng biên mã bưu điện hợp lệ."
+
+ ;; Outcome Panels Harris
+ :outcome-panel/covid-self-assessment-results "Bệnh vi rút Corona (COVID-19) KẾT QUẢ ĐÁNH GIÁ TỰ TIN"
+ :outcome-panel/if-experiencing-call "Nếu bạn đang gặp một trường hợp khẩn cấp đe dọa tính mạng, xin vui lòng gọi "
+ :outcome-panel/your-screening-id "Số chứng minh của bạn là: "
+ :outcome-panel/no-more-test-kits "Rất tiếc, chúng tôi đã đạt đến sự giới hạn thử nghiệm cho ngày hôm nay. Vui lòng thử lại vào ngày mai và lặp lại việc tự đánh giá bắt đầu lúc 8 giờ sáng. Nếu bạn có một trường hợp khẩn cấp đe dọa tính mạng, xin vui lòng gọi 911. Nếu không, xin vui lòng ở nhà và bảo đảm bạn thực hiện các biện pháp bảo vệ phòng ngừa (rửa tay, che miệng khi ho / hắt hơi, khử trùng các bề mặt của những nơi thường được sử dụng và giữ khoảng cách xã hội)."
+ :outcome-panel/health-recommendations-title "Khuyến cáo, đề nghị về sức khỏe"
+ :outcome-panel/at-this-time-we-recommend "Tại thời điểm này, chúng tôi khuyên bạn nên làm như sau:"
+ :outcome-panel/stay-home-and-quarantine "Ở nhà trong 14 ngày và tự kiểm dịch. Không đi làm, đi học, các sự kiện thể thao, hoặc các cuộc tụ họp xã hội, hoặc tôn giáo trong thời gian này."
+ :outcome-panel/limit-contact-with-people "Hạn chế tiếp xúc với người khác càng nhiều càng tốt. Điều này bao gồm sự cách ly bản thân bạn càng nhiều càng tốt, khỏi bất cứ ai sống trong nơi cư trú của bạn."
+ :outcome-panel/wash-your-hands-with-soap "Rửa tay bằng xà phòng và nước hoặc sử dụng chất khử trùng tay chứa cồn, thường xuyên và đặc biệt là sau khi ho, hắt hơi hoặc ném khăn giấy đã sử dụng vào thùng rác."
+ :outcome-panel/avoid-touching-face "Tránh chạm vào mắt, mũi và miệng bằng tay không rửa sạch."
+ :outcome-panel/cover-coughs-and-sneezes "Che miệng khi ho và hắt hơi trên cánh tay hoặc khăn giấy. Không bao giờ ho về hướng của người khác."
+ :outcome-panel/do-not-share "Không dùng chung ly uống nước, khăn tắm, dụng cụ ăn uống, giường ngủ hoặc bất kỳ vật dụng nào khác, cho đến khi bạn không còn bị yêu cầu tự cách ly."
+ :outcome-panel/keep-surroundings-clean "Giữ môi trường xung quanh của bạn sạch sẽ. Làm sạch các bề mặt thường xuyên chạm vào mà bạn sử dụng chung với người khác, chẳng hạn như núm cửa, điện thoại và bề mặt phòng tắm (hoặc bất kỳ vật nào khác mà bạn hắt hơi hoặc ho), bằng chất khử trùng tiêu chuẩn gia đình như khăn lau Clorox."
+ :outcome-panel/if-you-are-sick-stay-home "Nếu bạn bị bệnh, hãy ở nhà và tránh xa những người khác."
+ :outcome-panel/remember-to-avoid-gatherings "Hãy nhớ tránh các cuộc tụ họp vì nó có thể dẫn đến sự lây lan gia tăng trong cộng đồng của chúng ta."
+ :outcome-panel/stay-informed "Thông báo lưu trú. Hướng dẫn từ các cơ quan y tế đáng tin cậy được cập nhật thường xuyên."
+ ;; REMOVED :outcome-panel/visit "Visit "
+ ;; REMOVED :outcome-panel/for-frequent-updates " for frequent updates."
+ :outcome-panel/visit-url-for-updates [:<> "Truy cập %1 để cập nhật thường xuyên."]
+ :harris-county.outcome-panel/visit-urls-for-updates [:<> "Truy cập %1, %2 và %3 để cập nhật thường xuyên."]
+ :outcome-panel/feeling-stressed-title "Cảm thấy căng thẳng hay lo lắng?"
+ :outcome-panel/fear-and-anxiety "Sợ hãi và lo lắng về một căn bệnh có thể áp đảo và gây ra cảm xúc mạnh mẽ ở người lớn và trẻ em."
+ :outcome-panel/people-with-preexisting-mental "Những người có tình trạng sức khỏe tâm thần từ trước, nên tiếp tục với các kế hoạch điều trị, kết nối với nhà cung cấp dịch vụ chăm sóc sức khỏe của họ, và theo dõi bất kỳ triệu chứng mới nào."
+ :outcome-panel/stay-connected-with-friends "Luôn kết nối với bạn bè và gia đình bằng cách sử dụng điện thoại, cuộc gọi video, email, v.v. đặc biệt là với người già."
+ :outcome-panel/use-other-ways "Sử dụng các cách khác để thư giãn như tập thể dục, kéo dài và thiền định."
+ :outcome-panel/call-healthcare-provider "Gọi cho nhà cung cấp chăm sóc sức khỏe của bạn nếu phản ứng căng thẳng can thiệp vào các hoạt động hàng ngày của bạn."
+ :outcome-panel/for-additional-support "Để được hỗ trợ thêm, xin vui lòng liên lạc:"
+ :outcome-panel/harris-center-mental-support "Đường dây hỗ trợ sức khỏe tâm thần COVID-19 của trung tâm Harris: "
+ :outcome-panel/disaster-distress-helpline "Đường dây trợ giúp về thảm họa: "
+ :outcome-panel/r100-wash-hands "Rửa tay thường xuyên bằng xà phòng và nước trong vòng ít nhất 20 giây, hoặc sử dụng chất khử trùng tay có cồn, khi bạn không thể rửa tay, đặc biệt là sau khi ho, hắt hơi hoặc ném khăn giấy đã sử dụng vào thùng rác. "
+ :outcome-panel/r100-avoid-touching-face "Tránh chạm vào mắt, mũi và miệng bằng tay không rửa sạch."
+ :outcome-panel/r100-cover-cough "Che miệng khi ho và hắt hơi bằng cánh tay trên hoặc khăn giấy. Không bao giờ ho theo hướng của người khác."
+ :outcome-panel/r100-avoid-close-contact "Tránh tiếp xúc gần với những người bị bệnh, đặc biệt nếu bạn có nguy cơ mắc COVID-19 cao hơn."
+ :outcome-panel/r100-get-plenty-of-rest "Nghỉ ngơi nhiều, uống nhiều nước, ăn thực phẩm lành mạnh và kiểm soát căng thẳng để giữ cho khả năng miễn dịch của bạn mạnh mẽ."
+ :outcome-panel/r100-keep-surroundings-clean "Giữ môi trường xung quanh của bạn sạch sẽ. Làm sạch các bề mặt thường xuyên chạm vào mà bạn chia sẻ với người khác, chẳng hạn như núm cửa, điện thoại và bề mặt phòng tắm (hoặc bất kỳ vật nào khác mà bạn hắt hơi hoặc ho), bằng chất khử trùng tiêu chuẩn gia đình như khăn lau Clorox."
+ :outcome-panel/r100-if-you-are-sick "Nếu bạn bị bệnh, hãy ở nhà và tránh xa những người khác."
+ :outcome-panel/r100-stay-informed "Thông báo lưu trú. Hướng dẫn từ các cơ quan y tế đáng tin cậy được cập nhật thường xuyên."
+ :outcome-panel/contact-local-health-dept "Liên hệ với bộ phận y tế địa phương của bạn để đánh giá thêm."
+
+ ;; r100
+ :outcome-panel/based-on-your-results-r100 [:<> "Dựa trên kết quả của bạn, bạn **KHÔNG** cần đánh giá hoặc xét nghiệm thêm trong thời điểm này. "]
+ :outcome-panel/please-feel-free-to-repeat "Xin vui lòng lặp lại sự đánh giá này trong 24 giờ hoặc sớm hơn nếu có bất cứ điều gì thay đổi với sức khỏe của bạn."
+ :outcome-panel/please-follow-guidelines "Vui lòng tiếp tục làm theo hướng dẫn của sở y tế địa phương và liên lạc với nhà cung cấp dịch vụ chăm sóc sức khỏe tại địa phương, để biết bất kỳ mối quan tâm, hoặc câu hỏi chăm sóc sức khỏe nào bạn có thể tiếp tục có."
+ :outcome-panel/based-on-your-results [:<> "Dựa trên kết quả của bạn, bạn **KHÔNG** cần phải đi đến ER"]
+
+ ;; r300
+ :outcome-panel/based-on-results-you-have [:<> "Dựa trên kết quả của bạn, bạn ** KHÔNG CÓ ** liên quan đến các triệu chứng về COVID-19 tại thời điểm này. Chúng tôi khuyên bạn nên ở nhà và liên lạc với sở y tế địa phương."]
+
+ ;; r400
+ :outcome-panel/based-on-answers-higher-risk "Dựa trên câu trả lời của bạn, bạn có thể có nguy cơ mắc bệnh vi rút Corona cao hơn (COVID-19)."
+ ;; REMOVED :outcome-panel/contact-nurse-triage "Contact the COVID-19 Nurse Triage Call Center at "
+ ;; REMOVED :outcome-panel/for-further-evaluation " for further evaluation."
+ :outcome-panel/contact-nurse-triage2 [:<> "Liên lạc với trung tâm cuộc gọi y tá COVID-19 ở %1 để đánh giá thêm."]
+
+ ;; disclaimer
+ :outcome-panel/disclaimer-title "Tuyên bố từ chối trách nhiệm:"
+ :outcome-panel/not-a-diagnosis " Đây không phải là một chẩn đoán y tế."
+
+ ;; Harris factors
+ :option/yes "Đúng"
+ :option/no "Không"
+ :option/unknown "Không xác định"
+ :question/africa "Châu Phi"
+ :question/asia "Châu Á"
+ :question/australia "Châu Úc"
+ :question/europe "Châu Âu"
+ :question/south-america "Nam Mỹ"
+ :question/no-travel "Không đi du lịch"
+ :option/feeling-sick "Tôi đang cảm thấy có bệnh"
+ :option/feeling-fine "Tôi cảm thấy ổn"
+ :option/temp-above-104 "Nhiệt độ trên 100,4°F (38°C)"
+ :option/older-than-65-and-temp-above-99 "Tuổi cao hơn 65 và nhiệt độ trên 99,6°F (37,5°C)"
+ :option/i-feel-feverish "Tôi cảm thấy sốt"
+ :option/i-dont-know "Tôi không biết"
+ :option/normal "Bình thường"
+ :option/cough-dry "Ho - khô (không sinh sản)"
+ :option/cough-wet "Ho - ướt (sản xuất)"
+ :option/shortness-of-breath "Khó thở"
+ :option/wheezing "Khò khè"
+ :option/none-of-the-above "Không có cái nào ở trên"
+ :option/headache "Đau đầu"
+ :option/runny-nose "Sổ mũi"
+ :option/itchy-eyes "Ngứa mắt"
+ :option/watery-eyes "Chảy nước mắt"
+ :option/sneezing "Nhảy mũi"
+ :option/hypertension "Huyết áp cao / Tăng huyết áp"
+ :option/heart-disease "Bệnh tim"
+ :option/lung-disease "Bệnh phổi"
+ :option/diabetes "Bệnh tiểu đường"
+ :option/immunosuppressed-by-meds "Miễn dịch bằng thuốc hoặc HIV"
+ :option/nursing-home-resident "Cư dân của viện dưỡng lão hoặc cơ sở chăm sóc mãn tính"
+ :option/pregnant "Mang thai hoặc sau sinh trong vòng 2 tuần sau khi sinh"
+ :option/younger-than-20 "Trẻ hơn 20 tuổi"
+ :option/over-80 "80 tuổi hoặc cao hơn"
+ :factor-question/in-person-close-contact "1. Bạn đã từng tiếp xúc trực tiếp với một người được chẩn đoán mắc bệnh vi rút Corona (COVID-19) chưa?"
+ :factor-question/recent-international-travel "2. Bạn đã đi du lịch quốc tế đến bất kỳ điều nào sau đây trong 14 ngày qua?"
+ :factor-question/how-are-you-feeling "3. Hôm nay bạn cảm thấy như thế nào?"
+ :factor-question/what-is-your-temp-harris "4. Nhiệt độ của bạn là bao nhiêu?"
+ :factor-question/any-of-the-following "5. Bạn có có nhửng điều sau đây?"
+ :factor-question/allergies "6. Bạn có có nhửng điều sau đây?"
+ :factor-question/do-any-of-the-following-apply "7. Nhửng điều sau đây có áp dụng cho bạn:"
+ :factor-question/what-is-your-age-harris "8. Bạn bao nhiêu tuổi?"
+ :factor-question/first-responder-or-healthcare "9. Bạn có phải là người trả lời đầu tiên hoặc nhân viên chăm sóc sức khỏe?"
+
+ ;; Result Bars
+ :result-bar/click-to-proceed "Nhấp chuột để tiếp tục với màn hình"
+ :result-bar/please-complete-all-fields "Vui lòng hoàn thành tất cả các lĩnh vực"
+ :result-bar/possible-infection "Có thể nhiễm trùng"
+ :result-bar/screened-negative "Sàng lọc âm tính"
+
+ ;; Outcome Panels Fort Bend - G. Klein, 28 Mar 2020
+ ;; R400
+ :fort-bend-county.outcome-panel/contact-call-center [:<> "Liên hệ với trung tâm cuộc gọi kiểm tra chuyên nghiệp y tế COVID-19 theo% 1 để đánh giá thêm."]
+ :fort-bend-county.outcome-panel/provide-code "Vui lòng cung cấp mã này để gọi cho trung tâm phân loại chuyên nghiệp y tế."
+ :fort-bend-county.outcome-panel/code-is-for-speaking "Vui lòng hiểu cho là mã này chỉ áp dụng để nói chuyện với chuyên gia và không đảm bảo kiểm tra."
+ :fort-bend-county.outcome-panel/if-approved "Nếu bạn được chấp thuận để thử nghiệm, bạn sẽ nhận được một mã duy nhất khác để mang đến trang web."
+ :fort-bend-county.outcome-panel/please-dont-come "Xin đừng truy cập trang web có mã này vì nó đã được áp dụng."
+
+ ;; R300
+ :fort-bend-county.outcome-panel/contact-health-pro-triage "Liên lạc với trung tâm cuộc gọi chuyên nghiệp y tế COVID-19 theo số 281-238-2363 để được đánh giá thêm"
+
+ ;; everything below this point is not used in the Harris Instance as far as I can tell
+ ;; - G. Klein, 24 Mar 2020
+
+ ;; outcome panels
+ :outcome-panel/you-have-screened "Bạn đã sàng lọc "
+ :outcome-panel/on-the " ở trên "
+ :outcome-panel/strong-covid19-assessment "Đánh giá COVID-19"
+ :outcome-panel/but-you-do-not ", nhưng bạn không có các triệu chứng liên quan gì tại thời điểm này."
+ :outcome-panel/minimal-symptoms " và có các triệu chứng tối thiểu."
+ :outcome-panel/strong-negative "ÂM TÍNH"
+ :outcome-panel/strong-positive "DƯƠNG TÍNH"
+ :outcome-panel/symptoms-should-be-evaluated " và có các triệu chứng cần được đánh giá bởi một chuyên gia chăm sóc sức khỏe."
+ :outcome-panel/have-concerning-medical-symptoms ", nhưng có liên quan đến các triệu chứng y tế."
+ :outcome-panel/not-in-harris "Vị trí hoặc mã bưu điện của bạn không thuộc về Hạt Harris. Vui lòng liên lạc với bộ phận y tế địa phương của bạn."
+ :outcome-panel/call-arkansas-dept-of-health "Gọi cho Bộ Y tế Arkansas tại "
+ :outcome-panel/during-business-hours " trong giờ làm việc "
+ :outcome-panel/strong-if "NẾU"
+ :outcome-panel/you-have-indicated " bạn có chỉ dấu rằng bạn có:"
+ :outcome-panel/known-exposure "Một phơi nhiễm đã biết với COVID-19"
+ :outcome-panel/have-travelled-from "Đã đi du lịch từ một nơi có ổ dịch COVID-19."
+ :outcome-panel/call "Gọi "
+ :outcome-panel/white-county-medical " cho phòng cấp cứu của trung tâm y tế White County ở Searcy"
+ :outcome-panel/harris-medical-center " cho phòng cấp cứu của trung tâm y tế Harris ở Newport"
+ :outcome-panel/r400h-click-link "Vui lòng nhấp chuột vào đường liên kết này và điền vào biểu mẫu để lên lịch kiểm tra COVID-19."
+ :outcome-panel/please-contact-local-hd "Xin vui lòng liên hệ với bộ phận y tế địa phương của bạn."
+ :outcome-panel/call-local-health-dept "Gọi cho sở y tế địa phương nếu bạn có cuộc tiếp xúc nào với bệnh nhân vi rút Corona (COVID-19) hoặc đã đi du lịch từ một nơi có ổ dịch COVID-19 đã biết."
+ :outcome-panel/please-call-pcp "Vui lòng gọi cho bác sĩ chăm sóc chính của bạn, nếu bạn tiếp tục có mối quan tâm về sức khỏe."
+ :outcome-panel/need-further-evaluation-or-testing " cần đánh giá thêm hoặc thử nghiệm tại thời điểm này."
+ :outcome-panel/please-repeat-4-hours "Xin lặp lại đánh giá này trong 4 giờ hoặc nếu bạn cảm thấy tồi tệ hơn."
+ :outcome-panel/implement-home-care "Bạn có thể thực hiện một kế hoạch chăm sóc tại nhà nếu:"
+ :outcome-panel/feel-well-home-care "Bạn cảm thấy có sức khỏe khả quan, để nhận được chăm sóc tại nhà."
+ :outcome-panel/appropriate-caregivers "Người chăm sóc phù hợp có sẵn tại nhà."
+ :outcome-panel/seperate-bedroom "Có một phòng ngủ riêng, nơi bạn có thể phục hồi mà không chia sẻ không gian ngay lập tức với người khác."
+ :outcome-panel/resources-for-food-and-water "Tài nguyên để truy cập vào thực phẩm và các nhu yếu phẩm khác có sẵn."
+ :outcome-panel/you-have-access-ppe "Bạn và các thành viên khác trong gia đình, có quyền truy cập vào các thiết bị bảo vệ cá nhân phù hợp, được khuyến nghị (tối thiểu, găng tay và khẩu trang) và có khả năng tuân thủ các biện pháp phòng ngừa, được đề nghị như một phần của chăm sóc tại nhà, hoặc cách ly (ví dụ: vệ sinh hô hấp và nghi thức ho, vệ sinh tay)"
+ :outcome-panel/you-should-discuss-plan "Bạn nên thảo luận về kế hoạch của mình với bác sĩ hay nơi cung cấp dịch vụ chăm sóc chính hoặc bất kỳ nhà cung cấp dịch vụ chăm sóc sức khỏe nào, nếu có những thành viên trong gia đình có nguy cơ bị biến chứng do nhiễm COVID-19 (.eg, người> 65 tuổi, trẻ nhỏ, phụ nữ mang thai, những người bị suy giảm miễn dịch hoặc mắc bệnh tim, phổi hoặc thận mãn tính)."
+ :outcome-panel/call-pcp-for-test "Xin vui lòng gọi cho bác sĩ hay nhà cung cấp dịch vụ chăm sóc chính của bạn, để được kiểm tra COVID-19."
+ :outcome-panel/results-isolation-testing "Dựa trên kết quả của bạn, bạn cần đánh giá y tế cần được thực hiện trong một loại phòng cách ly cụ thể."
+ :outcome-panel/outpatient-clinics-cant "Phòng khám ngoại trú không được trang bị phù hợp để khám."
+ :outcome-panel/please-call-er-prior "Xin vui lòng gọi cho ER trước khi tới."
+ :outcome-panel/before-entering-facility "Trước khi vào cơ sở, chúng tôi sẽ mang cho bạn một khẩu trang."
+ :outcome-panel/you-will-be-escorted "Sau đó bạn sẽ được hộ tống đến vị trí thích hợp."
+ :outcome-panel/results-require-attention "Dựa trên kết quả của bạn, bạn có các triệu chứng cần chăm sóc y tế."
+ :outcome-panel/please-call-to-discuss "Xin vui lòng gọi cho bác sĩ hay nhà cung cấp dịch vụ chăm sóc chính của bạn hoặc nhà cung cấp chăm sóc sức khỏe gần nhất và thảo luận về các triệu chứng này."
+ :outcome-panel/please-share-screening "Hãy chia sẻ kết quả sàng lọc của bạn dưới đây."
+ :outcome-panel/questions "Câu hỏi"
+ :outcome-panel/answers "Câu trả lời của bạn"
+ :outcome-panel/assessment-results "Kết quả đánh giá:"
+
+ ;; PANEL_C300_COMORBIDITIES
+ :not-limited-immunosuppressant-meds "không giới hạn thuốc prednisone, sinh học và thuốc chống phản xạ. [Ghi chú: prednisone là một loại thuốc thuộc nhóm steroid dùng để chống viêm nhưng có thể làm giảm sự đề kháng.]"
+
+ ;; Questions
+ :option/i-feel-fine "Tôi cảm thấy khỏe"
+ :option/i-feel-sick "Tôi cảm thấy không khỏe"
+ :option/i-feel-very-sick "Tôi cảm thấy rất bệnh / Đang cân nhắc nhập viện"
+ :option/temp-above "Nhiệt độ trên 100,4°F (38°C)"
+ :option/temp-below "Nhiệt độ dưới 96,8°F (36°C)"
+ :option/normal-temp "Nhiệt độ bình thường / Tôi không biết"
+ :option/cough "Ho"
+ :option/i-am-breathing-very-fast "Tôi đang thở rất nhanh"
+ :option/high-blood-pressure "Huyết áp cao"
+ :option/cancer-diagnosis "Chẩn đoán ung thư"
+ :option/taking-immunosuppressant-medication "Dùng thuốc ức chế miễn dịch *"
+ :option/kidney-failure-on-dialysis "Lọc máu vì suy thận"
+ :option/other-chronic-health-condition "Tình trạng sức khỏe mãn tính khác"
+ :factor-question/feeling-sick-today "Hôm nay bạn có cảm thấy ốm không?"
+ :factor-question/been-in-contact-with-covid19 "Bạn có liên lạc với ai mà có bệnh COVID-19 không?"
+ :factor-question/recently-traveled "Gần đây bạn có đi du lịch đến một địa điểm có ổ dịch COVID-19 không? *"
+ :factor-question/have-been-exposed "Bạn đã tiếp xúc với ai bị phát giác là có COVID-19 chưa?"
+ :factor-question/what-is-your-temp "Nhiệt độ của bạn là gì?"
+ :factor-question/do-you-have-the-following "Bạn có bất cứ điều nào sau đây?"
+ :factor-question/lower-respiratory-distress "Bạn có bị suy hô hấp dưới không?"
+ :factor-question/what-is-your-age "Bạn bao nhiêu tuổi? (không bắt buộc)"
+
+ ;; Result Table
+ :results-table/comorbidities "Bệnh đi kèm"
+ :results-table/age-risk "Rủi ro tuổi tác"}
