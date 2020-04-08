@@ -21,7 +21,7 @@
  :cancel "Cancele"
 
  ;; About Page
- :about/what-is-this "Em resposta a uma demanda atual, nós criamos essa ferramenta de triagem COVID-19 gratis de acordo com recomendações do CDC e da OMS para ajudar o público a completar uma auto-avaliacão domiciliar ampla e segura. Nosso objetivo é ajudar diminuir o potencial de exposição para os profissionais de saúde, evitar superlotação dos serviços de saúde e permitir comunicação eficaz com a comunidade."
+ :about/what-is-this "Em resposta a uma demanda atual, nós criamos essa ferramenta de triagem COVID-19 gratis de acordo com recomendações do CDC e da OMS para ajudar o público a completar uma auto-avaliação domiciliar ampla e segura. Nosso objetivo é ajudar diminuir o potencial de exposição para os profissionais de saúde, evitar superlotação dos serviços de saúde e permitir comunicação eficaz com a comunidade."
  :about/website "website"
  :about/who-are-we [:<> "Luminare especializa-se em digitalização de protocolos específicos de saúde e fluxos de trabalho complexos para que pacientes recebam cuidados apropriadas e em tempo hábil. De sepse a COVID-19, nossa equipe pode utilizar dados e transformar fluxos de trabalho médicos e listas de controle em ferramentas para ajudar prover o melhor cuidado para os pacientes. Visite nosso %1 para aprender mais sobre nós."]
  ;; REMOVED :about/who-are-we-part-two
