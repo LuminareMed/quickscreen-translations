@@ -1,8 +1,9 @@
 # QuickScreen Translations [![Actions Status](https://github.com/LuminareMed/quickscreen-translations/workflows/resource-files-ci/badge.svg)](https://github.com/LuminareMed/quickscreen-translations/actions)
 
 ## *We are currently putting a hold on new translations for this project* 
-**Thank you so much to the community for your hard work and for helping people all over the world have access to this screening process!**
---
+
+##### **Thank you so much to the community for your hard work and for helping people all over the world have access to this screening process!**
+
 
 Translation files for QuickScreen at https://CheckForCorona.com
 
