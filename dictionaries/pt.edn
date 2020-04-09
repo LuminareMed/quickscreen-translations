@@ -21,7 +21,7 @@
  :cancel "Cancele"
 
  ;; About Page
- :about/what-is-this "Em resposta a uma demanda atual, nós criamos essa ferramenta de triagem COVID-19 gratis de acordo com recomendações do CDC e da OMS para ajudar o público a completar uma auto-avaliacão domiciliar ampla e segura. Nosso objetivo é ajudar diminuir o potencial de exposição para os profissionais de saúde, evitar superlotação dos serviços de saúde e permitir comunicação eficaz com a comunidade."
+ :about/what-is-this "Em resposta a uma demanda atual, nós criamos essa ferramenta de triagem COVID-19 gratis de acordo com recomendações do CDC e da OMS para ajudar o público a completar uma auto-avaliação domiciliar ampla e segura. Nosso objetivo é ajudar diminuir o potencial de exposição para os profissionais de saúde, evitar superlotação dos serviços de saúde e permitir comunicação eficaz com a comunidade."
  :about/website "website"
  :about/who-are-we [:<> "Luminare especializa-se em digitalização de protocolos específicos de saúde e fluxos de trabalho complexos para que pacientes recebam cuidados apropriadas e em tempo hábil. De sepse a COVID-19, nossa equipe pode utilizar dados e transformar fluxos de trabalho médicos e listas de controle em ferramentas para ajudar prover o melhor cuidado para os pacientes. Visite nosso %1 para aprender mais sobre nós."]
  ;; REMOVED :about/who-are-we-part-two
@@ -74,7 +74,7 @@
  :location-panel/please-enter-valid-zip "Por favor insira um código postal válido."
 
  ;; Outcome Panels Harris
- :outcome-panel/covid-self-assessment-results "Doença provocado pelo coronavirus (COVID-19) RESULTADO da AUTO-AVALIAÇÃO"
+ :outcome-panel/covid-self-assessment-results "Doença provocada pelo coronavirus (COVID-19) RESULTADO da AUTO-AVALIAÇÃO"
  :outcome-panel/if-experiencing-call "Se estiver em uma emergência com risco de vida, ligue para "
  :outcome-panel/your-screening-id "Sua número de triagem é: "
  :outcome-panel/no-more-test-kits "Infelizmente, nós alcançamos nosso limite de testes por hoje. Por favor tente novamente amanhã e repita a auto-avaliação a partir das 8:00 da manhã. Caso você tenha uma emergência com risco de vida, por favor ligue 911. Caso contrário, por favor, fique em casa e certifique-se de tomar medidas preventivas de proteção (lave suas mãos, cubra sua tosse/espirro, desinfete áreas usadas regularmente e mantenha distanciamento social)."
@@ -87,7 +87,7 @@
  :outcome-panel/cover-coughs-and-sneezes "Cubra tosses e espirros com seu antebraço ou um lenço de papel. Nunca tussa na direção de outra pessoa."
  :outcome-panel/do-not-share "Não compartilhe copos, taças, toalhas, utensílios de cozinha, roupa de cama ou outros itens até que termine seu período de auto-quarentena."
  :outcome-panel/keep-surroundings-clean "Mantenha seu ambiente higienizado. Limpe superfícies de uso frequente e de uso comum, como maçanetas de portas, telefones e superfícies de banheiro (além de outros objetos em que tossiu ou espirrou), com um desinfetante de uso doméstico como lenços Clorox."
- :outcome-panel/if-you-are-sick-stay-home "Se voce estiver doente, fique em casa e longe dos outros."
+ :outcome-panel/if-you-are-sick-stay-home "Se você estiver doente, fique em casa e longe dos outros."
  :outcome-panel/remember-to-avoid-gatherings "Evite aglomerados já que podem aumentar a disseminação em nossa comunidade."
  :outcome-panel/stay-informed "Mantenha-se informado. Orientações oriundas de autoridades de saúde respeitadas e confiáveis são atualizadas com frequência."
  ;; REMOVED :outcome-panel/visit
@@ -114,13 +114,13 @@
  :outcome-panel/contact-local-health-dept "Entre em contato com seu departamento de saúde local para mais avaliações."
 
  ;; r100
- :outcome-panel/based-on-your-results-r100 [:<> "Baseado em seus resultados, voce **NÃO** necessita de mais avaliações ou testes nesse momento. "]
+ :outcome-panel/based-on-your-results-r100 [:<> "Baseado em seus resultados, você **NÃO** necessita de mais avaliações ou testes nesse momento. "]
  :outcome-panel/please-feel-free-to-repeat "Sinta-se livre para repetir essa avaliação em 24 horas ou menos de algo mudar em relação a sua saúde."
  :outcome-panel/please-follow-guidelines "Favor continuar a seguir as orientações do seu departamento de saúde pública local e contate seu provedor de saúde caso tenha quaisquer dúvidas ou preocupações em relação a sua saúde."
  :outcome-panel/based-on-your-results [:<> "Based on your results you do **NOT** need to go to the ER"]
 
  ;; r300
- :outcome-panel/based-on-results-you-have [:<> "Baseado em seus resultados, voce **NÃO** tem sintomas preocupantes que indicam COVID-19 nesse momento. Recomendamos que fique em casa e entre em contato com seu departamento de saúde local."]
+ :outcome-panel/based-on-results-you-have [:<> "Baseado em seus resultados, você **NÃO** tem sintomas preocupantes que indicam COVID-19 nesse momento. Recomendamos que fique em casa e entre em contato com seu departamento de saúde local."]
 
  ;; r400
  :outcome-panel/based-on-answers-higher-risk "Baseado em suas respostas, você pode estar com risco aumentado de doença por coronavírus (COVID-19)."
@@ -199,7 +199,7 @@
  ;; - G. Klein, 24 Mar 2020
 
  ;; outcome panels
- :outcome-panel/you-have-screened "Voce foi avaliado"
+ :outcome-panel/you-have-screened "Você foi avaliado"
  :outcome-panel/on-the "no "
  :outcome-panel/strong-covid19-assessment "COVID-19 Triagem"
  :outcome-panel/but-you-do-not ", mas você não tem sintomatologia preocupante no momento."
@@ -220,7 +220,7 @@
  :outcome-panel/harris-medical-center " para Pronto Atendimento: Harris Medical Center Emergency Room, Newport"
  :outcome-panel/r400h-click-link "Favor clicar nesse link e preencher o formulário para agendar teste de COVID-19."
  :outcome-panel/please-contact-local-hd "Favor entrar em contato com seu departamento de saúde local."
- :outcome-panel/call-local-health-dept "Ligue para seu departamento de saúde local se tiver uma sabide exposição à doença provocada pelo Coronavírus (COVID-19) ou viajou de um local com sabido surto de COVID-19."
+ :outcome-panel/call-local-health-dept "Ligue para seu departamento de saúde local se tiver uma sabida exposição à doença provocada pelo Coronavírus (COVID-19) ou viajou de um local com sabido surto de COVID-19."
  :outcome-panel/please-call-pcp "Favor ligar para seu provedor primário de saúde se continuar tendo preocupações em relação á sua saúde ou persistência de sintomas."
  :outcome-panel/need-further-evaluation-or-testing " necessita de avaliação ou testes nesse momento."
  :outcome-panel/please-repeat-4-hours "Favor repetir essa avaliação em 4 horas ou se houver piora dos sintomas."
